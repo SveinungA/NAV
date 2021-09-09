@@ -1,0 +1,26 @@
+---
+title: "07-forfattere"
+author: "Sveinung Arnesen"
+date: "9/9/2021"
+output: html_document
+---
+
+# Forfattere
+
+**Sveinung Arnesen** er Forsker I ved NORCE, og førsteamanuensis II ved Institutt for administrasjons- og organisasjonsvitenskap, UiB. 
+PhD-graden ble avlagt ved Institutt for sammenliknende politikk, UiB. 
+Arnesen er Norges nasjonale koordinator for European Social Survey, og leder for tiden to relevante forskningsprosjekter som begge er finansiert av Norges forskningsråd: 1.Demokratisk innovasjon i praksis: Forskning på medvirkning og legitimitet i kommunale beslutningsprosesser, og 2. Can Fair Decision-Making Procedures Increase the Legitimacy of Democracies? (avsluttes februar 2021). 
+
+**Mikael P. Johannesson** er forsker ved NORCE, og PhD-kandidat ved Institutt for sammenliknende politikk, UiB.
+Han har bred erfaring med eksperimentelle metoder, maskinlæring (inkludert deep learning), og surveyforskning.
+Johannesson har utviklerkompetanse i statistikkprogrammet R, samt erfaring med Python (inkludert TensorFlow og Keras). Arnesen og Johannesson vil være omtrent likt involvert i prosjektet. 
+
+## Referansegruppe 
+
+**Anne Lise Fimreite** er professor ved Institutt for administrasjon og organisasjonsvitenskap, UiB.
+Hun har tidligere ledet den forskningsrådsfinansierte evaluering av NAV-reformen og har arbeidet mye med styringsutfordringer i flernivåsystem. 
+Hun har også nylig vært medlem av det offentlige utvalget som i 2019 leverte forslag til ny forvaltningslov (NOU 2019:5) og har egen erfaring fra offentlig forvaltning som prorektor ved UiB i fire år fra 2013 til 2017. 
+
+**Jacob Aars** er professor ved Institutt for administrasjons- og organisasjonsvitenskap, UiB, og har ledet den NFR-finansierte evalueringen av NAV-reformen (tok over da Fimreite gikk inn i rektoratet ved UiB). 
+Han har blant annet forsket på lokaldemokrati og tilfredshet med offentlige tjenester.
+
