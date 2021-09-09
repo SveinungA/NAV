@@ -1,6 +1,6 @@
 --- 
 title: "Demokratiske algoritmer"
-author: "Mikael P. Johannesson og Sveinung Arnesen"
+author: ""
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book

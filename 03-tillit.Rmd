@@ -6,15 +6,15 @@
 Figur: Tilfredshet med demokratiet
 
 ### Tillit til forvaltningen og NAV
-Figur: Tillit til NAV
+![Tillit til NAV](figs/png/fig_nav_trust.png)
 
 ## Erfaring med og kjennskap til NAV
 
-1. Figur: Erfaring med NAV
+![Personlig kontakt med NAV](figs/png/fig_nav_personal_contact.png)
 
-2. Figur: Tillit til NAV
+Figur: Kjennskap til NAV
 
-3. Figur: Tillit til NAV brutt ned på erfaring med og kjennskap til NAV
+Figur: Tillit til NAV brutt ned på erfaring med og kjennskap til NAV
 
 ## Byråkratisk efficacy
 
@@ -24,5 +24,7 @@ Figur: Tillit til NAV
 
 ## Tiltro til likebehandling i NAV
 
-Figur: Tiltro til likebehandling i NAV
+![](figs/png/fig_nav_exp_attinfluence_all.png)
+![](figs/png/fig_nav_exp_attinfluence_area.png)
+
 

@@ -7,10 +7,16 @@ Vis til svensk rapport, britisk rapport
 ## Norske innbyggeres kjennskap og følelser knyttet til maskinlæring
 
 ### Kjennskap til maskinlæring
-Figur: Kjennskap til maskinlæring
+
+![Kjennskap til maskinlæring](figs/png/fig_ml_knowledge.png)
 
 ### Bekymring for maskinlæring
 
-Figur: Bekymring for maskinlæring
+![Bekymring for maskinlæring](figs/png/fig_ml_worried.png)
+
 Figur: Åpent tekstsvar med begrunnelse for bekymring
+
+### Interesser ivaretatt med maskinlæring?
+![Maskinlæring i NAV](figs/png/fig_nav_ml_helps_interest.png)
+
 
