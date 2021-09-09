@@ -1,0 +1,3 @@
+# Paritet
+
+Her presenteres eksperimentet om statistisk paritet

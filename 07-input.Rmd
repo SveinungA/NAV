@@ -1,0 +1,3 @@
+# Inputvariabler
+
+Her presenteres eksperimentet om inputvariabler

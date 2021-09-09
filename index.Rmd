@@ -19,9 +19,6 @@ På den ene siden gir denne utviklingen store effektiviseringsmuligheter og pote
 På den andre siden er ivaretakelsen av forvaltningens legitimitet i befolkningen et risikoaspekt i denne utviklingen. 
 Det overordnede målet med denne rapporten er å kartlegge ut fra et demokratiperspektiv om, og i så fall hvordan, oppfattelsen av NAV som institusjon blant innbyggere i Norge påvirkes av en overgang til økt grad av automatisert saksbehandling. 
 
-## Finansiering
-Forskningsrapporten er finansiert av [NAV Forskning og Utvikling](https://www.nav.no/no/nav-og-samfunn/kunnskap/fou-midler/pagaende-fou-prosjekter2/navs-tiltak-og-virkemidler).
-Finansieringen er bidragsfinansiert, det vil si uten krav til motytelse. 
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
@@ -29,18 +26,3 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
-
-## Data
-
-Datagrunnlaget for denne rapporten er samlet inn i Norsk medborgerpanel.
-Norsk medborgerpanel er en internettbasert undersøkelse om nordmenns holdninger til viktige samfunnstema.
-
-Panelet drives av samfunnsforskere ved Universitetet i Bergen og NORCE, og er et non-profit prosjekt utelukkende benyttet til forskningsformål. 
-Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.
-
-Panelet blir driftet av Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE).
-
-Samlet antall respondenter som svarte på deler av denne undersøkelsen var 3971.
-Typisk antall respondenter for hvert spørsmål er om lag 2000.
-
-Mer informasjon om datagrunnlaget presenteres i rapportens vedlegg XX. 

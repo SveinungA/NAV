@@ -1,11 +1,6 @@
----
-title: "07-forfattere"
-author: "Sveinung Arnesen"
-date: "9/9/2021"
-output: html_document
----
+# Om rapporten
 
-# Forfattere
+## Forfattere
 
 **Sveinung Arnesen** er Forsker I ved NORCE, og førsteamanuensis II ved Institutt for administrasjons- og organisasjonsvitenskap, UiB. 
 PhD-graden ble avlagt ved Institutt for sammenliknende politikk, UiB. 
@@ -24,3 +19,21 @@ Hun har også nylig vært medlem av det offentlige utvalget som i 2019 leverte f
 **Jacob Aars** er professor ved Institutt for administrasjons- og organisasjonsvitenskap, UiB, og har ledet den NFR-finansierte evalueringen av NAV-reformen (tok over da Fimreite gikk inn i rektoratet ved UiB). 
 Han har blant annet forsket på lokaldemokrati og tilfredshet med offentlige tjenester.
 
+## Data
+
+Datagrunnlaget for denne rapporten er samlet inn i Norsk medborgerpanel.
+Norsk medborgerpanel er en internettbasert undersøkelse om nordmenns holdninger til viktige samfunnstema.
+
+Panelet drives av samfunnsforskere ved Universitetet i Bergen og NORCE, og er et non-profit prosjekt utelukkende benyttet til forskningsformål. 
+Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.
+
+Panelet blir driftet av Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE).
+
+Samlet antall respondenter som svarte på deler av denne undersøkelsen var 3971.
+Typisk antall respondenter for hvert spørsmål er om lag 2000.
+
+Mer informasjon om datagrunnlaget presenteres i rapportens vedlegg XX. 
+
+## Finansiering
+Forskningsrapporten er finansiert av [NAV Forskning og Utvikling](https://www.nav.no/no/nav-og-samfunn/kunnskap/fou-midler/pagaende-fou-prosjekter2/navs-tiltak-og-virkemidler).
+Finansieringen er bidragsfinansiert, det vil si uten krav til motytelse. 
