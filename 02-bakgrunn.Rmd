@@ -1,5 +1,6 @@
 # Bakgrunn og motivasjon {#bakgrunn}
 
+## Byråkratisk omveltning
 Den pågående automatiseringen av beslutningsprosesser i offentlig forvaltning representerer en omveltning innenfor byråkratisk myndighetsutøvelse. 
 Tilgang på store mengder relevant digital data og økende muligheter for å behandle informasjonen gjør at oppgaver som tidligere måtte behandles manuelt kan overlates til hel- eller halvautomatiserte prosesser med vesentlig redusert menneskelig inngripen [@zarsky2016trouble]. 
 På den ene siden gir denne utviklingen store effektiviseringsmuligheter og potensial for offentlige besparelser [@duwe2017effects].
@@ -23,7 +24,7 @@ Et sentralt kjennetegn ved kunstig intellignes er at slike systemer etterligner,
 Mulige områder hvor kunstig intelligens kan benyttes i NAV er blant annet for å beregne sannsynlighet for at den arbeidsledige trenger bistand fra NAV; til å bestemme om en person i sykefravær skal kalles inn til oppfølgingsmøte fra NAV; og til å anbefale arbeidsrettede tiltak.
 På veien mot bedre tjenester er det viktig at man har med seg brukerne – det vil si innbyggerne i Norge – og lager ansvarlige systemer som gir lik og rettferdig behandling uavhengig av sosial status.
 
-## Rettferdige prosesser
+## Rettferdighet og legitimitet
 En massiv litteratur på prosedyrerettferdighet med utspring fra sosialpsykologi (Tyler and Lind 1992) har hatt stor innvirkning på hvordan vi forstår relasjonene mellom innbyggere og myndighetene, og hvordan myndighetene bør forholde seg i møte med innbyggerne.
 Når beslutningsprosessene dreier i retning av mer automatisering, fungerer denne litteraturen som et velegnet rammeverk for å undersøke empirisk om, og i så fall hvordan, relasjonene mellom innbyggerne og myndighetene vil påvirkes av denne utviklingen.
 Det vi vet fra eksperimentell forskning på politisk atferd er at både aspekter ved prosessen og utfallet i seg selv påvirker rettferdighetsoppfatningen av beslutningen og i sin tur villigheten til å akseptere beslutningen (se figur under). 
@@ -33,10 +34,25 @@ Legitimitet forstår vi her som makten til å få noen til villig å føye seg e
 Demokratisk legitimitet viser til den legitimiteten som vinnes ved at beslutningene utgår fra folkeviljen (Rosanvallon 2011).
 Både tillit og legitimitet omhandler relasjonen mellom innbyggere og myndighetene, og faller under det bredere konseptet om politisk støtte (Easton 1965).
 
-Prosessrelaterte spørsmål som undersøkes, er blant annet om rettferdighetsoppfatningen og aksepten av beslutningen påvirkes av forhold som er sentrale i demokratiske systemer.
+Prosessrelaterte spørsmål som har blitt studert er blant annet om rettferdighetsoppfatningen og aksepten av beslutningen påvirkes av forhold som er sentrale i demokratiske systemer.
 Slike forhold kan for eksempel være grad av åpenhet rundt beslutningsprosessen (De Fine Licht et al. 2014), mulighet for direkte påvirkning på en avgjørelse (Esaiasson, Gilljam, and Persson 2012; Arnesen 2017; Christensen, Himmelroos, and Setälä 2020), hvem beslutningstakerne er, og hvor godt disse beslutningstakerne gjenspeiler befolkningen med tanke på sosial bakgrunn, også kjent som deskriptiv representasjon (Arnesen and Peters 2018; Clayton, O’Brien, and Piscopo 2019). Videre er et gjennomgående funn at dersom utfallet går imot ens egne ønsker, blir prosessen diskreditert (Esaiasson et al. 2019; Marien and Kern 2018; Arnesen, Broderstad, et al. 2019; Arnesen, Bergh, et al. 2019).
 
 Det er viktig å studere rettferdighet fra et statsvitenskapelig perspektiv fordi oppfatninger av rettferdighet antas å påvirke institusjonell legitimitet (Tyler 2003). Dette begrenser seg ikke bare til input-siden av det politiske systemet hvor politikk vedtas, men også output-siden i forvaltningen hvor politikk settes ut i live (Krislov 2012; Rosanvallon 2011; Rothstein 2011).
+
+```{r dag, fig.width=15, fig_height=7}
+theme_set(theme_dag_grid(base_size = 14))
+
+dag <- dagify(y ~ x + v,
+              x ~ z,
+              v ~ z,
+              x ~ v,
+              labels = c(y = 'Institusjonell legitimitet',
+                         x = 'Rettferdigsoppfatning',
+                         z = 'Beslutningsprosess',
+                         v = 'Fordelaktig utfall')) 
+
+ggdag(dag, text = FALSE, use_labels = "label") 
+```
 
 Forskningen på kunstig intelligens og rettferdighet er raskt voksende. 
 Flere definisjoner brukes om rettferdighet, og de fleste av dem er basert på forhold mellom sanne/falske positive og sanne/falske negativer (Verma and Rubin 2018). 
@@ -49,60 +65,13 @@ Vi vet fra samfunnsforskning at hva som oppfattes som rettferdig kan variere med
 
 På tross av et økende krav om at innbyggerne må involveres og konsulteres (Balaram, Greenham, and Leonard 2018), har demokrati- og opinionsforskere i liten grad studert hvordan overgangen til økt bruk av kunstig intelligens i forvaltningen kan påvirke tillit og legitimitet. 
 Viktige unntak er De Fine Licht & De Fine Licht (2020) som studerer rollen som åpenhet når det gjelder hvordan allmennheten oppfatter kunstig intelligens-beslutninger som legitim, og Binns et al (2018) som foretar eksperimentelle studier som undersøker folks oppfatning av rettferdighet i algoritmiske beslutninger.
-Vår kunnskap om hvordan overgangen vil påvirke innbyggernes oppfatninger av forvaltningen er imidlertid fortsatt svært begrenset, og behovet for befolkningsrepresentative studier med et demokratiperspektiv er stort. Dette prosjektforslagets hovedmål er å bidra til å dekke dette kunnskapshullet.
+Vår kunnskap om hvordan overgangen vil påvirke innbyggernes oppfatninger av forvaltningen er imidlertid fortsatt svært begrenset, og behovet for befolkningsrepresentative studier med et demokratiperspektiv er stort.
+Det er motivasjonen for å lage denne rapporten.
 
-```{r dag, include=FALSE}
-library(ggdag)
-theme_set(theme_dag())
+Rapporten presenterer resultatene fra en spørreundersøkelse gjennomført på et befolkningsrepresentativt utvalg av innbyggere i Norge.
+Undersøkelsen tar for seg generelle holdninger til og kunnskap om maskinlæring og kunstig intelligens i befolkningen. 
+Bredere spørsmål knyttet til relasjonen mellom NAV og innbyggerne -- uavhengig av tematikken om maskinlæring og kunstig intelligens -- blir også analysert for å kontekstualisere de mer spesifikke spørsmålene og eksperimentene knyttet til bruk av maskinlæring og kunstig intelligens i NAV.
+Deretter fokuserer vi på holdninger som har relevans for en framtid hvor maskinlæring og kunstig intelligens har en sentral rolle i.
+Dette gjelder problemstillinger knyttet til konkrete, aktuelle situasjoner i NAV, såvel som mer overordnete spørsmål om maskinlæring og kunstig intelligens i forvaltningen.
 
-```
-
-Forventninger:
-
--	Vi antar at trekk ved beslutningsprosessene i NAV påvirker folks oppfattelse av hvor rettferdige disse prosessene er. Det er flere forhold ved prosessen som kan spille inn, og i dette prosjektet vil vi blant annet undersøke om det har noe å si hvilken informasjon beslutningsstøttesystemene baserer seg på, hvem som er involvert i utviklingen av systemene, hvordan saksbehandlerne forholder seg til anbefalingene fra systemene, hvordan beslutningene slår ut for ulike sosiale grupper informasjon som blir brukt i prediksjonsmodellen (data-input), og hvordan saksbehandler forholder seg til beslutningsstøttesystemet. Vi vil også undersøke om og i så fall hvordan innbyggerne ønsker å informeres og konsulteres ved innføring av beslutningsstøttesystemer.
-
-- Vi stiller oss åpne for at trekk ved beslutningsprosessene kan påvirke rettferdighetsoppfattelsen ulikt, avhengig av hvilken definisjon av rettferdighet som brukes, og hvem som blir spurt.
-
--	Vi antar videre at hvor rettferdige beslutningsprosessene oppfattes i sin tur påvirker legitimiteten og tilliten til NAV i et lengre perspektiv.
-
--	Vi antar også at selve utfallet av beslutningen farger folks vurdering av hvor rettferdige prosessene er, og hvor villig de er til å akseptere utfallet.
-
-Punktene over reflekterer våre generelle forventninger som vi ønsker å teste empirisk på konkrete områder som er direkte relevante for NAV.
-Vi har i søknadsprosessen vært i dialog med relevante personer i NAV om forskningsspørsmålene, og ønsker å fortsette denne dialogen underveis i prosessen med å designe selve spørreundersøkelsen.
-
-
-Vi vil gjennomføre en spørreundersøkelse på et befolkningsrepresentativt utvalg av innbyggere i Norge.
-Den første delen av undersøkelsen vil ta for seg bredere spørsmål knyttet til relasjonen mellom NAV og innbyggerne slik de framstår per i dag, uavhengig av tematikken om automatisering. 
-Her har vi allerede stilt noen spørsmål tidligere, slik at det blir også mulig å sammenlikne utvikling over tid. 
-Vi vil også bruke bakgrunnsdata på respondentene til å analysere i hvilken grad sosiodemografisk bakgrunn henger sammen med tillit og støtte til NAV. 
-Vi vil dessuten i denne delen spørre om generelle holdninger og kunnskap til automatiserte beslutninger i forvaltningen.
-
-I den andre delen av undersøkelsen vil vi legge fram eksperimentscenarier som er eller kan bli realistiske i NAV-sammenheng. Typisk vil vi da be respondentene vurdere en situasjon hvor kunstig intelligens har blitt brukt til å bestemme et beslutningsutfall; for eksempel hvorvidt en person i sykefravær bør kalles inn til dialogmøte. Vi vil blant annet variere hvordan kunstig intelligens blir brukt med tanke på etterrettelighet, hvilke data som brukes i modellen, hvem som har utviklet modellene, samt hvor sterk innflytelse de har på den endelige beslutningen.
-
-Eksperiment som metode i samfunnsforskningen defineres av to nøkkelelementer. 
-For det første må det være en datainnsamlingsprosess som samfunnsforskeren setter i gang for å søke svar på et forskningsspørsmål.
-Eksperimentdata kan ikke være observasjonsdata, altså data som allerede eksisterer i «den virkelige verden» og har skjedd – og ville ha skjedd – uten forskerens innblanding. 
-Et eksperiment må også ha en kontrollgruppe som viser hvordan verdiene på den avhengige variabelen framstår når de ikke er påvirket av den eller de faktorene som undersøkes. 
-Når stimulusgruppene blir introdusert for påvirkning, måler vi nivåene på disse gruppene opp mot kontrollgruppen for å se om det er noen forskjell. 
-Eksperimenter i samfunnsforskningen kan gjennomføres som felteksperimenter, som lab-eksperimenter og som surveyeksperimenter.
-Sistnevnte har vært mest brukt innenfor studier av demokratiske beslutningsprosesser, og er også det vi vil designe i dette prosjektet.
-Eksperimenter er velegnet til å isolere enkeltfaktorers påvirkning på avhengig variabel, og bedrer muligheten for å trekke slutninger om årsakssammenhenger. 
-Vi designer såkalte conjoint-eksperimenter (Hainmueller, Hopkins, and Yamamoto 2014; Green and Srinivasan 1978; Leeper, Hobolt, and Tilley 2020), som gjør oss i stand til å undersøke flere dimensjoner i ett og samme eksperiment. 
-Conjoint-design kan derfor estimere effekter i en variert kontekst.
-
-Legitimiteten til institusjoner som NAV er noe som ikke nødvendigvis endrer seg veldig fort.
-Det kan derfor i en spørreundersøkelse være vanskelig å eksperimentere med faktorer som direkte påvirker legitimiteten til NAV som sådan.
-Empirisk operasjonaliserer man derfor ofte legitimitet ved å spørre respondenter om de mener en beslutning bør følges, eller om de oppfatter den som akseptabel.
-Det vil vi også gjøre i dette prosjektet, med antakelsen om at disse effektene vil påvirke legitimiteten til NAV i det lange løp.
-
-Dataene vi bli samlet inn våren 2021 i runde 21 av Norsk medborgerpanels befolkningsrepresentative spørreundersøkelse. 
-Medborgerpanelet er del av den samfunnsvitenskapelige infrastrukturen Digital kjernefasilitet for samfunnsvitenskapene (DIGSSCORE) ved Universitetet i Bergen. 
-Panelet drives av samfunnsforskere, og er et non-profit prosjekt utelukkende benyttet til forskningsformål. 
-Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.
-
-Det pågår for tiden et initiativ for å utvide forskningsinfrastrukturen for å legge til paneler med ansatte i forvaltningen, folkevalgte og journalister.
-Dersom det oppstår en mulighet for å samle inn data på slike underutvalg i løpet av prosjektperioden, vil vi benytte oss av den.
-
-Variabler vi kommer til å bruker i prosjektet inkluderer respondentenes alder, kjønn, utdanningsnivå, bosted, selvplassering på høyre/venstre-skalaen, deltakelse i Stortingsvalget 2017 og kommunestyrevalget 2019, partipreferanse, tillit til NAV, generell tillit til andre mennesker, tilfredshet med demokratiet, og tilfredshet med regjeringen. 
-I tillegg genererer vi eksperimentvariabler som vil defineres om prosjektet starter opp.
 

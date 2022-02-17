@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 4 Tillit og NAV | Demokratiske algoritmer</title>
   <meta name="description" content="Hvordan oppnå legitimitet og rettferdighet i automatiserte beslutningsprosesser i offentlig forvaltning" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 4 Tillit og NAV | Demokratiske algoritmer" />
   <meta property="og:type" content="book" />
@@ -21,10 +21,9 @@
   <meta name="twitter:description" content="Hvordan oppnå legitimitet og rettferdighet i automatiserte beslutningsprosesser i offentlig forvaltning" />
   
 
-<meta name="author" content="" />
 
 
-<meta name="date" content="2021-09-09" />
+<meta name="date" content="2022-01-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,9 @@
   
 <link rel="prev" href="bakgrunn.html"/>
 <link rel="next" href="maskinlæring-i-forvaltningen.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,10 +50,33 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -72,24 +96,25 @@
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Kort sammendrag</a></li>
 <li class="chapter" data-level="2" data-path="sammendrag.html"><a href="sammendrag.html"><i class="fa fa-check"></i><b>2</b> Utvidet sammendrag</a></li>
-<li class="chapter" data-level="3" data-path="bakgrunn.html"><a href="bakgrunn.html"><i class="fa fa-check"></i><b>3</b> Bakgrunn og motivasjon</a><ul>
+<li class="chapter" data-level="3" data-path="bakgrunn.html"><a href="bakgrunn.html"><i class="fa fa-check"></i><b>3</b> Bakgrunn og motivasjon</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="bakgrunn.html"><a href="bakgrunn.html#rettferdige-prosesser"><i class="fa fa-check"></i><b>3.1</b> Rettferdige prosesser</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html"><i class="fa fa-check"></i><b>4</b> Tillit og NAV</a><ul>
-<li class="chapter" data-level="4.1" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#systemstøtte-i-norge"><i class="fa fa-check"></i><b>4.1</b> Systemstøtte i Norge</a><ul>
-<li class="chapter" data-level="4.1.1" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#tilfredshet-med-demokratiet"><i class="fa fa-check"></i><b>4.1.1</b> Tilfredshet med demokratiet</a></li>
-<li class="chapter" data-level="4.1.2" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#tillit-til-forvaltningen-og-nav"><i class="fa fa-check"></i><b>4.1.2</b> Tillit til forvaltningen og NAV</a></li>
+<li class="chapter" data-level="4" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html"><i class="fa fa-check"></i><b>4</b> Tillit og NAV</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#erfaring-med-og-kjennskap-til-nav"><i class="fa fa-check"></i><b>4.1</b> Erfaring med og kjennskap til NAV</a></li>
+<li class="chapter" data-level="4.2" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#byråkratisk-kompetanse"><i class="fa fa-check"></i><b>4.2</b> Byråkratisk kompetanse</a></li>
+<li class="chapter" data-level="4.3" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#tiltro-til-likebehandling-i-nav"><i class="fa fa-check"></i><b>4.3</b> Tiltro til likebehandling i NAV</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#erfaring-med-og-kjennskap-til-nav"><i class="fa fa-check"></i><b>4.2</b> Erfaring med og kjennskap til NAV</a></li>
-<li class="chapter" data-level="4.3" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#byråkratisk-efficacy"><i class="fa fa-check"></i><b>4.3</b> Byråkratisk efficacy</a></li>
-<li class="chapter" data-level="4.4" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#tiltro-til-likebehandling-i-nav"><i class="fa fa-check"></i><b>4.4</b> Tiltro til likebehandling i NAV</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html"><i class="fa fa-check"></i><b>5</b> Maskinlæring i forvaltningen</a><ul>
+<li class="chapter" data-level="5" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html"><i class="fa fa-check"></i><b>5</b> Maskinlæring i forvaltningen</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#historisk-gjennomgang"><i class="fa fa-check"></i><b>5.1</b> Historisk gjennomgang</a></li>
-<li class="chapter" data-level="5.2" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#norske-innbyggeres-kjennskap-og-følelser-knyttet-til-maskinlæring"><i class="fa fa-check"></i><b>5.2</b> Norske innbyggeres kjennskap og følelser knyttet til maskinlæring</a><ul>
+<li class="chapter" data-level="5.2" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#norske-innbyggeres-kjennskap-og-følelser-knyttet-til-maskinlæring"><i class="fa fa-check"></i><b>5.2</b> Norske innbyggeres kjennskap og følelser knyttet til maskinlæring</a>
+<ul>
 <li class="chapter" data-level="5.2.1" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#kjennskap-til-maskinlæring"><i class="fa fa-check"></i><b>5.2.1</b> Kjennskap til maskinlæring</a></li>
 <li class="chapter" data-level="5.2.2" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#bekymring-for-maskinlæring"><i class="fa fa-check"></i><b>5.2.2</b> Bekymring for maskinlæring</a></li>
 <li class="chapter" data-level="5.2.3" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#interesser-ivaretatt-med-maskinlæring"><i class="fa fa-check"></i><b>5.2.3</b> Interesser ivaretatt med maskinlæring?</a></li>
+<li class="chapter" data-level="5.2.4" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#villighet-til-å-bruke-maskinlæring"><i class="fa fa-check"></i><b>5.2.4</b> Villighet til å bruke maskinlæring</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="systematikk.html"><a href="systematikk.html"><i class="fa fa-check"></i><b>6</b> Maskinlæring i skjønnsvurderinger</a></li>
@@ -97,7 +122,8 @@
 <li class="chapter" data-level="8" data-path="input.html"><a href="input.html"><i class="fa fa-check"></i><b>8</b> Inputvariabler</a></li>
 <li class="chapter" data-level="9" data-path="representasjon.html"><a href="representasjon.html"><i class="fa fa-check"></i><b>9</b> Representasjon</a></li>
 <li class="chapter" data-level="10" data-path="komité.html"><a href="komité.html"><i class="fa fa-check"></i><b>10</b> Komité</a></li>
-<li class="chapter" data-level="11" data-path="om.html"><a href="om.html"><i class="fa fa-check"></i><b>11</b> Om rapporten</a><ul>
+<li class="chapter" data-level="11" data-path="om.html"><a href="om.html"><i class="fa fa-check"></i><b>11</b> Om rapporten</a>
+<ul>
 <li class="chapter" data-level="11.1" data-path="om.html"><a href="om.html#forfattere"><i class="fa fa-check"></i><b>11.1</b> Forfattere</a></li>
 <li class="chapter" data-level="11.2" data-path="om.html"><a href="om.html#referansegruppe"><i class="fa fa-check"></i><b>11.2</b> Referansegruppe</a></li>
 <li class="chapter" data-level="11.3" data-path="om.html"><a href="om.html#data"><i class="fa fa-check"></i><b>11.3</b> Data</a></li>
@@ -124,42 +150,77 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="tillit-og-nav" class="section level1">
+<div id="tillit-og-nav" class="section level1" number="4">
 <h1><span class="header-section-number">Chapter 4</span> Tillit og NAV</h1>
-<div id="systemstøtte-i-norge" class="section level2">
-<h2><span class="header-section-number">4.1</span> Systemstøtte i Norge</h2>
-<div id="tilfredshet-med-demokratiet" class="section level3">
-<h3><span class="header-section-number">4.1.1</span> Tilfredshet med demokratiet</h3>
-<p>Figur: Tilfredshet med demokratiet</p>
-</div>
-<div id="tillit-til-forvaltningen-og-nav" class="section level3">
-<h3><span class="header-section-number">4.1.2</span> Tillit til forvaltningen og NAV</h3>
+<p>Norge er kjent som et land der myndighetene nyter høy tillit i befolkningen.
+Dette bekreftes også i vår undersøkelse for NAV sin del.
+Fire av ti innbyggere i Norge har høy eller svært høy tillit til NAV, mens bare en av seks har liten eller ingen tillit.
+På en skala fra 1 til 5 der 1 er lavest og 5 er høyest, er gjennomsnittsverdien på <strong>xx</strong>.</p>
 <div class="figure">
 <img src="figs/png/fig_nav_trust.png" alt="" />
 <p class="caption">Tillit til NAV</p>
 </div>
-</div>
-</div>
-<div id="erfaring-med-og-kjennskap-til-nav" class="section level2">
-<h2><span class="header-section-number">4.2</span> Erfaring med og kjennskap til NAV</h2>
+<p>Tillit er noe som tar lang til å bygge opp, men som fort kan rives ned.
+Det er et godt utgangspunkt at NAV nyter tillit i befolkningen, og ikke desto viktigere at denne relasjonen ivaretaes parallelt med at organisasjonen endrer seg og utvikler morgendagens forvaltning.</p>
+<div id="erfaring-med-og-kjennskap-til-nav" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Erfaring med og kjennskap til NAV</h2>
+<p>Et flertall av innbyggerne i Norge har hatt befatning med NAV i en eller annen form.
+Noen kontakter er lite personlige, som for eksempel når man mottar barnetrygd.
+Andre krever mer kontakt med NAV, og gjerne personlig kontakt med en saksbehandler.
+I vårt utvalg har godt over halvparten minst en gang vært i personlig kontakt med NAV.</p>
 <div class="figure">
 <img src="figs/png/fig_nav_personal_contact.png" alt="" />
 <p class="caption">Personlig kontakt med NAV</p>
 </div>
-<p>Figur: Kjennskap til NAV</p>
-<p>Figur: Tillit til NAV brutt ned på erfaring med og kjennskap til NAV</p>
+<p>Fire av ti innbyggere i Norge har liten eller ingen kjennskap til NAV, mens seks av ti har ganske god, god, eller svært god kjennskapt til institusjonen.</p>
+<p><img src="figs/png/fig_nav_knowledge.png" /></p>
+<p><strong>Figur: Tillit til NAV brutt ned på erfaring med og kjennskap til NAV</strong></p>
 </div>
-<div id="byråkratisk-efficacy" class="section level2">
-<h2><span class="header-section-number">4.3</span> Byråkratisk efficacy</h2>
+<div id="byråkratisk-kompetanse" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Byråkratisk kompetanse</h2>
+<p>I statsvitenskapen opererer man med et begrep som på engelsk heter <em>political efficacy</em>.
+Vi kan gjerne oversette begrepet på norsk til <em>politisk kompetanse</em>.
+Politisk kompetanse viser til en persons selvopplevde evne til å forstå politikk (<em>internal political efficacy</em>), og personens opplevelse av å kunne påvirke politiske prosesser (<em>external political efficacy</em>).
+Vi ser at intern og ekstern politisk kompetanse henger sammen med politisk deltakelse, med tilfredshet med demokratiet, tillit til institusjoner, blant annet.</p>
+<p>På samme måte som at innbyggerne har ulike evner til å forstå politikk og påvirke politiske prosesser, har de også ulike evner til å forstå forvaltningen.
+I motsetning til i politisk arbeid er det ikke et mål at innbyggerne nødvendigvis skal kunne påvirke en byråkratisk prosess, men det er likefullt en kjennsgjerning at noen personer er flinkere til å følge opp saker på vegne av seg selv eller pårørende, og slik sett er bedre i stand til å ivareta sine interesser i saker som angår dem.</p>
+<p>For å avdekke hvordan disse ferdighetene fordeler seg i befolkningen har vi spurt respondentene om deres byråkratiske kompetanse - intern og ekstern.
+Intern byråkratisk kompetanse måler vi ved hjelp av to påstander som de skal si seg enig eller uenig i:</p>
 <ol style="list-style-type: decimal">
-<li><p>Figur: Intern byråkratisk efficacy</p></li>
-<li><p>Figur: Ekstern byråkratisk efficacy</p></li>
+<li><p>Jeg er i stand til å skaffe alle offentlige ytelser, tjenester, og tillatelser som jeg har rett på.</p></li>
+<li><p>Den offentlige forvaltningen er så innviklet at folk som meg ikke kan forstå hva som foregår innad i ulike etater, direktorat, kommuner, og så videre.</p></li>
 </ol>
+<p>Ekstern byråkratisk kompetanse måler vi ved hjelp av to nye påstander:</p>
+<ol style="list-style-type: decimal">
+<li><p>De som jobber i den offentlige forvaltningen bryr seg ikke om hvilke behov folk som meg har.</p></li>
+<li><p>Saksbehandlere i den offentlige forvaltningen er bare interessert i tekniske aspekter ved saken, ikke hva de det berører faktisk ønsker.</p></li>
+</ol>
+<p><img src="figs/png/fig_be_hist.png" /></p>
+<p>Figurene viser at det er ganske stor spredning i svarene.
+Flertallet av innbyggerne er enige i påstanden at de får alle ytelser som de har rett på.
+Et flertall svarer samtidig at de opplever byråkratiet som vanskelig å forstå.
+Flertallet er uenige i at de som jobber i offentlig forvaltning ikke bryr seg om folks behov, men det er også et stort mindretall som er enige i denne påstanden.
+Et lite flertall mener at saksbehandlere bare er interessert i tekniske aspekter ved saken.</p>
+<p>Dette er befolkningen i sin helhet.
+Når vi bryter svarene ned på sosiopolitiske undergrupper ser vi at dem som har lav byråkratisk kompetanse også har lav politisk kompetanse (efficacy).
+Tillit til NAV samvarierer også sterkt med byråkratisk kompetanse.
+Det vil si at de som har tillit til NAV er de som opplever at de får ytelsene de har rett på, som føler at de forstår de byråkratiske prosessene, som tenker at de som jobber i offentlig sektor bryr seg om folks behov, og som ikke bare forholder seg til tekniske aspekter i saksbehandlingen.</p>
+<p><img src="figs/png/fig_be_coefs_by_type.png" /></p>
+<p>Byråkratisk kompetanse varierer også til dels mye mellom folk når vi deler dem inn i hvilket parti de ville ha stemt på dersom det var stortingsvalg i morgen.
+Figuren under viser at det er størst forskjell på de som stemmer Fremskrittspartiet og de som stemmer Miljøpartiet de grønne, spesielt når det gjelder ekstern byråkratisk kompetanse.</p>
+<p>Menn scorer noe lavere enn kvinner på ekstern byråkratisk kompetanse, og det samme gjør personer uten høyere utdanning sammenliknet med personer med høyere utdanning.
+De scorer også noe lavere på intern byråkratisk kompetanse, men her er forskjellen mindre (men fortsatt statistisk signifikant).</p>
 </div>
-<div id="tiltro-til-likebehandling-i-nav" class="section level2">
-<h2><span class="header-section-number">4.4</span> Tiltro til likebehandling i NAV</h2>
+<div id="tiltro-til-likebehandling-i-nav" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Tiltro til likebehandling i NAV</h2>
+<p>Et styrende prinsipp i norsk forvaltning er nøytralitet:
+Saksbehandlere skal utøve sitt mandat uten å la egne holdninger komme i veien og påvirke beslutningsprosessen.
+Slik uhildet behandling av innbyggerne står også sentralt i forskning på hvilke egenskaper ved byråkratiet som underbygger legitimitet og rettferdighetsoppfatninger.
+Når vi spør innbyggerne i Norge hvordan de oppfatter at saksbehandlerne i NAV lar seg påvirke av egne holdninger, finner vi at de tror det forekommer i noen grad.
+Det er liten forskjell på de ulike områdene innenfor NAV.</p>
 <p><img src="figs/png/fig_nav_exp_attinfluence_all.png" />
 <img src="figs/png/fig_nav_exp_attinfluence_area.png" /></p>
+<p><strong>Her hadde det vært interessant å se hvordan denne fordelingen samvarierer med byråkratisk kompetanse. </strong></p>
 
 </div>
 </div>
@@ -173,7 +234,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -192,6 +252,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -212,6 +273,10 @@ gitbook.start({
 "text": null
 },
 "download": ["NAV.pdf", "NAV.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

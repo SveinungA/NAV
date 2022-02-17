@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 7 Paritet | Demokratiske algoritmer</title>
+  <title>Chapter 5 Statistisk paritet | Demokratiske algoritmer</title>
   <meta name="description" content="Hvordan oppnå legitimitet og rettferdighet i automatiserte beslutningsprosesser i offentlig forvaltning" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 7 Paritet | Demokratiske algoritmer" />
+  <meta property="og:title" content="Chapter 5 Statistisk paritet | Demokratiske algoritmer" />
   <meta property="og:type" content="book" />
   
   
@@ -16,24 +16,25 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 7 Paritet | Demokratiske algoritmer" />
+  <meta name="twitter:title" content="Chapter 5 Statistisk paritet | Demokratiske algoritmer" />
   
   <meta name="twitter:description" content="Hvordan oppnå legitimitet og rettferdighet i automatiserte beslutningsprosesser i offentlig forvaltning" />
   
 
-<meta name="author" content="" />
 
 
-<meta name="date" content="2021-09-09" />
+<meta name="date" content="2022-02-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="systematikk.html"/>
+<link rel="prev" href="kunstig-intelligens-i-forvaltningen.html"/>
 <link rel="next" href="input.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,10 +50,33 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -70,39 +94,40 @@
 <li><a href="./">Demokratiske algoritmer</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Kort sammendrag</a></li>
-<li class="chapter" data-level="2" data-path="sammendrag.html"><a href="sammendrag.html"><i class="fa fa-check"></i><b>2</b> Utvidet sammendrag</a></li>
-<li class="chapter" data-level="3" data-path="bakgrunn.html"><a href="bakgrunn.html"><i class="fa fa-check"></i><b>3</b> Bakgrunn og motivasjon</a><ul>
-<li class="chapter" data-level="3.1" data-path="bakgrunn.html"><a href="bakgrunn.html#rettferdige-prosesser"><i class="fa fa-check"></i><b>3.1</b> Rettferdige prosesser</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Om rapporten</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#kort-sammendrag"><i class="fa fa-check"></i><b>1.1</b> Kort sammendrag</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#forfattere"><i class="fa fa-check"></i><b>1.2</b> Forfattere</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#referansegruppe"><i class="fa fa-check"></i><b>1.3</b> Referansegruppe</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#data"><i class="fa fa-check"></i><b>1.4</b> Data</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#finansiering"><i class="fa fa-check"></i><b>1.5</b> Finansiering</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html"><i class="fa fa-check"></i><b>4</b> Tillit og NAV</a><ul>
-<li class="chapter" data-level="4.1" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#systemstøtte-i-norge"><i class="fa fa-check"></i><b>4.1</b> Systemstøtte i Norge</a><ul>
-<li class="chapter" data-level="4.1.1" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#tilfredshet-med-demokratiet"><i class="fa fa-check"></i><b>4.1.1</b> Tilfredshet med demokratiet</a></li>
-<li class="chapter" data-level="4.1.2" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#tillit-til-forvaltningen-og-nav"><i class="fa fa-check"></i><b>4.1.2</b> Tillit til forvaltningen og NAV</a></li>
+<li class="chapter" data-level="2" data-path="bakgrunn.html"><a href="bakgrunn.html"><i class="fa fa-check"></i><b>2</b> Bakgrunn og motivasjon</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="bakgrunn.html"><a href="bakgrunn.html#byråkratisk-omveltning"><i class="fa fa-check"></i><b>2.1</b> Byråkratisk omveltning</a></li>
+<li class="chapter" data-level="2.2" data-path="bakgrunn.html"><a href="bakgrunn.html#rettferdighet-og-legitimitet"><i class="fa fa-check"></i><b>2.2</b> Rettferdighet og legitimitet</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#erfaring-med-og-kjennskap-til-nav"><i class="fa fa-check"></i><b>4.2</b> Erfaring med og kjennskap til NAV</a></li>
-<li class="chapter" data-level="4.3" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#byråkratisk-efficacy"><i class="fa fa-check"></i><b>4.3</b> Byråkratisk efficacy</a></li>
-<li class="chapter" data-level="4.4" data-path="tillit-og-nav.html"><a href="tillit-og-nav.html#tiltro-til-likebehandling-i-nav"><i class="fa fa-check"></i><b>4.4</b> Tiltro til likebehandling i NAV</a></li>
+<li class="chapter" data-level="3" data-path="oppfatninger-om-nav.html"><a href="oppfatninger-om-nav.html"><i class="fa fa-check"></i><b>3</b> Oppfatninger om NAV</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="oppfatninger-om-nav.html"><a href="oppfatninger-om-nav.html#erfaring-med-og-kjennskap-til-nav"><i class="fa fa-check"></i><b>3.1</b> Erfaring med og kjennskap til NAV</a></li>
+<li class="chapter" data-level="3.2" data-path="oppfatninger-om-nav.html"><a href="oppfatninger-om-nav.html#tillit"><i class="fa fa-check"></i><b>3.2</b> Tillit</a></li>
+<li class="chapter" data-level="3.3" data-path="oppfatninger-om-nav.html"><a href="oppfatninger-om-nav.html#byråkratisk-kompetanse"><i class="fa fa-check"></i><b>3.3</b> Byråkratisk kompetanse</a></li>
+<li class="chapter" data-level="3.4" data-path="oppfatninger-om-nav.html"><a href="oppfatninger-om-nav.html#tiltro-til-likebehandling-i-nav"><i class="fa fa-check"></i><b>3.4</b> Tiltro til likebehandling i NAV</a></li>
+<li class="chapter" data-level="3.5" data-path="oppfatninger-om-nav.html"><a href="oppfatninger-om-nav.html#oppsummering"><i class="fa fa-check"></i><b>3.5</b> Oppsummering</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html"><i class="fa fa-check"></i><b>5</b> Maskinlæring i forvaltningen</a><ul>
-<li class="chapter" data-level="5.1" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#historisk-gjennomgang"><i class="fa fa-check"></i><b>5.1</b> Historisk gjennomgang</a></li>
-<li class="chapter" data-level="5.2" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#norske-innbyggeres-kjennskap-og-følelser-knyttet-til-maskinlæring"><i class="fa fa-check"></i><b>5.2</b> Norske innbyggeres kjennskap og følelser knyttet til maskinlæring</a><ul>
-<li class="chapter" data-level="5.2.1" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#kjennskap-til-maskinlæring"><i class="fa fa-check"></i><b>5.2.1</b> Kjennskap til maskinlæring</a></li>
-<li class="chapter" data-level="5.2.2" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#bekymring-for-maskinlæring"><i class="fa fa-check"></i><b>5.2.2</b> Bekymring for maskinlæring</a></li>
-<li class="chapter" data-level="5.2.3" data-path="maskinlæring-i-forvaltningen.html"><a href="maskinlæring-i-forvaltningen.html#interesser-ivaretatt-med-maskinlæring"><i class="fa fa-check"></i><b>5.2.3</b> Interesser ivaretatt med maskinlæring?</a></li>
+<li class="chapter" data-level="4" data-path="kunstig-intelligens-i-forvaltningen.html"><a href="kunstig-intelligens-i-forvaltningen.html"><i class="fa fa-check"></i><b>4</b> Kunstig intelligens i forvaltningen</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="kunstig-intelligens-i-forvaltningen.html"><a href="kunstig-intelligens-i-forvaltningen.html#norske-innbyggeres-kjennskap-og-følelser-knyttet-til-maskinlæring-og-kunstig-intelligens"><i class="fa fa-check"></i><b>4.1</b> Norske innbyggeres kjennskap og følelser knyttet til maskinlæring og kunstig intelligens</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="kunstig-intelligens-i-forvaltningen.html"><a href="kunstig-intelligens-i-forvaltningen.html#bekymring-for-maskinlæring"><i class="fa fa-check"></i><b>4.1.1</b> Bekymring for maskinlæring</a></li>
+<li class="chapter" data-level="4.1.2" data-path="kunstig-intelligens-i-forvaltningen.html"><a href="kunstig-intelligens-i-forvaltningen.html#interesser-ivaretatt-med-maskinlæring"><i class="fa fa-check"></i><b>4.1.2</b> Interesser ivaretatt med maskinlæring?</a></li>
 </ul></li>
+<li class="chapter" data-level="4.2" data-path="kunstig-intelligens-i-forvaltningen.html"><a href="kunstig-intelligens-i-forvaltningen.html#bruke-kunstig-intelligens"><i class="fa fa-check"></i><b>4.2</b> Bruke kunstig intelligens?</a></li>
+<li class="chapter" data-level="4.3" data-path="kunstig-intelligens-i-forvaltningen.html"><a href="kunstig-intelligens-i-forvaltningen.html#oppsummering-1"><i class="fa fa-check"></i><b>4.3</b> Oppsummering</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="systematikk.html"><a href="systematikk.html"><i class="fa fa-check"></i><b>6</b> Maskinlæring i skjønnsvurderinger</a></li>
-<li class="chapter" data-level="7" data-path="paritet.html"><a href="paritet.html"><i class="fa fa-check"></i><b>7</b> Paritet</a></li>
-<li class="chapter" data-level="8" data-path="input.html"><a href="input.html"><i class="fa fa-check"></i><b>8</b> Inputvariabler</a></li>
-<li class="chapter" data-level="9" data-path="representasjon.html"><a href="representasjon.html"><i class="fa fa-check"></i><b>9</b> Representasjon</a></li>
-<li class="chapter" data-level="10" data-path="komité.html"><a href="komité.html"><i class="fa fa-check"></i><b>10</b> Komité</a></li>
-<li class="chapter" data-level="11" data-path="om.html"><a href="om.html"><i class="fa fa-check"></i><b>11</b> Om rapporten</a><ul>
-<li class="chapter" data-level="11.1" data-path="om.html"><a href="om.html#forfattere"><i class="fa fa-check"></i><b>11.1</b> Forfattere</a></li>
-<li class="chapter" data-level="11.2" data-path="om.html"><a href="om.html#referansegruppe"><i class="fa fa-check"></i><b>11.2</b> Referansegruppe</a></li>
-<li class="chapter" data-level="11.3" data-path="om.html"><a href="om.html#data"><i class="fa fa-check"></i><b>11.3</b> Data</a></li>
-<li class="chapter" data-level="11.4" data-path="om.html"><a href="om.html#finansiering"><i class="fa fa-check"></i><b>11.4</b> Finansiering</a></li>
-</ul></li>
+<li class="chapter" data-level="5" data-path="paritet.html"><a href="paritet.html"><i class="fa fa-check"></i><b>5</b> Statistisk paritet</a></li>
+<li class="chapter" data-level="6" data-path="input.html"><a href="input.html"><i class="fa fa-check"></i><b>6</b> Inputvariabler</a></li>
+<li class="chapter" data-level="7" data-path="representasjon.html"><a href="representasjon.html"><i class="fa fa-check"></i><b>7</b> Representativt byråkrati</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/SveinungA/NAV" target="blank">GitHub-depot</a></li>
@@ -124,9 +149,60 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="paritet" class="section level1">
-<h1><span class="header-section-number">Chapter 7</span> Paritet</h1>
-<p>Her presenteres eksperimentet om statistisk paritet</p>
+<div id="paritet" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Statistisk paritet</h1>
+<p>Et realistisk eksempel hvor maskinlæring kan brukes i forvaltningen er når NAV skal bestemme hvilke sykmeldte som skal få tilbud om dialogmøte med NAV.
+Et dialogmøte er en samtale mellom NAV og den sykmeldte som anses som positivt for den sykmeldtes muligheter for å komme tilbake i arbeid.</p>
+<p>I prinsippet har alle rett på et dialogmøte, men i praksis foregår det en siling hvor det gjøres en vurdering av hvem som har mest nytte av et slikt møte.
+Bruk av maskinlæring og kunstig intelligens kan i dette tilfellet bidra til bedre estimater for hvem som er i fare for å bli langtidssykemeldt, og derfor kan ha større nytte av et dialogmøte.
+Derfor er NAV i innledende stadier på å utvikle maskinlæringsmodeller som predikerer sannsynlighet for at en sykemeldt fortsatt vil være sykemeldt 12 uker fram i tid.</p>
+<p>Når man bestemmer innretningen på en modell må man foreta prioriteringer.
+En prinsipielt viktig prioritering handler om man skal ta i bruk såkalt statistisk paritet som rettferdighetsprinsipp på utvalgte egenskaper ved individene det gjelder.
+Kjønnsparitet er ett eksempel, men det kan også handle om statistisk paritet etter alder, etnisitet, geografi, med mer.
+Et kjent eksempel innenfor litteraturen om rettferdig bruk av kunstig intelligens er studien som viser hvordan afro-amerikanske fengselsinnsatte sjeldnere blir tilbudt prøveløslatelse enn hva andelen deres skulle tilsi.
+Dette skjer når avgjørelsen om prøveløslatelse baserer seg på prediksjonsmodeller om risikoen for at den innsatte blir tatt påny for en kriminell handling dersom hen slippes fri (Chouldechova 2017).
+Å anvende paritetsprinsippet her innebærer å sikre at andelen innsatte som tilbys prøveløslatelse samsvarer med andelen innsatte for hver av de etniske gruppene i fengselet.
+Fordelen med å bruke statistisk paritet etter etnisitet er at prøveløslatelse blir likt fordelt blant de etniske gruppene, og slik sett kan oppleves som rettferdig fordelt.
+Utfordringen ved å bruke dette prinsippet er at andre egenskaper ved de innsatte – som for eksempel risikovurderinger om tilbakefall til kriminelle handlinger – blir nedprioritert.
+Er etnisitet i dette tilfellet så viktig at man bør la det gå på bekostning av risikovurderinger knyttet til tilbakefall?</p>
+<p>NAVs tilfelle om dialogmøte er mindre dramatisk enn eksempelet om prøveløslatelse.
+Samtidig er de prinsipielle problemstillingene de samme.
+Statistisk paritet innebærer i tilfellet om dialogmøte at modellen sikrer at like mange menn og kvinner skal få tilbud om dialogmøte.
+Denne prioriteringer vil i så fall gå delvis på bekostning av å prioritere treffsikkerhet med tanke på å invitere de som har størst nytte av et slikt møte.</p>
+<p>For å studere respondentenes umiddelbare reaksjoner til et slik etisk dilemma knyttet til rettferdig bruk av kunstig intelligens ber vi respondentene se for seg et valg mellom to alternative maskinlæringsmodeller for å velge hvem som skal få tilbud om dialogmøte.</p>
+<p>Ingen av modellene er perfekte, men de feiler på ulike måter.</p>
+<p>Den første modellen er mest <em>treffsikker</em>.
+Det vil si at det totalt sett er flere sykemeldte med behov for dialogmøte som får tilbudet enn tilfellet er for den andre modellen.
+Samtidig har modellen en bias til fordel for menn, som gjør at det er flere kvinner med behov for dialogmøte som ikke får tilbudet.
+Andelen som har behov for dialogmøte <em>uten å få tilbud</em> er altså større hos kvinner enn menn.</p>
+<p>Den andre modellen sikrer statistisk paritet etter kjønn, nemlig at andelen av de sykmeldte som kalles inn til dialogmøte er like stor henholdsvis for kvinner som for menn.
+Imidlertid er den mindre treffsikker totalt sett, slik at færre som har behov for dialogmøte blir innkalt.
+Dette gjelder både kvinner og menn.</p>
+<p>Hvis det står mellom disse to modellene, hvilken modell synes respondentene virker mest rettferdig?
+Figuren under viser at et knapt flertall foretrekker en modell som vektlegger statistisk paritet.
+Det vil si at de ønsker å bruke en modell som sikrer likebehandling av kjønn, selv på bekostning av lavere treffsikkerhet totalt sett.</p>
+<p><img src="figs/png/fig_parity_avg.png" /></p>
+<p>I teksten over står det at den mest treffsikre modellen favoriserte menn.
+For å undersøke om det har noen innvirkning på svarene hvilket kjønn modellen favoriserer veksler vi på denne beskrivelsen.
+Halvparen av respondentene får vite at modellen har en bias til fordel for menn, mens den andre halvparten av respondentene får vite at modellen favoriserer kvinner.
+Spiller det noen rolle hvilket kjønn modellen favoriserer?
+Resultatene viser at det gjør det.</p>
+<p>I figuren under ser vi at det er i de tilfeller hvor menn blir fordelaktig behandlet ved bruk av den mest treffsikre modellen at flertallet ønsker å bruke en modell som sikrer likebehandling av kjønn.
+Det er en signifikant større andel av respondentene som foretrekker paritetsprinsippet når menn har fordel av den treffsikre modellen enn når kvinner har det.</p>
+<p>Hva dette skyldes vet vi ikke.
+Man ser liknende kjønnseffekter i eksperimenter om politisk representasjon, hvor kvinnelige kandidater jevnt over foretrekkes i noe høyere grad enn mannlige kandidater gjør (Schwarz &amp; Coppock 2020).
+I den litteraturen pekes det på forklaringer om at folk er motivert ut fra et ønske om å kompensere for historisk underrepresentasjon av kvinner i politiske stillinger.
+Hvorvidt det ligger liknende strukturelle motivasjoner for våre resultater, psykologiske faktorer, eller andre forhold er et interessant forskningsspørsmål som vi ikke har data til å besvare, og som derfor bør studeres videre.</p>
+<p><img src="figs/png/fig_parity_treat_avg.png" /></p>
+<p>Det vi imidlertid ser, og til forskjell fra litteraturen om politisk representasjon, er at kvinner responderer noe mer på informasjon om hvilket kjønn som kommer best ut av en modell som prioriterer treffsikkerhet.
+Både menn og kvinner foretrekker paritetsmodellen oftere i de tilfellene kvinnene kommer dårlig ut av treffsikkerhetsmodellen enn i de tilfellene hvor menn kommer dårlig ut av samme modell, men denne effekten er noe sterkere hos kvinner enn menn.</p>
+<p>Det er også en generell forskjell blant respondentene i den forstand at kvinner i sterkere grad foretrekker paritetsmodellen enn menn gjør, uavhengig av om det er menn eller kvinner som kommer best ut av det.</p>
+<p><img src="figs/png/fig_parity_treat_avg_by_gender.png" />
+Vi observerer også en modererende effekt av kunnskap om maskinlæring:
+Jevnt over ser vi at jo høyere kunnskap om maskinlæring, desto høyere andel modellen som prioriterer treffsikkerhet framfor statistisk paritet.
+Det her er igjen verdt å nevne at slike bivariate, statistiske sammehenger ikke sier noe om årsakssammenhenger.
+SKAL VI TA MED DENNE FIGUREN? DEN PASSER IKKE SUPERGODT INN I NARRATIVET, OG ER VANSKELIG Å DISKUTERE.
+<img src="figs/png/fig_parity_treat_avg_by_ml_know.png" /></p>
 
 </div>
             </section>
@@ -134,12 +210,11 @@
           </div>
         </div>
       </div>
-<a href="systematikk.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="kunstig-intelligens-i-forvaltningen.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="input.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -158,6 +233,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -178,6 +254,10 @@ gitbook.start({
 "text": null
 },
 "download": ["NAV.pdf", "NAV.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

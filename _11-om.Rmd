@@ -8,7 +8,7 @@ Arnesen er Norges nasjonale koordinator for European Social Survey, og leder for
 
 **Mikael P. Johannesson** er forsker ved NORCE, og PhD-kandidat ved Institutt for sammenliknende politikk, UiB.
 Han har bred erfaring med eksperimentelle metoder, maskinlæring (inkludert deep learning), og surveyforskning.
-Johannesson har utviklerkompetanse i statistikkprogrammet R, samt erfaring med Python (inkludert TensorFlow og Keras). Arnesen og Johannesson vil være omtrent likt involvert i prosjektet. 
+Johannesson har utviklerkompetanse i statistikkprogrammet R, samt erfaring med Python (inkludert TensorFlow og Keras). 
 
 ## Referansegruppe 
 
@@ -21,18 +21,19 @@ Han har blant annet forsket på lokaldemokrati og tilfredshet med offentlige tje
 
 ## Data
 
-Datagrunnlaget for denne rapporten er samlet inn i Norsk medborgerpanel.
+Datagrunnlaget for denne rapporten er samlet inn i Norsk medborgerpanels runde 22 og 23.
 Norsk medborgerpanel er en internettbasert undersøkelse om nordmenns holdninger til viktige samfunnstema.
-
 Panelet drives av samfunnsforskere ved Universitetet i Bergen og NORCE, og er et non-profit prosjekt utelukkende benyttet til forskningsformål. 
 Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.
 
-Panelet blir driftet av Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE).
+Panelet blir driftet av [Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE)](www.digsscore.uib.no).
 
 Samlet antall respondenter som svarte på deler av denne undersøkelsen var 3971.
 Typisk antall respondenter for hvert spørsmål er om lag 2000.
 
 Mer informasjon om datagrunnlaget presenteres i rapportens vedlegg XX. 
+Data er åpent tilgjengelig for forskere, og kan lastes ned ved å kontakte [Sikt – Kunnskapssektorens tjenesteleverandør (tidligere kjent som NSD)](https://sikt.no/).
+[Metoderapport for data kan lastes ned her.](https://www.uib.no/en/digsscore/122162/methodology-and-field-periods)
 
 ## Finansiering
 Forskningsrapporten er finansiert av [NAV Forskning og Utvikling](https://www.nav.no/no/nav-og-samfunn/kunnskap/fou-midler/pagaende-fou-prosjekter2/navs-tiltak-og-virkemidler).

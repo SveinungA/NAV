@@ -1,3 +1,9 @@
 # Inputvariabler {#input}
 
-Her presenteres eksperimentet om inputvariabler
+
+![](figs/png/fig_vars_avg.png)
+![](figs/png/fig_vars_hist.png)
+
+![](figs/png/fig_vars_avg_utd.png)
+
+![](figs/png/fig_vars_avg_ml_know.png)

@@ -1,3 +1,0 @@
-# Maskinlæring i skjønnsvurderinger {#systematikk}
-
-Her kommer eksperimentet om bruk av kunstig intelligens hvis noen grupper systematisk blir forskjellsbehandlet.
