@@ -1,29 +1,33 @@
 # Kunstig intelligens i forvaltningen
 
+- Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens
+
+- Innbyggerne er delt i oppfatningen om bruken av maskinlæring og kunstig intelligens i forvaltningen er noe å bekymre seg over
+
+- De som oppfatter at de har god kunnskap om maskinlæring er mer positive til bruk av kunstig intelligens i forvaltningen
+
+- Det er en omvendt U-formet sammenheng mellom selvplassering på politisk høyre/venstre-skala og oppslutning om bruk av kunstig intelligens: 
+Innbyggere som plasserer seg mot midten av det politiske spekteret er mer positive enn de som plasserer seg mot en av endene på skalaen.
+
 ## Norske innbyggeres kjennskap og følelser knyttet til maskinlæring og kunstig intelligens
 
 Maskinlæring som databehandlingsmetode er relativt fersk.
 Med økt datakraft og økt tilgang på data, har bruk av maskinlæring bredt om seg innenfor datavitenskapelige miljøer.
-
-I befolkningen for øvrig er det antatt lite kjennskap til maskinlæring og kunstig intelligens.
-I forkant av spørsmålene får derfor alle en liten introduksjon til hva det er.
-
-De blir opplyst at å bruke maskinlæring innebærer å få datamaskiner til å lære seg å løse oppgaver basert på et datamateriale. 
-Ofte kan datamaskinen bli ekstremt treffsikker, men det krever typisk veldig mye datamateriale. 
-Maskinlæring er i dag grunnlaget for alt fra automatisk stemmegjenkjenning til førerløse biler.
-Den offentlige forvaltningen, inkludert NAV, bruker i enkelte tilfeller maskinlæring for å hjelpe med å ta beslutninger i saker de har ansvar for. 
-Formålet er å redusere kostnader og behandlingstid, og å gjøre beslutninger bedre og mer treffsikre. 
-Et eksempel kan være å lære en datamaskin å forutsi omtrent hvor lenge en person vil være sykmeldt, basert på informasjon om sykdommen og personen. 
-Det kan en saksbehandler da bruke for å velge passende tiltak.
-
-Etter denne korte introduksjonen kartlegger vi deres kjennskap og holdninger rundt bruk av maskinlæring i den offentlige forvaltningen. 
-
-
+I befolkningen for øvrig er det lite kjennskap til maskinlæring og kunstig intelligens.
 Bare en av syv innbyggere oppgir at de har god eller svært god kjennskap til maskinlæring og kunstig intelligens, mens nesten to tredjeler sier at de har liten eller ingen kjennskap til det i det hele tatt.
 
-![Kjennskap til maskinlæring](figs/png/fig_ml_knowledge.png)
+<!-- I forkant av spørsmålene får derfor alle en liten introduksjon til hva det er. -->
+<!-- De blir opplyst at å bruke maskinlæring innebærer å få datamaskiner til å lære seg å løse oppgaver basert på et datamateriale.  -->
+<!-- Ofte kan datamaskinen bli ekstremt treffsikker, men det krever typisk veldig mye datamateriale.  -->
+<!-- Maskinlæring er i dag grunnlaget for alt fra automatisk stemmegjenkjenning til førerløse biler. -->
+<!-- Den offentlige forvaltningen, inkludert NAV, bruker i enkelte tilfeller maskinlæring for å hjelpe med å ta beslutninger i saker de har ansvar for.  -->
+<!-- Formålet er å redusere kostnader og behandlingstid, og å gjøre beslutninger bedre og mer treffsikre.  -->
+<!-- Et eksempel kan være å lære en datamaskin å forutsi omtrent hvor lenge en person vil være sykmeldt, basert på informasjon om sykdommen og personen.  -->
+<!-- Det kan en saksbehandler da bruke for å velge passende tiltak. -->
+<!-- Etter denne korte introduksjonen kartlegger vi deres kjennskap og holdninger rundt bruk av maskinlæring i den offentlige forvaltningen.  -->
 
-### Bekymring for maskinlæring
+![](figs/png/fig_ml_knowledge.png)
+
 Innbyggerne er delt i synet på grad av bekymring knyttet til bruk av maskinlæring og kunstig intelligens i den offentlige forvaltningen. 
 
 ![Bekymring for maskinlæring](figs/png/fig_ml_worried.png)
@@ -78,15 +82,6 @@ Vi noterer oss også at de som plasserer seg lengst til høyre også er mindre v
 
 ![](figs/png/fig_relval_polscale.png){width='70%'}
 
-## Oppsummering
-
-- Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens
-
-- Innbyggerne er delt i oppfatningen om bruken av maskinlæring og kunstig intelligens i forvaltningen er noe å bekymre seg over
-
-- De som oppfatter at de har god kunnskap om maskinlæring er mer positive til bruk av kunstig intelligens i forvaltningen
-
-- Det er en omvendt U-formet sammenheng mellom selvplassering på politisk høyre/venstre-skala og oppslutning om bruk av kunstig intelligens: Innbyggere som plasserer seg mot midten av det politiske spekteret er mer positive enn de som plasserer seg mot en av endene på skalaen.
 
 Det er viktig å ha i mente at de to siste kulepunktene omhandler svar som blir gitt i en spesifikk "framing" av kunstig intelligens; nemlig en situasjon hvor bruken av kunstig intelligens påvirker beslutningene på en måte som gjør dem mer treffsikre, men samtidig mer systematisk feildiagnostiserer. 
 

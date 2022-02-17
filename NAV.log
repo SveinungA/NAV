@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.4)  17 FEB 2022 10:08
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.4)  17 FEB 2022 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1044,7 +1044,7 @@ File: figs/png/fig_attinfluence_by_be.png Graphic file (type bmp)
 File: figs/png/fig_attinfluence_by_contact.png Graphic file (type bmp)
 <figs/png/fig_attinfluence_by_contact.png>
 
-Overfull \hbox (56.26808pt too wide) in paragraph at lines 348--352
+Overfull \hbox (56.26808pt too wide) in paragraph at lines 349--353
 \TU/lmr/m/n/10 NIFIKANT. [] 
  []
 

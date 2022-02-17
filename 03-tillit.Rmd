@@ -5,6 +5,17 @@ Kapitlet danner grunnlaget for å forstå konteksten når vi senere fokuserer me
 Vi måler folks tillit til NAV, samt deres erfaring med og kjennskap til NAV.
 Vi måler også i hvilken grad innbyggerne opplever at de forstår hvordan organisasjonen fungerer, og i hvilken grad de opplever at deres interesser blir ivaretatt i systemet.
 
+Vi finner at 
+
+- over halvparten av innbyggerne har vært i personlig kontakt med saksbehandler i NAV, men mange oppgir likevel at de har liten kjennskap til NAV.
+
+- innbyggerne har middels til høy tillit til NAV. Det er få som oppgir å ha svært høy tillit eller ingen tillit i det hele tatt.
+
+- flertallet av innbyggerne opplever at de er i stand til å få de tjenestene de har krav på fra det offentlige. Dette på tross av at mange opplever forvaltningen som krevende å forstå.
+
+- innbyggerne i liten til noen grad mener at saksbehandlere i NAV lar seg påvirke av egne holdninger. Det skiller lite mellom hvilke områder av NAVs ansvarsområde man spør etter.
+
+
 ## Erfaring med og kjennskap til NAV
 
 Et flertall av innbyggerne i Norge har hatt befatning med NAV i en eller annen form. 
@@ -98,17 +109,4 @@ Jo høyere byråkratisk kompetanse en innbygger har, desto mindre mener man at s
 I utvalget mener de som har vært i personlig kontakt med en saksbehandler i NAV i litt større grad at saksbehandlerne lar seg påvirke av egne holdninger. 
 Forskjellen er imidlertid ikke stor, og HELLER IKKE STATISTISK SIGNIFIKANT.
 ![](figs/png/fig_attinfluence_by_contact.png)
-
-## Oppsummering
-
-Dette kapitlet har gitt oss oppdaterte data på innbyggere i Norges relasjon til NAV.
-Vi ser at 
-
-- over halvparten av innbyggerne har vært i personlig kontakt med saksbehandler i NAV, men mange oppgir likevel at de har liten kjennskap til NAV.
-
-- innbyggerne har middels til høy tillit til NAV. Det er få som oppgir å ha svært høy tillit eller ingen tillit i det hele tatt.
-
-- flertallet av innbyggerne opplever at de er i stand til å få de tjenestene de har krav på fra det offentlige. Dette på tross av at mange opplever forvaltningen som krevende å forstå.
-
-- innbyggerne i liten til noen grad mener at saksbehandlere i NAV lar seg påvirke av egne holdninger. Det skiller lite mellom hvilke områder av NAVs ansvarsområde man spør etter.
 
