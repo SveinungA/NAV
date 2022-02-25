@@ -67,7 +67,7 @@ Data er åpent tilgjengelig for forskere, og kan lastes ned ved å kontakte [Sik
 
 ## Finansiering
 Forskningsrapporten er finansiert av [NAV Forskning og Utvikling](https://www.nav.no/no/nav-og-samfunn/kunnskap/fou-midler/pagaende-fou-prosjekter2/navs-tiltak-og-virkemidler).
-Finansieringen er bidragsfinansiert, det vil si uten krav til motytelse. 
+Finansieringen er bidragsfinansiert.
 
 ```{r}
 ncp21_raw <- import('C:/Users/svein/OneDrive - NORCE/Infrastruktur/Digsscore/Medborgerpanelet/2021-2/Norsk medborgerpanel - runde 21 - v-100-O.sav')

@@ -17,8 +17,8 @@ Vi har tidligere sett at mange innbyggere tror at saksbehandlere i NAV lar seg p
 Med dette som bakteppe er det grunn til å anta at innbyggerne ønsker at saksbehandlerne deler erfaringsbakgrunn med dem selv, slik at de forstår deres situasjon kanskje bedre enn en saksbehandler som har en helt annen bakgrunn.
 
 Vi undersøker dette med utgangspunkt i en et design hentet fra en studie om deskriptiv representasjon i politiske beslutningsprosesser.
-Hvilke egenskaper -- om noen -- ønsker innbyggerneat saksbehandlerne deler med dem?
-Figuen under viser at deskriptiv representasjon generelt er lite viktig for innbyggerne.
+Hvilke egenskaper -- om noen -- ønsker innbyggerne at saksbehandlerne deler med dem?
+Figuren under viser at deskriptiv representasjon generelt er lite viktig for innbyggerne.
 Minst viktig er seksuell legning, mens arbeidserfaring og utdanningsnivå troner øverst.
 
 Med vårt fokus på maskinlæring og kunstig intelligens ønsker vi å vite om behovet for deskriptiv representasjon i byråkratiet påvirkes når forvaltningen i tar i bruk dette verktøyet.
