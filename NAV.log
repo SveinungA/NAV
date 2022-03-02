@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.4)  25 FEB 2022 15:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.4)  1 MAR 2022 09:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,15 +973,15 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 [4]
 Chapter 1.
-[5
 
-]
-Underfull \hbox (badness 2042) in paragraph at lines 132--134
+Underfull \hbox (badness 2042) in paragraph at lines 123--125
 []\TU/lmr/bx/n/10 Jacob Aars \TU/lmr/m/n/10 er professor ved []Institutt for ad
 ministrasjons- og organ-
  []
 
-[6]
+[5
+
+] [6]
 Chapter 2.
 [7
 
@@ -989,16 +989,16 @@ Chapter 2.
 Chapter 3.
 
 Package natbib Warning: Citation `duwe2017effects' on page 11 undefined on inpu
-t line 235.
+t line 224.
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 240--244
+Underfull \hbox (badness 5359) in paragraph at lines 229--233
 \TU/lmr/m/n/10 Obama publiserte rapporter hvor de uttrykte bekymring for “kode-
 
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 240--244
+Underfull \hbox (badness 1292) in paragraph at lines 229--233
 \TU/lmr/m/n/10 av skjulte, upresise, og diskriminerende automatiske beslutnings
 prosesser
  []
@@ -1041,7 +1041,7 @@ File: figs/png/fig_attinfluence_by_be.png Graphic file (type bmp)
 File: figs/png/fig_attinfluence_by_contact.png Graphic file (type bmp)
 <figs/png/fig_attinfluence_by_contact.png>
 
-Overfull \hbox (56.26808pt too wide) in paragraph at lines 432--436
+Overfull \hbox (56.26808pt too wide) in paragraph at lines 421--425
 \TU/lmr/m/n/10 NIFIKANT. [] 
  []
 
@@ -1121,13 +1121,13 @@ Package natbib Warning: There were undefined citations.
 
 [41] (./NAV.aux)
 Package rerunfilecheck Info: File `NAV.out' has not changed.
-(rerunfilecheck)             Checksum: A2671D38A2CDA86CDEFBFFBAA7BBD094;3554.
+(rerunfilecheck)             Checksum: 43C863ECFD286ABA2628D4E03D57D62B;3421.
  ) 
 Here is how much of TeX's memory you used:
- 18628 strings out of 478190
- 345168 string characters out of 5853155
- 783073 words of memory out of 5000000
- 38924 multiletter control sequences out of 15000+600000
+ 18627 strings out of 478190
+ 345151 string characters out of 5853155
+ 783031 words of memory out of 5000000
+ 38923 multiletter control sequences out of 15000+600000
  475816 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,6n,121p,702b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
