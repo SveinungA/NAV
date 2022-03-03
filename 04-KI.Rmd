@@ -36,6 +36,21 @@ Innbyggerne er delt i synet på grad av bekymring knyttet til bruk av maskinlær
 
 2. ER DET MANGEL PÅ KUNNSKAP SOM LEDER TIL BEKYMRING?
 
+I en tidligere runde av Norsk medborgerpanel i 2018 svarte XX prosent at de trodde beslutningene ble bedre med mer automatisert forvaltning, mens XX trodde de ville bli dårligere.
+Respondentene ble bedt om å begrunne svarene.
+
+|Bedre          |             Dårligere |
+|---------------|-----------------------|
+| Redusere forskjellsbehandling | Fremmedgjørende for brukere
+| Mer effektivt | Klarer ikke utvise skjønn |
+
+>Jeg tror kunstig intelligens, maskinlæring og annen bruk av teknologi vil gjøre det lettere å ta vanskeligere beslutninger på mange områder. 
+Men det er ikke helt uten ulemper, for eksempel vil det kreve ekspertise hvis man vil undersøke hvilke parametre som ligger bak en beslutning.
+Og det vil på sikt gi et mindre gjennomsiktig byråkrati.
+Men totalt sett tror jeg de offentlige tjenestene vil forbedres.
+  - Respondent i Norsk medborgerpanel 
+
+og det som gikk igjen var at mange mangler troen på at algoritmer kan ta over beslutninger hvor det trengs å utvises skjønn.
 ### Interesser ivaretatt med maskinlæring?
 
 Det er naturlig å se maskinlæring og kunstig intelligens i NAV i sammenheng med spørsmål som ligger nær opptil byråkratisk kompetanse.

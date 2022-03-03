@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.4)  1 MAR 2022 09:30
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.4)  3 MAR 2022 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,44 +973,49 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 [4]
 Chapter 1.
+File: figs/png/nav_ordsky.png Graphic file (type bmp)
+<figs/png/nav_ordsky.png>
 
-Underfull \hbox (badness 2042) in paragraph at lines 123--125
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[5
+
+]
+Underfull \hbox (badness 2042) in paragraph at lines 125--127
 []\TU/lmr/bx/n/10 Jacob Aars \TU/lmr/m/n/10 er professor ved []Institutt for ad
 ministrasjons- og organ-
  []
 
-[5
+[6] [7] [8
 
-] [6]
+]
 Chapter 2.
-[7
-
-] [8] [9] [10]
+[9] [10] [11] [12]
 Chapter 3.
 
-Package natbib Warning: Citation `duwe2017effects' on page 11 undefined on inpu
-t line 224.
+Package natbib Warning: Citation `duwe2017effects' on page 13 undefined on inpu
+t line 228.
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 229--233
+Underfull \hbox (badness 5359) in paragraph at lines 233--237
 \TU/lmr/m/n/10 Obama publiserte rapporter hvor de uttrykte bekymring for “kode-
 
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 229--233
+Underfull \hbox (badness 1292) in paragraph at lines 233--237
 \TU/lmr/m/n/10 av skjulte, upresise, og diskriminerende automatiske beslutnings
 prosesser
  []
 
-[11
+[13
 
-] [12]
+] [14]
 File: NAV_files/figure-latex/dag-1.pdf Graphic file (type pdf)
 <use NAV_files/figure-latex/dag-1.pdf>
-[13] [14]
+[15] [16]
 Chapter 4.
-[15
+[17
 
 ]
 File: figs/png/fig_nav_personal_contact.png Graphic file (type bmp)
@@ -1019,13 +1024,13 @@ File: figs/png/fig_nav_knowledge.png Graphic file (type bmp)
 <figs/png/fig_nav_knowledge.png>
 File: figs/png/fig_nav_trust.png Graphic file (type bmp)
 <figs/png/fig_nav_trust.png>
-[16] [17]
+[18] [19]
 File: figs/png/fig_be_hist.png Graphic file (type bmp)
 <figs/png/fig_be_hist.png>
-[18]
+[20]
 File: figs/png/fig_be_coefs_by_type.png Graphic file (type bmp)
 <figs/png/fig_be_coefs_by_type.png>
-[19]
+[21]
 File: figs/png/fig_be_by_navtrust.png Graphic file (type bmp)
 <figs/png/fig_be_by_navtrust.png>
 File: figs/png/fig_nav_exp_attinfluence_all.png Graphic file (type bmp)
@@ -1035,44 +1040,51 @@ File: figs/png/fig_nav_exp_attinfluence_area.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[20]
+[22]
 File: figs/png/fig_attinfluence_by_be.png Graphic file (type bmp)
 <figs/png/fig_attinfluence_by_be.png>
 File: figs/png/fig_attinfluence_by_contact.png Graphic file (type bmp)
 <figs/png/fig_attinfluence_by_contact.png>
 
-Overfull \hbox (56.26808pt too wide) in paragraph at lines 421--425
+Overfull \hbox (56.26808pt too wide) in paragraph at lines 425--429
 \TU/lmr/m/n/10 NIFIKANT. [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[21] [22]
+[23] [24]
 Chapter 5.
 File: figs/png/fig_ml_knowledge.png Graphic file (type bmp)
 <figs/png/fig_ml_knowledge.png>
-[23
+[25
 
 ]
 File: figs/png/fig_ml_worried.png Graphic file (type bmp)
 <figs/png/fig_ml_worried.png>
+[26]
 File: figs/png/fig_nav_ml_helps_interest.png Graphic file (type bmp)
 <figs/png/fig_nav_ml_helps_interest.png>
-[24] [25]
+[27]
 File: figs/png/fig_relval_ml_know.png Graphic file (type bmp)
 <figs/png/fig_relval_ml_know.png>
-[26]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[28]
 File: figs/png/fig_relval_polscale.png Graphic file (type bmp)
 <figs/png/fig_relval_polscale.png>
-[27] [28
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[29] [30]
+Chapter 6.
+[31
 
 ]
-Chapter 6.
-[29]
 File: figs/png/fig_parity_avg.png Graphic file (type bmp)
 <figs/png/fig_parity_avg.png>
-[30]
+[32]
 File: figs/png/fig_parity_treat_avg.png Graphic file (type bmp)
 <figs/png/fig_parity_treat_avg.png>
 File: figs/png/fig_parity_treat_avg_by_gender.png Graphic file (type bmp)
@@ -1082,8 +1094,11 @@ File: figs/png/fig_parity_treat_avg_by_ml_know.png Graphic file (type bmp)
 
 Underfull \vbox (badness 6510) has occurred while \output is active []
 
-[31] [32]
+[33] [34]
 Chapter 7.
+[35
+
+]
 File: figs/png/fig_vars_avg.png Graphic file (type bmp)
 <figs/png/fig_vars_avg.png>
 File: figs/png/fig_vars_hist.png Graphic file (type bmp)
@@ -1091,45 +1106,44 @@ File: figs/png/fig_vars_hist.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[33
-
-]
-Overfull \vbox (78.09926pt too high) has occurred while \output is active []
-
-[34]
+[36]
 File: figs/png/fig_vars_avg_utd.png Graphic file (type bmp)
 <figs/png/fig_vars_avg_utd.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[37]
 File: figs/png/fig_vars_avg_ml_know.png Graphic file (type bmp)
 <figs/png/fig_vars_avg_ml_know.png>
-[35] [36
+
+Underfull \hbox (badness 1742) in paragraph at lines 672--674
+[]\TU/lmr/m/n/10 (LITREV: HVORDAN RELATERER DETTE SEG TIL HVA ANDRE
+ []
+
+[38]
+Chapter 8.
+[39
 
 ]
-Chapter 8.
-[37]
 File: figs/png/fig_exp_repr_each.png Graphic file (type bmp)
 <figs/png/fig_exp_repr_each.png>
-File: figs/png/fig_exp_repr_avg.png Graphic file (type bmp)
-<figs/png/fig_exp_repr_avg.png>
-(./NAV.bbl
-Underfull \vbox (badness 2134) has occurred while \output is active []
-
-[38] [39] [40
-
-])
+(./NAV.bbl [40])
 
 Package natbib Warning: There were undefined citations.
 
-[41] (./NAV.aux)
+[41
+
+] (./NAV.aux)
 Package rerunfilecheck Info: File `NAV.out' has not changed.
-(rerunfilecheck)             Checksum: 43C863ECFD286ABA2628D4E03D57D62B;3421.
+(rerunfilecheck)             Checksum: A77F6A69C268C4B7282A65C2AC03F5D9;3558.
  ) 
 Here is how much of TeX's memory you used:
- 18627 strings out of 478190
- 345151 string characters out of 5853155
- 783031 words of memory out of 5000000
- 38923 multiletter control sequences out of 15000+600000
- 475816 words of font info for 82 fonts, out of 8000000 for 9000
+ 18646 strings out of 478190
+ 345650 string characters out of 5853155
+ 784232 words of memory out of 5000000
+ 38943 multiletter control sequences out of 15000+600000
+ 475808 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,6n,121p,702b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,6n,121p,959b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on NAV.pdf (41 pages).
