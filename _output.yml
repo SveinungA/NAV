@@ -16,4 +16,4 @@ bookdown::pdf_book:
 bookdown::epub_book: default
 bookdown::bs4_book:
   theme:
-    primary: "#637238"
+    primary: "#3408AC"

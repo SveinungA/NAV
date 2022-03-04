@@ -4,9 +4,9 @@
 %
 \documentclass[
 ]{book}
-\title{Demokratiske algoritmer}
+\title{\includegraphics[width=1in,height=\textheight]{norce_logo.png}}
 \author{}
-\date{\vspace{-2.5em}2022-03-03}
+\date{\vspace{-2.5em}2022-03-04}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -40,7 +40,6 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Demokratiske algoritmer},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
@@ -107,13 +106,13 @@
 \hypertarget{forfattere}{%
 \section{Forfattere}\label{forfattere}}
 
-\textbf{Sveinung Arnesen} er Forsker I og faglig leder for Demokrati og innovasjon ved \href{https://www.norceresearch.no/personer/sveinung-arnesen}{NORCE}, og førsteamanuensis II ved \href{https://www.uib.no/personer/Sveinung.Arnesen}{Institutt for administrasjons- og organisasjonsvitenskap}, UiB.
-PhD-graden ble avlagt ved \href{https://www.uib.no/sampol}{Institutt for sammenliknende politikk, UiB}.
-Arnesen er Norges nasjonale koordinator for \href{europeansocialsurvey.org}{Den europeiske samfunnsundersøkelsen (ESS)}. \href{https://orcid.org/0000-0002-2825-0664}{ORCID}. \href{https://scholar.google.com/citations?user=xz8JwjAAAAAJ\&hl=no\&oi=ao}{Google Scholar}.
-
 \textbf{Mikael P. Johannesson} er forsker ved NORCE, og PhD-kandidat ved Institutt for sammenliknende politikk, UiB.
 Han har bred erfaring med eksperimentelle metoder, maskinlæring (inkludert deep learning), og surveyforskning.
 Johannesson har utviklerkompetanse i statistikkprogrammet R, samt erfaring med Python (inkludert TensorFlow og Keras).
+
+\textbf{Sveinung Arnesen} er Forsker I og faglig leder for Demokrati og innovasjon ved \href{https://www.norceresearch.no/personer/sveinung-arnesen}{NORCE}, og førsteamanuensis II ved \href{https://www.uib.no/personer/Sveinung.Arnesen}{Institutt for administrasjons- og organisasjonsvitenskap}, UiB.
+PhD-graden ble avlagt ved \href{https://www.uib.no/sampol}{Institutt for sammenliknende politikk, UiB}.
+Arnesen er Norges nasjonale koordinator for \href{europeansocialsurvey.org}{Den europeiske samfunnsundersøkelsen (ESS)}. \href{https://orcid.org/0000-0002-2825-0664}{ORCID}. \href{https://scholar.google.com/citations?user=xz8JwjAAAAAJ\&hl=no\&oi=ao}{Google Scholar}.
 
 \hypertarget{referansegruppe}{%
 \section{Referansegruppe}\label{referansegruppe}}
@@ -146,6 +145,12 @@ Data er åpent tilgjengelig for forskere, og kan lastes ned ved å kontakte \hre
 
 Forskningsrapporten er finansiert av \href{https://www.nav.no/no/nav-og-samfunn/kunnskap/fou-midler/pagaende-fou-prosjekter2/navs-tiltak-og-virkemidler}{NAV Forskning og Utvikling}.
 Finansieringen er bidragsfinansiert.
+
+\hypertarget{sitering}{%
+\section{Sitering}\label{sitering}}
+
+Ved referering til rapporten, vennligst bruk følgende sitering:
+Johannesson, Mikael P., Sveinung Arnesen (2022): Demokratiske algoritmer. Norce-rapport \#\ldots, Bergen, mars 2022. Url: \url{https://bookdown.org/sveinungarnesen78/NAV/}.
 
 \hypertarget{sammendrag}{%
 \chapter{Utvidet sammendrag}\label{sammendrag}}
@@ -679,7 +684,7 @@ Den dominerende forståelsen av hva det norske politisk-administrative systemet 
 Innbyggernes demokratiske innflytelse skjer under utformingen av politikken, mens forvaltningen utfører den vedtatte politikken på en upartisk måte \citep{rothstein2009creating, rosanvallon2011democratic}.
 Spørsmål knyttet til politisk representasjon har derfor i hovedsak fokusert på input-siden av det politiske systemet hvor politikk vedtas, heller enn på output-siden hvor politikk gjennomføres.
 
-Et unntak er litteraturen om \emph{representativt byråkrati} \citep{krislov2012representative}, som anerkjenner at menneskene som utgjør forvaltningen har en påvirkning på hvilken politikk som blir gjennomført.
+Et unntak er litteraturen om \emph{representativt byråkrati} \citep{krislov2012representative, lim2006representative}, som anerkjenner at menneskene som utgjør forvaltningen har en selvstendig påvirkning på hvilken politikk som blir gjennomført.
 Alle mennesker har systematiske bias som i større eller mindre grad former deres holdninger og atferd.
 Det er ikke realistisk å anta at saksbehandlere fullt og helt klarer å legge fra seg egne bias i sitt arbeid, selv ikke i profesjoner hvor objektivitet etterstrebes.
 En måte å utlikne bias er å sørge for at saksbehandlernes bakgrunn reflekterer befolkningen.
@@ -687,23 +692,52 @@ I det representative byråkratiet skal derfor forvaltningsstaben utgjøre et tve
 
 Vi har tidligere sett at mange innbyggere tror at saksbehandlere i NAV lar seg påvirke i noen grad av egne holdninger.
 Med dette som bakteppe er det grunn til å anta at innbyggerne ønsker at saksbehandlerne deler erfaringsbakgrunn med dem selv, slik at de forstår deres situasjon kanskje bedre enn en saksbehandler som har en helt annen bakgrunn.
-
-Vi undersøker dette med utgangspunkt i en et design hentet fra en studie om deskriptiv representasjon i politiske beslutningsprosesser.
-Deskriptiv representasjon er et viktig konsept innenfor studiet av politisk representasjon \citep{pitkin1967concept}.
-Velgere ønsker å bli representert av kandidater som deler deres sosiale bakgrunn, ikke minst fordi de antar at disse kandidatene deler deres politiske interesser og vil ivareta dem på en god måte \citep{arnesen2019citizens}.
-Deskriptiv representasjon et begrep som gir mening å studere i sammenheng med representativt byråkrati.
+Vi undersøker dette med utgangspunkt i en et design hentet fra en studie om deskriptiv representasjon i politiske beslutningsprosesser \citep{arnesen2019citizens}.
 Vi spør:
 Hvilke egenskaper -- om noen -- ønsker innbyggerne at saksbehandlerne deler med dem?
 
-Med vårt fokus på maskinlæring og kunstig intelligens ønsker vi å vite om behovet for deskriptiv representasjon i byråkratiet påvirkes når forvaltningen i tar i bruk dette verktøyet.
-Det er ikke åpenbart på forhånd hvordan denne utviklingen vil slå ut.
+Deskriptiv representasjon er et viktig konsept innenfor studiet av politisk representasjon, og en av fire former for representasjon slik det ble beskrevet i Hannah Pitkins klassiker \emph{The Concept of Representation} \citeyearpar{pitkin1967concept}.
+Deskriptiv representasjon omhandler det å bli representert av kandidater som deler deres sosiale bakgrunn, ikke minst fordi de antar at disse kandidatene deler deres politiske interesser og vil ivareta dem på en god måte.
+\emph{Byråkratisk representasjon} og \emph{deskriptiv representasjon} er konsepter som i stor grad overlapper hverandre, med unntak av at de har blitt utviklet i forskningstradisjoner som studerer henholdsvis input- og output-siden av det politiske systemet.
+
+Med vårt fokus på maskinlæring og kunstig intelligens ønsker vi å vite om behovet for representativt byråkrati påvirkes når forvaltningen tar i bruk dette verktøyet.
+Det er ikke åpenbart på forhånd hvordan det vil slå ut.
 På den ene siden kan behovet for at saksbehandlerne deler ens sosiale bakgrunn bli mindre viktig, ettersom alle beslutninger blir mer strømlinjeformede og dermed mindre påvirket av saksbehandlernes bakgrunn.
 På den andre siden kan innbyggerne oppleve at man med denne strømlinjeformingen går glipp av viktige nyanser i hver enkelt avgjørelse, og at det er nettopp i slike situasjoner at man er avhengive av saksbehandlere som har forståelse for innbyggernes situasjon og kan gå inn og korrigere i enkelttilfeller.
 
-Resultatene fra eksperimentet viser at folk jevnt over blir mer opptatt av deskriptiv representasjon når forvaltningen benytter seg av maskinlæring og kunstig intelligens som beslutningsstøtte.
-Vi velger å tolke dette som at kunstig intelligens fører til ytterligere fremmedgjøring av beslutningsprosesser i forvaltningen, som igjen presser fram et følt behov for å ha noen beslutningstakere som kjenner deres situasjon og kan ivarete deres rettigheter og interesser i denne prosessen.
+Det er gjort lite forskning akkurat på hvordan maskinlæring og kunstig intelligens påvirker innbyggeres preferanser for representativt byråkrati.
+Ett unntak er en studie av hvite og svarte innbyggere i USA, og deres preferanser for enten videoovervåkning av lyskryss eller å ha politibetjenter til å overvåke lyskrysset for å fange opp bilister som kjører på rødt lys.
+I deres tilfelle fant man at svarte innbyggere i vesentlig høyere grad foretrakk den automatiserte løsningen med kameraovervåkning heller enn politibetjenter, men kun i de tilfellene hvor politibetjentene var hvite.
+Denne inngruppeeffekten viser hvordan tillit til myndighetene kan påvirkes av hvilken bakgrunn myndighetspersonene innbyggerne møter har.
+
+Vi stilte tilbake i 2018 spørsmål til respondentene i Norsk medborgerpanel om de trodde økt grad av automatisering ville gjøre forvaltningen verre eller bedre, og ba dem begrunne svaret i en åpen tekstboks.
+I tillegg til mer effektiv behandling mente respondentene at redusert forskjellsbehandling var ett av punktene hvor de så automatisering som en forbedring.
+De som mente det ville lede til dårligere forvaltning trakk typisk fram at beslutningsprosessen ville virke fremmedgjørende på innbyggerne, og at mulighetene for å utvise skjønn ble redusert.
+En respondent ordla seg slik:
+\textgreater Jeg tror kunstig intelligens, maskinlæring og annen bruk av teknologi vil gjøre det lettere å ta vanskeligere beslutninger på mange områder.
+Men det er ikke helt uten ulemper, for eksempel vil det kreve ekspertise hvis man vil undersøke hvilke parametre som ligger bak en beslutning.
+Og det vil på sikt gi et mindre gjennomsiktig byråkrati.
+Men totalt sett tror jeg de offentlige tjenestene vil forbedres.
+- Respondent i Norsk medborgerpanel
+
+I vår studie spør vi altså respondentene rett fram hvor viktig det er for dem med representativt byråkrati, brutt ned på ulike dimensjoner som kan være relevante.
+Spørsmålsformuleringen er som følger:
+
+\begin{quote}
+La oss si at du var i en situasjon hvor du måtte søke NAV om økonomisk stønad. Dersom du kunne velge en saksbehandler som skulle ivareta dine interesser hos NAV, hvor viktig tror du at egenskapene under ville vært for denne personen?
+\end{quote}
+
+Eksperimentdelen av studien innebærer at vi legger til en ekstra setning til halve utvalget hvor vi opplyser om at maskinlæring brukes i saksbehandlingen:
+
+\begin{quote}
+Som støtte i beslutningsprosessen bruker saksbehandleren kunstig intelligens, basert på maskinlæring, som anbefaler hvem som skal få støtte.
+\end{quote}
 
 \includegraphics{figs/png/fig_exp_repr_each.png}
+Resultatene fra eksperimentet viser at folk jevnt over blir mer opptatt av representativt byråkrati når forvaltningen benytter seg av maskinlæring og kunstig intelligens som beslutningsstøtte.
+Spesielt arbeidserfaring og utdanningsnivå blir viktigere for respondentene.
+Videre forskning bør fokusere på å forstå mekanismene som gjør at representativt byråkrati blir viktigere for innbyggerne når maskinlæring og kunstig intelligens taes i bruk i forvaltningen, og i hvilke situasjoner innbyggerne er mest opptatt av dette.
+Vi velger å tolke dette som at kunstig intelligens fører til ytterligere fremmedgjøring av beslutningsprosesser i forvaltningen, som igjen presser fram et følt behov for å ha noen beslutningstakere som kjenner deres situasjon og kan ivareta deres rettigheter og interesser i denne prosessen.
 
   \bibliography{book.bib,packages.bib}
 

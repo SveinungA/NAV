@@ -1,13 +1,15 @@
 --- 
-title: "Demokratiske algoritmer"
-author: ""
+title: |
+  ![](norce_logo.png){width=1in}  
+  Demokratiske algoritmer
+author: "Mikael P. Johannesson og Sveinung Arnesen"  
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "Hvordan oppnå legitimitet og rettferdighet i automatiserte beslutningsprosesser i offentlig forvaltning"
+description: "Demokratiske algoritmer: Hvordan oppnå legitimitet og rettferdighet i automatiserte beslutningsprosesser i offentlig forvaltning"
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, knitr.kable.NA = " ", cache = FALSE, warning = FALSE)
@@ -35,13 +37,13 @@ if(!require("tidyverse")){install.packages("tidyverse");  library(tidyverse)}
 
 ## Forfattere
 
-**Sveinung Arnesen** er Forsker I og faglig leder for Demokrati og innovasjon ved [NORCE](https://www.norceresearch.no/personer/sveinung-arnesen), og førsteamanuensis II ved [Institutt for administrasjons- og organisasjonsvitenskap](https://www.uib.no/personer/Sveinung.Arnesen), UiB. 
-PhD-graden ble avlagt ved [Institutt for sammenliknende politikk, UiB](https://www.uib.no/sampol). 
-Arnesen er Norges nasjonale koordinator for [Den europeiske samfunnsundersøkelsen (ESS)](europeansocialsurvey.org). [ORCID](https://orcid.org/0000-0002-2825-0664). [Google Scholar](https://scholar.google.com/citations?user=xz8JwjAAAAAJ&hl=no&oi=ao).
-
 **Mikael P. Johannesson** er forsker ved NORCE, og PhD-kandidat ved Institutt for sammenliknende politikk, UiB.
 Han har bred erfaring med eksperimentelle metoder, maskinlæring (inkludert deep learning), og surveyforskning.
 Johannesson har utviklerkompetanse i statistikkprogrammet R, samt erfaring med Python (inkludert TensorFlow og Keras). 
+
+**Sveinung Arnesen** er Forsker I og faglig leder for Demokrati og innovasjon ved [NORCE](https://www.norceresearch.no/personer/sveinung-arnesen), og førsteamanuensis II ved [Institutt for administrasjons- og organisasjonsvitenskap](https://www.uib.no/personer/Sveinung.Arnesen), UiB. 
+PhD-graden ble avlagt ved [Institutt for sammenliknende politikk, UiB](https://www.uib.no/sampol). 
+Arnesen er Norges nasjonale koordinator for [Den europeiske samfunnsundersøkelsen (ESS)](europeansocialsurvey.org). [ORCID](https://orcid.org/0000-0002-2825-0664). [Google Scholar](https://scholar.google.com/citations?user=xz8JwjAAAAAJ&hl=no&oi=ao).
 
 ## Referansegruppe 
 
@@ -70,6 +72,11 @@ Data er åpent tilgjengelig for forskere, og kan lastes ned ved å kontakte [Sik
 ## Finansiering
 Forskningsrapporten er finansiert av [NAV Forskning og Utvikling](https://www.nav.no/no/nav-og-samfunn/kunnskap/fou-midler/pagaende-fou-prosjekter2/navs-tiltak-og-virkemidler).
 Finansieringen er bidragsfinansiert.
+
+## Sitering
+
+Ved referering til rapporten, vennligst bruk følgende sitering:
+Johannesson, Mikael P., Sveinung Arnesen (2022): Demokratiske algoritmer. Norce-rapport #..., Bergen, mars 2022. Url: https://bookdown.org/sveinungarnesen78/NAV/.
 
 ```{r}
 ncp21_raw <- import('C:/Users/svein/OneDrive - NORCE/Infrastruktur/Digsscore/Medborgerpanelet/2021-2/Norsk medborgerpanel - runde 21 - v-100-O.sav')
