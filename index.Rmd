@@ -2,7 +2,7 @@
 title: |
   ![](norce_logo.png){width=1in}  
   Demokratiske algoritmer
-author: "Mikael P. Johannesson og Sveinung Arnesen"  
+author: "Sveinung Arnesen og Mikael P. Johannesson"  
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -37,13 +37,14 @@ if(!require("tidyverse")){install.packages("tidyverse");  library(tidyverse)}
 
 ## Forfattere
 
-**Mikael P. Johannesson** er forsker ved NORCE, og PhD-kandidat ved Institutt for sammenliknende politikk, UiB.
-Han har bred erfaring med eksperimentelle metoder, maskinlæring (inkludert deep learning), og surveyforskning.
-Johannesson har utviklerkompetanse i statistikkprogrammet R, samt erfaring med Python (inkludert TensorFlow og Keras). 
 
 **Sveinung Arnesen** er Forsker I og faglig leder for Demokrati og innovasjon ved [NORCE](https://www.norceresearch.no/personer/sveinung-arnesen), og førsteamanuensis II ved [Institutt for administrasjons- og organisasjonsvitenskap](https://www.uib.no/personer/Sveinung.Arnesen), UiB. 
 PhD-graden ble avlagt ved [Institutt for sammenliknende politikk, UiB](https://www.uib.no/sampol). 
 Arnesen er Norges nasjonale koordinator for [Den europeiske samfunnsundersøkelsen (ESS)](europeansocialsurvey.org). [ORCID](https://orcid.org/0000-0002-2825-0664). [Google Scholar](https://scholar.google.com/citations?user=xz8JwjAAAAAJ&hl=no&oi=ao).
+
+**Mikael P. Johannesson** er forsker III ved [NORCE](https://www.norceresearch.no/personer/sveinung-arnesen) og PhD-kandidat ved [Institutt for Sammenliknende Politikk, UiB](https://www.uib.no/sampol).
+Han har bred erfaring med eksperimentelle metoder, maskinlæring (inkludert deep learning), og surveyforskning.
+Johannesson har utviklerkompetanse i statistikkprogrammet R, samt erfaring med Python (inkludert TensorFlow og Keras). [Github](https://github.com/mikajoh). [Google Scholar](https://scholar.google.com/citations?user=wG8CyVUAAAAJ&hl=no&oi=ao).
 
 ## Referansegruppe 
 
@@ -76,7 +77,7 @@ Finansieringen er bidragsfinansiert.
 ## Sitering
 
 Ved referering til rapporten, vennligst bruk følgende sitering:
-Johannesson, Mikael P., Sveinung Arnesen (2022): Demokratiske algoritmer. Norce-rapport #..., Bergen, mars 2022. Url: https://bookdown.org/sveinungarnesen78/NAV/.
+Arnesen, Sveinung, Mikael P. Johannesson (2022): Demokratiske algoritmer. Norce-rapport #..., Bergen, mars 2022. Url: https://bookdown.org/sveinungarnesen78/NAV/.
 
 ```{r}
 ncp21_raw <- import('C:/Users/svein/OneDrive - NORCE/Infrastruktur/Digsscore/Medborgerpanelet/2021-2/Norsk medborgerpanel - runde 21 - v-100-O.sav')
