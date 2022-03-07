@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.4)  7 MAR 2022 09:13
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.4)  7 MAR 2022 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1038,7 +1038,10 @@ ilgjengelig
 
 ]
 Kapittel 2.
-[9] [10] [11] [12]
+[9] [10]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+[11] [12]
 Kapittel 3.
 [13
 
@@ -1076,50 +1079,44 @@ File: figs/png/fig_nav_exp_attinfluence_all.png Graphic file (type bmp)
 File: figs/png/fig_nav_exp_attinfluence_area.png Graphic file (type bmp)
 <figs/png/fig_nav_exp_attinfluence_area.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[22]
-File: figs/png/fig_attinfluence_by_be.png Graphic file (type bmp)
-<figs/png/fig_attinfluence_by_be.png>
-File: figs/png/fig_attinfluence_by_contact.png Graphic file (type bmp)
-<figs/png/fig_attinfluence_by_contact.png>
-
-Overfull \hbox (56.26808pt too wide) in paragraph at lines 433--437
-\TU/lmr/m/n/10 NIFIKANT. [] 
+Underfull \hbox (badness 1418) in paragraph at lines 435--439
+\TU/lmr/m/n/10 byråkratisk kompetanse en innbygger har, desto mindre mener man 
+at
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[23] [24]
-Kapittel 5.
-File: figs/png/fig_ml_knowledge.png Graphic file (type bmp)
-<figs/png/fig_ml_knowledge.png>
-[25
-
-]
-File: figs/png/fig_ml_worried.png Graphic file (type bmp)
-<figs/png/fig_ml_worried.png>
-[26]
-File: figs/png/fig_nav_ml_helps_interest.png Graphic file (type bmp)
-<figs/png/fig_nav_ml_helps_interest.png>
-[27]
-File: figs/png/fig_relval_ml_know.png Graphic file (type bmp)
-<figs/png/fig_relval_ml_know.png>
+[22]
+File: figs/png/fig_attinfluence_by_be.png Graphic file (type bmp)
+<figs/png/fig_attinfluence_by_be.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[28]
+[23] [24]
+Kapittel 5.
+[25
+
+]
+File: figs/png/fig_ml_knowledge.png Graphic file (type bmp)
+<figs/png/fig_ml_knowledge.png>
+File: figs/png/fig_ml_worried.png Graphic file (type bmp)
+<figs/png/fig_ml_worried.png>
+File: figs/png/fig_nav_ml_helps_interest.png Graphic file (type bmp)
+<figs/png/fig_nav_ml_helps_interest.png>
+[26] [27]
+File: figs/png/fig_relval_ml_know.png Graphic file (type bmp)
+<figs/png/fig_relval_ml_know.png>
 File: figs/png/fig_relval_polscale.png Graphic file (type bmp)
 <figs/png/fig_relval_polscale.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[29] [30]
-Kapittel 6.
-[31
+[28] [29] [30
 
-] [32]
+]
+Kapittel 6.
+[31] [32]
 File: figs/png/fig_parity_avg.png Graphic file (type bmp)
 <figs/png/fig_parity_avg.png>
 File: figs/png/fig_parity_treat_avg.png Graphic file (type bmp)
@@ -1135,17 +1132,17 @@ File: figs/png/fig_vars_avg.png Graphic file (type bmp)
 <figs/png/fig_vars_avg.png>
 File: figs/png/fig_vars_hist.png Graphic file (type bmp)
 <figs/png/fig_vars_hist.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 [36]
 File: figs/png/fig_vars_avg_utd.png Graphic file (type bmp)
 <figs/png/fig_vars_avg_utd.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 [37]
 File: figs/png/fig_vars_avg_ml_know.png Graphic file (type bmp)
 <figs/png/fig_vars_avg_ml_know.png>
 
-Underfull \hbox (badness 1742) in paragraph at lines 685--687
+Underfull \hbox (badness 1742) in paragraph at lines 676--678
 []\TU/lmr/m/n/10 (LITREV: HVORDAN RELATERER DETTE SEG TIL HVA ANDRE
  []
 
@@ -1153,22 +1150,29 @@ Underfull \hbox (badness 1742) in paragraph at lines 685--687
 Kapittel 8.
 [39
 
-] [40]
+]
 File: figs/png/fig_exp_repr_each.png Graphic file (type bmp)
 <figs/png/fig_exp_repr_each.png>
-(./NAV.bbl [41] [42
+[40] [41] [42
 
-] [43] [44]) [45] (./NAV.aux)
+]
+Kapittel 9.
+
+Underfull \vbox (badness 1253) has occurred while \output is active []
+
+[43] [44] (./NAV.bbl [45] [46
+
+] [47] [48]) [49] (./NAV.aux)
 Package rerunfilecheck Info: File `NAV.out' has not changed.
-(rerunfilecheck)             Checksum: 4DEFF09E788AF83858699795EB604A7E;3766.
+(rerunfilecheck)             Checksum: 6226A43F067CEE50D853DCD858B3DAF8;4318.
  ) 
 Here is how much of TeX's memory you used:
- 19756 strings out of 478190
- 365450 string characters out of 5853155
- 820737 words of memory out of 5000000
- 40027 multiletter control sequences out of 15000+600000
- 475840 words of font info for 85 fonts, out of 8000000 for 9000
+ 19766 strings out of 478190
+ 365622 string characters out of 5853155
+ 821083 words of memory out of 5000000
+ 40037 multiletter control sequences out of 15000+600000
+ 475848 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,8n,121p,959b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on NAV.pdf (45 pages).
+Output written on NAV.pdf (49 pages).

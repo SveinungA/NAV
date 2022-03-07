@@ -1,32 +1,50 @@
-# Diskusjon
+# Diskusjon og videre forskning
 
 Bruk av maskinlæring og kunstig intelligens i forvaltningen er per i dag ikke høyt på agendaen hos innbyggere i Norge.
-Det er mange som oppgir at de har lite kunnskap om temaet, og innbyggerne er delt med tanke på om de er bekymret for utviklingen i retning av økende automatisering.
-Erfaringer internasjonalt viser imidlertid at det ligger konfliktpotensiale ved en rekke aspekter av denne utviklingen, og som det er viktig å være føre var på.
-Vi ser også at innbyggerne oppfatter beslutninger som mindre legitime når man blir konkret på tilfellene hvor maskinlæring og kunstig intelligens har blitt benyttet blant annet i USA.
-Dette viser at det er grunn til å utvise forsiktighet når det gjelder hvilke områder man benytter seg av modeller basert på maskinlæring og kunstig intelligens. 
+Det er mange som oppgir at de har lite kunnskap om temaet, og innbyggerne er delt med tanke på om de er bekymret for utviklingen og om de ser på det som en forbedring eller forverring av forvaltningen.
 Vi ser også i konkrete norske eksempler at innbyggere har ulike oppfatninger om hvilke som er rettferdig bruk av modeller, noe som peker i samme retning.
+Erfaringer internasjonalt viser at det ligger konfliktpotensiale ved en rekke aspekter av denne utviklingen, og som det er viktig å være føre var på.
+Vi finner også at innbyggerne oppfatter beslutninger som mindre legitime når man blir konkret på tilfellene hvor maskinlæring og kunstig intelligens har blitt benyttet blant annet i USA.
+Dette viser at det er grunn til å utvise forsiktighet når det gjelder hvilke områder man benytter seg av modeller basert på maskinlæring og kunstig intelligens. 
 Når det er sagt, er det mange innbyggere som anerkjenner fordelene:
 Økt automatisering gjør byråkratiet mer effektivt, noe som sparer både tid og penger for samfunnet og enkeltpersoner som er i kontakt med forvaltningen.
 Dessuten blir det nevnt av flere respondenter at det kan lede til mer likebehandling av beslutninger, siden prosesseringen av data er standardisert og man blir mindre avhengig av den enkelte saksbehandlers bias.
+Et flertall mener at automatisering gjør saksbehandlingen mer upartisk. 
 Det framstår i denne sammenhengen da kanskje som et paradoks at innbyggerne blir mer opptatt av byråkratisk representasjon i tilfeller hvor maskinlæring og kunstig intelligens blir brukt som beslutningsstøtte for utbetaling av økonomisk stønad.
 Kanskje handler dette om en oppfattelse av det blir viktigere at saksbehandlerne har tilstrekkelig kjennskap til den enkeltes situasjon, og slik besitter kompetanse til å evaluere og eventuelt overprøve modellene som benyttes i gitte tilfeller.
 
-Vi kjenner ikke til NAVs indre prosesser i detalj, men har gjennom dialog med sentrale aktører i NAV inntrykk av at det er grundige prosesser på plass for å validering og kvalitetssikring av modeller før de taes i bruk.
-For å ytterligere styrke legitimiteten til denne prosessen hevder vi det er viktig å også ta med på råd de som til syvende og sist påvirkes av beslutningene.
+Gjennom dialog med sentrale aktører i NAV har vi inntrykk av at det er grundige prosesser på plass for å validering og kvalitetssikring av modeller før de taes i bruk.
+For å ytterligere styrke legitimiteten til denne prosessen mener vi det er viktig å også ta med på råd de som til syvende og sist påvirkes av beslutningene.
 Det kan bety å invitere relevante interessegrupper inn på et tidlig stadium for å hjelpe med å identifisere potensielle konfliktpunkter.
 Det kan også bety å invitere til en bred diskusjon i befolkningen om etiske og politiske aspekter knyttet til bruk av maskinlæring og kunstig intelligens.
 Denne rapporten presenterer etter det vi kjenner den første studien i norsk sammenheng som involverer den generelle befolkningen i en slik dialog.
 Den representerer imidlertid bare starten, og må følges opp av videre studier både med tanke på hvilke spørsmål som taes opp og med tanke på framgangsmåten.
+Under presenterer vi to tilnærminger for videre forskning.
+
+## Deliberativ meningsmåling
 Spørreundersøkelser har mange fordeler, ikke minst det at man når et representativt og relativt stort antall innbyggere på kort tid.
-Samtidig er det behov for å gå mer i dybden, hvor innbyggerne får anledning til å sette seg dypere inn i det som ofte er komplekse spørsmål.
+Samtidig er det behov for å gå mer i dybden, hvor innbyggerne får anledning til å sette seg grundigere inn i det som ofte er komplekse spørsmål.
 De involverte forskerne i denne rapporten skal derfor gjennomføre en såkalt deliberativ meningsmåling sommeren 2022, hvor et representativt utvalg av innbyggerne i Norge gjennom en hel dag skal diskutere og uttrykke sine meninger om tematikken.
 Deliberativ meningsmåling viser til en bestemt prosedyre for å invitere innbyggere til diskusjon og meningsutveksling om forhåndsbestemte politiske spørsmål.
-I korte trekk går prosessen ut på at man inviterer et representativt utvalg typisk på hundre eller flere innbyggere til å sette av en til to dager for å diskutere politikk med sine medborgere. 
-De tar stilling til forslag, blir presentert for for- og motargumenter, og diskuterer sakene i mindre grupper på rundt 10 personer.
-Gruppene ledes av moderatorer som styrer diskusjonen, og sørger for at alle får anledning til å bli hørt. 
-Etter diskusjonen får de i en plenumssesjon anledning til å stille spørsmål til fageksperter. 
-Mot slutten av arrangementet svarer de på en spørreundersøkelse om deres holdninger til de politiske temaene som var på agendaen. 
-De samme spørsmålene svarte de på før arrangementet, slik at man kan måle effekten av dagens gruppediskusjoner. 
-En kontrollgruppe som ikke har deltatt på arrangementet får samme spørreundersøkelsen på samme tidspunkt.
+I korte trekk går prosessen ut på at man inviterer et representativt utvalg typisk på hundre eller flere innbyggere til å sette av en dag for å diskutere politikk med sine medborgere. 
+De tar stilling til forslag, blir presentert for for- og motargumenter, og diskuterer sakene i mindre grupper.
+Etter diskusjonen får de i en plenumssesjon anledning til å stille spørsmål til fageksperter, før de mot slutten av arrangementet svarer de på en spørreundersøkelse om deres holdninger til de politiske temaene som var på agendaen. 
+Denne typen opinionsforskning komplementerer standard spørreundersøkelser ved at man får vite hva folk mener etter de har fått tid til å tenke seg om.
+
+## Saksbehandlernes rolle
+
+Et viktig funn i denne rapporten er at de med mye (selverklært) kunnskap om maskinlæring tenderer til å ha andre oppfattinger enn de uten mye kunnskap.
+Slike forskjeller i oppfatning fører til at borgere har ulik oppfatning av byråkratiske prosesser, men gjelder dette også for saksbehandlerne i NAV?
+
+Saksbehandlere – og byråkrater generelt – har spesiell kunnskap, erfaring, og ekspertise som skiller dem fra den generelle befolkningen. 
+Denne ekspertisen gjør at saksbehandlere har bedre forutsetninger enn befolkningen generelt til å fatte NAV-relaterte beslutninger, men også at de sannsynligvis vektlegger andre hensyn i utredninger og vurdering enn hva personer uten slik ekspertise ville gjort.
+Det kan gi utslag når det kommer til hvilke kriterier de legger til grunn for å oppfatte implementering og bruk av maskinlæring og kunstig intelligens i deres daglige virke som legitimt og rettferdig. 
+Det kan handle både om når det burde brukes og hvor mye man burde vektlegge maskinanbefalinger der hvor det er tilgjengelig. 
+Selv om man kan forvente at saksbehandlere i stor grad følger samme holdningsmønster, er det sannsynlig at det finnes spesifikke tilfeller hvor det ikke er samsvar i holdninger. 
+Dette kalles for kongruens [@golder2010ideological].
+Hvis det finnes tilfeller av inkongruens på tvers av saksområder, kan det påvirke tilliten til NAV og forvaltning som helhet negativt. 
+Eventuelle systematiske forskjeller vil belyse fallgruver hvor implementering eller bruk som  oppfattes som legitim av forvaltningen vil oppfattes som illegitim av den generelle befolkningen, og som derfor utilsiktet kan føre til redusert systemtillit og tillit til NAV.
+Framtidig forskning bør derfor søke å identifisere likheter og forskjeller i holdninger til maskinlæring og kunstig intelligens for henholdsvis saksbehandlere og den generelle befolkningen.
+
+
 

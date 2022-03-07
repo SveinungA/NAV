@@ -12,17 +12,28 @@ Et realistisk eksempel hvor maskinlæring kan brukes i forvaltninger er hvilke j
 I prinsippet finnes det et enormt utvalg av mulige variabler som kan være relevant for en slik prediksjon -- i den forstand at de kan bidra med å gjøre en prediksjon mer nøyaktig. Disse variablene omhandler et stort og variert utvalg informasjon om den enkelte jobbsøker. Det er derfor et godt eksempel på en situasjon hvor det må gjøres en avveining om hvilke variabler man skal bruke, hvor det er sannsynlig at innbyggere vil oppfatte noen variabler som mer eller mindre passende enn andre. I verste fall kan enkelte variabler bli oppfattet som direkte urettferdig.
 
 For å studere dette spurte vi respondentene hvor passende de synes det er å bruke hver av en liste variabler, med utgangspunkt i at de skal brukes for å foreslå jobbrettede tiltak. I spørsmålet satt vi premisset at hver variabel bidrar med å gjøre forslagene mer nøyaktige. Vi spurte dem både om variabler som det har vært aktuelt for NAV å bruke ved en eventuell slik implementering: 
+
 - Helse: Hvorvidt jobbsøkere opplyser at hen har helseutfordringer; 
+
 - Ufordringer: Hvorvidt jobbsøkere opplyser at hen har andre utfordringer som hindrer dem fra å jobbe; 
+
 - Utdanning: Hvorvidt jobbsøkeren har fullført utdanning godkjent i Norge;
+
 - Arbeidshistorikk: Hvorvidt den arbeidssøkende har hatt sammenhengende jobb i 6 av de siste 12 mnd;
+
 - Alder
+
 - Kjønn
+
 (HVILKE VAR DET SOM DE FAKTISK HADDE TENKT Å BRUKE?)
 Vi spurte dem også om varabler som det ikke har vært aktuelt å ta bruk, men som representerer andre typer informasjon som i prinsippet kan være informativt:
+
 - Landbakgrunn
+
 - Bosted: Hvor i landet bor brukeren?
+
 - Rulleblad: Har brukere blitt dømt for kriminelle handlinger?
+
 Vi ba dem om å vurdere hver variabel på en fem-punkts skala, fra "Ikke passende i det hele tatt" (1) til "Svært passende" (5). 
 
 Resultatene fra spørsmålet vises i figurene under. 

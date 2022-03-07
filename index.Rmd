@@ -40,7 +40,7 @@ if(!require("tidyverse")){install.packages("tidyverse");  library(tidyverse)}
 
 **Sveinung Arnesen** er Forsker I og faglig leder for Demokrati og innovasjon ved [NORCE](https://www.norceresearch.no/personer/sveinung-arnesen), og førsteamanuensis II ved [Institutt for administrasjons- og organisasjonsvitenskap](https://www.uib.no/personer/Sveinung.Arnesen), UiB. 
 PhD-graden ble avlagt ved [Institutt for sammenliknende politikk, UiB](https://www.uib.no/sampol). 
-Arnesen er Norges nasjonale koordinator for [Den europeiske samfunnsundersøkelsen (ESS)](europeansocialsurvey.org). [ORCID](https://orcid.org/0000-0002-2825-0664). [Google Scholar](https://scholar.google.com/citations?user=xz8JwjAAAAAJ&hl=no&oi=ao).
+Arnesen er Norges nasjonale koordinator for [Den europeiske samfunnsundersøkelsen (ESS)](europeansocialsurvey.org). [ORCID](https://orcid.org/0000-0002-2825-0664). [Github](https://github.com/SveinungA/). [Google Scholar](https://scholar.google.com/citations?user=xz8JwjAAAAAJ&hl=no&oi=ao).
 
 **Mikael P. Johannesson** er forsker III ved [NORCE](https://www.norceresearch.no/personer/sveinung-arnesen) og PhD-kandidat ved [Institutt for Sammenliknende Politikk, UiB](https://www.uib.no/sampol).
 Han har bred erfaring med eksperimentelle metoder, maskinlæring (inkludert deep learning), og surveyforskning.

@@ -15,6 +15,7 @@ På veien mot bedre tjenester er det viktig at man har med seg brukerne – det 
 Det er viktig å studere rettferdighet fra et statsvitenskapelig perspektiv fordi oppfatninger av rettferdighet antas å påvirke institusjonell legitimitet. 
 Det overordnede målet med denne rapporten er derfor å belyse ut fra et demokratiperspektiv om, og i så fall hvordan, oppfattelsen av NAV som institusjon blant innbyggere i Norge påvirkes av en overgang til økt brukk av maskinlæring og kunstig intelligens i saksbehandlingen.
 Datagrunnlaget for denne rapporten er samlet inn i Norsk medborgerpanels i 2021, med et representativt utvalg av innbyggerne i Norge på 2000 respondenter.
+Vi presenterer også noen resultater fra relevante spørsmål som vi stilte i 2018, i medborgerpanelets runde 13.
 
 For å kartlegge konteksten denne studien gjøres i, inkluderer undersøkelsen noen generelle spørsmål om innbyggernes forhold til NAV.
 Vi finner at over halvparten av innbyggerne har vært i personlig kontakt med saksbehandler i NAV, men mange oppgir likevel at de har liten kjennskap til organisasjonen.
@@ -69,7 +70,7 @@ Også internasjonalt ser vi at bruk av maskinlæring og kunstig intelligens når
 
 Det er viktig å ta hensyn til de politiske dimensjonene knyttet til bruk av maskinlæring og kunstig intelligens i forvaltningen.
 Representasjon av interessegrupper, medvirkning i utformingen av modellene, og politisk ansvarliggjøring er demokratiske verktøy som virker konfliktdempende i andre sammenhenger, og som det er grunn til å anta vil virke også i en overgang til mer automatisert forvaltning.
-I eksperimentet med byråkratisk representasjon så vi at det hadde en positiv effekt å opplyse respondentene om at modellene som ble brukt hadde blitt anbefalt av en komite som på forhånd hadde vurdert modellen.
+I eksperimentet med statistisk paritet så vi at det hadde en positiv effekt å opplyse respondentene om at modellene som ble brukt hadde blitt anbefalt av en komite som på forhånd hadde vurdert modellene.
 Allerede i dag jobber NAV på en måte som åpner for innspill fra flere hold når maskinlæringsmodellene utvikles, og det er grunn til å anta at dette styrker legitimiteten til bruken av dem.
 Vi anbefaler å videreutvikle innspillsprosessen slik at berørte parter blir involvert allerede i designfasen og slik på et tidlig stadium kan medvirke til å identifisere etiske dilemma, interessekonflikter, og andre potensielle konfliktsaker som kan oppstå senere.
 

@@ -108,5 +108,5 @@ Jo høyere byråkratisk kompetanse en innbygger har, desto mindre mener man at s
 ![](figs/png/fig_attinfluence_by_be.png)
 I utvalget mener de som har vært i personlig kontakt med en saksbehandler i NAV i litt større grad at saksbehandlerne lar seg påvirke av egne holdninger. 
 Forskjellen er imidlertid ikke stor.
-![](figs/png/fig_attinfluence_by_contact.png)
+
 
