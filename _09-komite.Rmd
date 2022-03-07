@@ -1,3 +1,0 @@
-# Komité
-
-Her presenteres eksperimentet om å opprette komitéer for å vurdere bruken av maskinlæring.

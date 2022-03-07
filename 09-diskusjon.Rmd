@@ -1,0 +1,32 @@
+# Diskusjon
+
+Bruk av maskinlæring og kunstig intelligens i forvaltningen er per i dag ikke høyt på agendaen hos innbyggere i Norge.
+Det er mange som oppgir at de har lite kunnskap om temaet, og innbyggerne er delt med tanke på om de er bekymret for utviklingen i retning av økende automatisering.
+Erfaringer internasjonalt viser imidlertid at det ligger konfliktpotensiale ved en rekke aspekter av denne utviklingen, og som det er viktig å være føre var på.
+Vi ser også at innbyggerne oppfatter beslutninger som mindre legitime når man blir konkret på tilfellene hvor maskinlæring og kunstig intelligens har blitt benyttet blant annet i USA.
+Dette viser at det er grunn til å utvise forsiktighet når det gjelder hvilke områder man benytter seg av modeller basert på maskinlæring og kunstig intelligens. 
+Vi ser også i konkrete norske eksempler at innbyggere har ulike oppfatninger om hvilke som er rettferdig bruk av modeller, noe som peker i samme retning.
+Når det er sagt, er det mange innbyggere som anerkjenner fordelene:
+Økt automatisering gjør byråkratiet mer effektivt, noe som sparer både tid og penger for samfunnet og enkeltpersoner som er i kontakt med forvaltningen.
+Dessuten blir det nevnt av flere respondenter at det kan lede til mer likebehandling av beslutninger, siden prosesseringen av data er standardisert og man blir mindre avhengig av den enkelte saksbehandlers bias.
+Det framstår i denne sammenhengen da kanskje som et paradoks at innbyggerne blir mer opptatt av byråkratisk representasjon i tilfeller hvor maskinlæring og kunstig intelligens blir brukt som beslutningsstøtte for utbetaling av økonomisk stønad.
+Kanskje handler dette om en oppfattelse av det blir viktigere at saksbehandlerne har tilstrekkelig kjennskap til den enkeltes situasjon, og slik besitter kompetanse til å evaluere og eventuelt overprøve modellene som benyttes i gitte tilfeller.
+
+Vi kjenner ikke til NAVs indre prosesser i detalj, men har gjennom dialog med sentrale aktører i NAV inntrykk av at det er grundige prosesser på plass for å validering og kvalitetssikring av modeller før de taes i bruk.
+For å ytterligere styrke legitimiteten til denne prosessen hevder vi det er viktig å også ta med på råd de som til syvende og sist påvirkes av beslutningene.
+Det kan bety å invitere relevante interessegrupper inn på et tidlig stadium for å hjelpe med å identifisere potensielle konfliktpunkter.
+Det kan også bety å invitere til en bred diskusjon i befolkningen om etiske og politiske aspekter knyttet til bruk av maskinlæring og kunstig intelligens.
+Denne rapporten presenterer etter det vi kjenner den første studien i norsk sammenheng som involverer den generelle befolkningen i en slik dialog.
+Den representerer imidlertid bare starten, og må følges opp av videre studier både med tanke på hvilke spørsmål som taes opp og med tanke på framgangsmåten.
+Spørreundersøkelser har mange fordeler, ikke minst det at man når et representativt og relativt stort antall innbyggere på kort tid.
+Samtidig er det behov for å gå mer i dybden, hvor innbyggerne får anledning til å sette seg dypere inn i det som ofte er komplekse spørsmål.
+De involverte forskerne i denne rapporten skal derfor gjennomføre en såkalt deliberativ meningsmåling sommeren 2022, hvor et representativt utvalg av innbyggerne i Norge gjennom en hel dag skal diskutere og uttrykke sine meninger om tematikken.
+Deliberativ meningsmåling viser til en bestemt prosedyre for å invitere innbyggere til diskusjon og meningsutveksling om forhåndsbestemte politiske spørsmål.
+I korte trekk går prosessen ut på at man inviterer et representativt utvalg typisk på hundre eller flere innbyggere til å sette av en til to dager for å diskutere politikk med sine medborgere. 
+De tar stilling til forslag, blir presentert for for- og motargumenter, og diskuterer sakene i mindre grupper på rundt 10 personer.
+Gruppene ledes av moderatorer som styrer diskusjonen, og sørger for at alle får anledning til å bli hørt. 
+Etter diskusjonen får de i en plenumssesjon anledning til å stille spørsmål til fageksperter. 
+Mot slutten av arrangementet svarer de på en spørreundersøkelse om deres holdninger til de politiske temaene som var på agendaen. 
+De samme spørsmålene svarte de på før arrangementet, slik at man kan måle effekten av dagens gruppediskusjoner. 
+En kontrollgruppe som ikke har deltatt på arrangementet får samme spørreundersøkelsen på samme tidspunkt.
+

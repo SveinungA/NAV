@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Kapittel 5 Kunstig intelligens i forvaltningen |  Demokratiske algoritmer</title>
 <meta name="author" content="Mikael P. Johannesson og Sveinung Arnesen">
-<meta name="description" content="Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens Innbyggerne er delt i oppfatningen om bruken av maskinlæring og kunstig intelligens i...">
+<meta name="description" content="I dette kapitlet viser vi at Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens Innbyggerne er delt i oppfatningen om bruken av...">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
 <meta property="og:title" content="Kapittel 5 Kunstig intelligens i forvaltningen |  Demokratiske algoritmer">
 <meta property="og:type" content="book">
-<meta property="og:description" content="Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens Innbyggerne er delt i oppfatningen om bruken av maskinlæring og kunstig intelligens i...">
+<meta property="og:description" content="I dette kapitlet viser vi at Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens Innbyggerne er delt i oppfatningen om bruken av...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Kapittel 5 Kunstig intelligens i forvaltningen |  Demokratiske algoritmer">
-<meta name="twitter:description" content="Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens Innbyggerne er delt i oppfatningen om bruken av maskinlæring og kunstig intelligens i...">
+<meta name="twitter:description" content="I dette kapitlet viser vi at Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens Innbyggerne er delt i oppfatningen om bruken av...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -48,6 +48,7 @@ Demokratiske algoritmer</p></a>
 <li><a class="" href="paritet.html"><span class="header-section-number">6</span> Statistisk paritet</a></li>
 <li><a class="" href="input.html"><span class="header-section-number">7</span> Hvilken informasjon anses som passende?</a></li>
 <li><a class="" href="representasjon.html"><span class="header-section-number">8</span> Representativt byråkrati</a></li>
+<li><a class="" href="diskusjon.html"><span class="header-section-number">9</span> Diskusjon</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
 
@@ -60,6 +61,7 @@ Demokratiske algoritmer</p></a>
 <h1>
 <span class="header-section-number">Kapittel 5</span> Kunstig intelligens i forvaltningen<a class="anchor" aria-label="anchor" href="#kunstig-intelligens-i-forvaltningen"><i class="fas fa-link"></i></a>
 </h1>
+<p>I dette kapitlet viser vi at</p>
 <ul>
 <li><p>Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens</p></li>
 <li><p>Innbyggerne er delt i oppfatningen om bruken av maskinlæring og kunstig intelligens i forvaltningen er noe å bekymre seg over</p></li>
@@ -93,33 +95,10 @@ Bare en av syv innbyggere oppgir at de har god eller svært god kjennskap til ma
 <li><p>ÅPENT TEKSTSVAR MED BEGRUNNELSE FOR SVAR OM BEKYMRING</p></li>
 <li><p>ER DET MANGEL PÅ KUNNSKAP SOM LEDER TIL BEKYMRING?</p></li>
 </ol>
-<p>I en tidligere runde av Norsk medborgerpanel i 2018 svarte XX prosent at de trodde beslutningene ble bedre med mer automatisert forvaltning, mens XX trodde de ville bli dårligere.
-Respondentene ble bedt om å begrunne svarene.</p>
-<div class="inline-table"><table class="table table-sm">
-<thead><tr class="header">
-<th>Bedre</th>
-<th>Dårligere</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td>Redusere forskjellsbehandling</td>
-<td>Fremmedgjørende for brukere</td>
-</tr>
-<tr class="even">
-<td>Mer effektivt</td>
-<td>Klarer ikke utvise skjønn</td>
-</tr>
-</tbody>
-</table></div>
-<blockquote>
-<p>Jeg tror kunstig intelligens, maskinlæring og annen bruk av teknologi vil gjøre det lettere å ta vanskeligere beslutninger på mange områder.
-Men det er ikke helt uten ulemper, for eksempel vil det kreve ekspertise hvis man vil undersøke hvilke parametre som ligger bak en beslutning.
-Og det vil på sikt gi et mindre gjennomsiktig byråkrati.
-Men totalt sett tror jeg de offentlige tjenestene vil forbedres.
-- Respondent i Norsk medborgerpanel</p>
-</blockquote>
-<p>og det som gikk igjen var at mange mangler troen på at algoritmer kan ta over beslutninger hvor det trengs å utvises skjønn.
-### Interesser ivaretatt med maskinlæring?</p>
+<div id="interesser-ivaretatt-med-maskinlæring" class="section level3" number="5.1.1">
+<h3>
+<span class="header-section-number">5.1.1</span> Interesser ivaretatt med maskinlæring?<a class="anchor" aria-label="anchor" href="#interesser-ivaretatt-med-maskinl%C3%A6ring"><i class="fas fa-link"></i></a>
+</h3>
 <p>Det er naturlig å se maskinlæring og kunstig intelligens i NAV i sammenheng med spørsmål som ligger nær opptil byråkratisk kompetanse.
 Vil folk oppleve at det er lettere eller vanskeligere å forstå hvordan byråkratiet fungerer?
 Vil deres interesser ivaretas bedre eller dårligere når maskinlæring brukes i NAV?</p>
@@ -128,10 +107,11 @@ Vil deres interesser ivaretas bedre eller dårligere når maskinlæring brukes i
 </div>
 <p>Det mest vanlige svaret var midtkategorien ‘verken bedre eller dårligere.’
 For øvrig fordelte svarene seg normalt rundt denne midtkategorien.
-I spørreundersøkelser kan midtkategorier i slike bipolare skalaer (les: bedre vs. dårligere) ofte skjule at respondentene ikke har noen mening om spørsmålet.</p>
+I spørreundersøkelser kan midtkategorier i slike bipolare skalaer ofte skjule at respondentene ikke har noen mening om spørsmålet.</p>
 <ol style="list-style-type: decimal">
 <li>VI DELER DERFOR OPP SVARENE SLIK AT VI KAN UNDERSØKE OM SVARENE TIL RESPONDENTENE VARIERER ETTER HVOR GOD KJENNSKAP DE HAR TIL MASKINLÆRING.</li>
 </ol>
+</div>
 </div>
 <div id="bruke-kunstig-intelligens" class="section level2" number="5.2">
 <h2>
@@ -143,25 +123,18 @@ Samtidig kan heller ikke en datamaskin være helt treffsikker.
 Det er også grunn til å tro at den gjenværende andelen uriktige beslutninger går mer systematisk ut over noen grupper i samfunnet når man bruker maskinlæring og kunstig intelligens.
 Dette fordi det er stor variasjon mellom hvordan menneskelige saksbehandlere utviser skjønn, mens for en datamaskin er det ingen variasjon.</p>
 <p>Med dette som bakgrunn spurte vi respondentene hva foretrekker i slike situasjoner:
-Enten</p>
-<ol style="list-style-type: decimal">
-<li><p>Bruke kunstig intelligens, som fører til mange flere riktige beslutninger i bytte mot at det alltid er de samme som blir gjenstand for uriktige avgjørelser, eller</p></li>
-<li><p>ikke bruke kunstig intelligens, som fører til mange færre riktige beslutninger i bytte mot at det varierer hvem som blir gjenstand for uriktige avgjørelser.</p></li>
-</ol>
+Enten 1) Bruke kunstig intelligens, som fører til mange flere riktige beslutninger i bytte mot at det alltid er de samme som blir gjenstand for uriktige avgjørelser, eller 2) ikke bruke kunstig intelligens, som fører til mange færre riktige beslutninger i bytte mot at det varierer hvem som blir gjenstand for uriktige avgjørelser.</p>
 <p>Respondentene delte seg på midten i dette spørsmålet, hvor XX PROSENT FORETRAKK Å BRUKE KUNSTIG INTELLIGENS, MENS XX FORETRAKK Å IKKE BRUKE KUNSTIG INTELLIGENS.
 Figuren under viser at de med lav kjennskap til maskinlæring og kunstig intelligens var mest skeptiske.
 Det kan altså ha sammenheng med skepsis til det ukjente.</p>
 <div class="inline-figure"><img src="figs/png/fig_relval_ml_know.png" style="width:70.0%"></div>
 <p>Spørsmålet har også en politisk-filosofisk dimensjon over seg.
 Premisset som legges til grunn for spørsmålet er at man ved å innføre kunstig intelligens påvirker fordelingen av riktige beslutninger.
-(Man kan selvsagt diskutere om dette er en riktig virkelighetsbeskrivelse av en forvaltning som bruker kunstig intelligens versus en som ikke gjør det.
-Vi kommer i denne omgang ikke nærmere inn på dette.)
 Det blir da et spørsmål om fordeling av goder, og om man er villig til å ofre et lite antall individer som systematisk forfordeles med uriktige beslutninger, mot at populasjonen som helhet nyter godt av en høyere andel riktige beslutninger.</p>
 <p>Ut fra dette perspektivet gir det mening at de som plasserer seg lengst til venstre er minst villige til å bruke kunstig intelligens.
 Vi noterer oss også at de som plasserer seg lengst til høyre også er mindre villige til å bruke kunstig intelligens når konsekvensene av bruken presenteres slik som den har blitt gjort i dette konkrete tilfellet.</p>
 <div class="inline-figure"><img src="figs/png/fig_relval_polscale.png" style="width:70.0%"></div>
 <p>Det er viktig å ha i mente at de to siste kulepunktene omhandler svar som blir gitt i en spesifikk “framing” av kunstig intelligens; nemlig en situasjon hvor bruken av kunstig intelligens påvirker beslutningene på en måte som gjør dem mer treffsikre, men samtidig mer systematisk feildiagnostiserer.</p>
-<p>Når vi fokuserte spesifikt på en endring av hvordan beslutninger fattes ved bruk av kunstig intelligens kontra uten.</p>
 
 </div>
 </div>
@@ -172,7 +145,9 @@ Vi noterer oss også at de som plasserer seg lengst til høyre også er mindre v
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>På denne siden</h2>
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#kunstig-intelligens-i-forvaltningen"><span class="header-section-number">5</span> Kunstig intelligens i forvaltningen</a></li>
-<li><a class="nav-link" href="#norske-innbyggeres-kjennskap-og-f%C3%B8lelser-knyttet-til-maskinl%C3%A6ring-og-kunstig-intelligens"><span class="header-section-number">5.1</span> Norske innbyggeres kjennskap og følelser knyttet til maskinlæring og kunstig intelligens</a></li>
+<li>
+<a class="nav-link" href="#norske-innbyggeres-kjennskap-og-f%C3%B8lelser-knyttet-til-maskinl%C3%A6ring-og-kunstig-intelligens"><span class="header-section-number">5.1</span> Norske innbyggeres kjennskap og følelser knyttet til maskinlæring og kunstig intelligens</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#interesser-ivaretatt-med-maskinl%C3%A6ring"><span class="header-section-number">5.1.1</span> Interesser ivaretatt med maskinlæring?</a></li></ul>
+</li>
 <li><a class="nav-link" href="#bruke-kunstig-intelligens"><span class="header-section-number">5.2</span> Bruke kunstig intelligens?</a></li>
 </ul>
 
@@ -191,7 +166,7 @@ Vi noterer oss også at de som plasserer seg lengst til høyre også er mindre v
 
   <div class="col-12 col-md-6 mt-3">
     <p>"<strong><p><img src="norce_logo.png" style="width:1in"><br>
-Demokratiske algoritmer</p></strong>" er skrevet av Mikael P. Johannesson og Sveinung Arnesen. Dato: 2022-03-04.</p>
+Demokratiske algoritmer</p></strong>" er skrevet av Mikael P. Johannesson og Sveinung Arnesen. Dato: 2022-03-07.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
