@@ -1,8 +1,18 @@
 # Statistisk paritet {#paritet}
 
-Et realistisk eksempel hvor maskinlæring kan brukes i forvaltningen er når NAV skal bestemme hvilke sykmeldte som skal få tilbud om dialogmøte med NAV.
-Et dialogmøte er en samtale mellom NAV og den sykmeldte som anses som positivt for den sykmeldtes muligheter for å komme tilbake i arbeid.
+Det er viktig å studere rettferdighet fra et statsvitenskapelig perspektiv fordi oppfatninger av rettferdighet antas å påvirke institusjonell legitimitet [@tyler2003procedural]. 
+Dette begrenser seg ikke bare til input-siden av det politiske systemet hvor politikk vedtas, men også output-siden i forvaltningen hvor politikk settes ut i live [@krislov2012representative; @rosanvallon2011democratic; @rothstein2009creating].
 
+Flere definisjoner brukes om rettferdighet, og de fleste av dem er basert på forhold mellom sanne/falske positive og sanne/falske negativer [@verma2018fairness]. 
+Alexandra Chouldechova [-@chouldechova2018case] viser teoretisk og empirisk hvordan to velbrukte definisjoner av rettferdighet umulig kan oppnås samtidig i visse tilfeller. 
+Hvilke definisjoner bør prioriteres når man står overfor slike avveininger? 
+Chouldechovas studie viser med tydelighet at det ikke er gjort i en håndvending å lage rettferdige prediksjonsmodeller. 
+Tvert imot er det komplisert utfordring som krever oppmerksomhet om konkret kontekst.
+Vi vet fortsatt lite om hvilke definisjoner som resonnerer blant innbyggerne, og i hvilken grad de modereres av kontekst eller innbyggernes sosiale bakgrunn eller politiske holdninger.
+Vi vet fra samfunnsforskning at hva som oppfattes som rettferdig kan variere med sosial identitet og kultur, politiske holdninger, og personlige karaktertrekk, og det er derfor viktig å gjøre konkrete empiriske studier. 
+I dette kapitlet tar vi derfor for oss et realistisk scenario for NAV hvor vi setter opp to motstridende rettferdighetshensyn knyttet til hvilke sykmeldte NAV skal tilby dialogmøte.
+
+Et dialogmøte er en samtale mellom NAV og den sykmeldte som anses som positivt for den sykmeldtes muligheter for å komme tilbake i arbeid.
 I prinsippet har alle rett på et dialogmøte, men i praksis foregår det en siling hvor det gjøres en vurdering av hvem som har mest nytte av et slikt møte.
 Bruk av maskinlæring og kunstig intelligens kan i dette tilfellet bidra til bedre estimater for hvem som er i fare for å bli langtidssykemeldt, og derfor kan ha større nytte av et dialogmøte.
 Derfor er NAV i innledende stadier på å utvikle maskinlæringsmodeller som predikerer sannsynlighet for at en sykemeldt fortsatt vil være sykemeldt 12 uker fram i tid.
@@ -43,7 +53,7 @@ Det vil si at de ønsker å bruke en modell som sikrer likebehandling av kjønn,
 
 I teksten over står det at den mest treffsikre modellen favoriserte menn.
 For å undersøke om det har noen innvirkning på svarene hvilket kjønn modellen favoriserer veksler vi på denne beskrivelsen. 
-Halvparen av respondentene får vite at modellen har en bias til fordel for menn, mens den andre halvparten av respondentene får vite at modellen favoriserer kvinner.
+Halvparten av respondentene får vite at modellen har en bias til fordel for menn, mens den andre halvparten av respondentene får vite at modellen favoriserer kvinner.
 Spiller det noen rolle hvilket kjønn modellen favoriserer?
 Resultatene viser at det gjør det.
 
@@ -64,8 +74,8 @@ Både menn og kvinner foretrekker paritetsmodellen oftere i de tilfellene kvinne
 Det er også en generell forskjell blant respondentene i den forstand at kvinner i sterkere grad foretrekker paritetsmodellen enn menn gjør, uavhengig av om det er menn eller kvinner som kommer best ut av det.
 
 ![](figs/png/fig_parity_treat_avg_by_gender.png)
-Vi observerer også en modererende effekt av kunnskap om maskinlæring:
-Jevnt over ser vi at jo høyere kunnskap om maskinlæring, desto høyere andel modellen som prioriterer treffsikkerhet framfor statistisk paritet. 
-Det her er igjen verdt å nevne at slike bivariate, statistiske sammehenger ikke sier noe om årsakssammenhenger.
-SKAL VI TA MED DENNE FIGUREN? DEN PASSER IKKE SUPERGODT INN I NARRATIVET, OG ER VANSKELIG Å DISKUTERE.
-![](figs/png/fig_parity_treat_avg_by_ml_know.png)
+<!-- Vi observerer også en modererende effekt av kunnskap om maskinlæring: -->
+<!-- Jevnt over ser vi at jo høyere kunnskap om maskinlæring, desto høyere andel modellen som prioriterer treffsikkerhet framfor statistisk paritet.  -->
+<!-- Det her er igjen verdt å nevne at slike bivariate, statistiske sammehenger ikke sier noe om årsakssammenhenger. -->
+<!-- SKAL VI TA MED DENNE FIGUREN? DEN PASSER IKKE SUPERGODT INN I NARRATIVET, OG ER VANSKELIG Å DISKUTERE. -->
+<!-- ![](figs/png/fig_parity_treat_avg_by_ml_know.png) -->

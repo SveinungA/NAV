@@ -61,7 +61,7 @@ Norsk medborgerpanel er en internettbasert undersøkelse om nordmenns holdninger
 Panelet drives av samfunnsforskere ved Universitetet i Bergen og NORCE, og er et non-profit prosjekt utelukkende benyttet til forskningsformål. 
 Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.
 
-Panelet blir driftet av [Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE)](www.digsscore.uib.no).
+Panelet blir driftet av [Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE)](www.digsscore.uib.no), som er samarbeidspartner i prosjektet.
 
 Samlet antall respondenter som svarte på deler av denne undersøkelsen var 3971.
 Typisk antall respondenter for hvert spørsmål er om lag 2000.

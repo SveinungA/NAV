@@ -11,33 +11,34 @@ En frykt er at feil bruk kan lede til utfall som negativt forskjellsbehandler sv
 En arbeidsgruppe oppnevnt av den tidligere amerikanske president Barack Obama publiserte rapporter hvor de uttrykte bekymring for “kode-diskriminering» i automatiserte beslutninger, hvor diskriminering av sosiale grupper oppsto som en utilsiktet følge av måten stordatateknologi er strukturert og brukes. 
 Dystopiske skildringer av “svart boks”-samfunn maler et skremmende bilde av et framtidssamfunn der innbyggernes skjebner blir bestemt av skjulte, upresise, og diskriminerende automatiske beslutningsprosesser [@barocas2016big; @pasquale2015black].
 I de tilfeller oppmerksomheten når ut til allmennheten, har fokus tendert å handle om hvordan beslutningene slår ulikt ut sosiale grupper. 
-Det amerikanske nyhetsmagasinet ProPublica viste hvordan prediksjonsmodeller som brukes til å forutsi gjentakelsesfare for lovbrudd blant fengselsinnsatte systematisk kategoriserte svarte insatte oftere enn hvite feilaktig som personer med høy risiko for å begå en ny forbrytelse når de løslates fra fengselet (Angwin et al. 2016).
+Det amerikanske nyhetsmagasinet ProPublica viste hvordan prediksjonsmodeller som brukes til å forutsi gjentakelsesfare for lovbrudd blant fengselsinnsatte systematisk kategoriserte svarte insatte oftere enn hvite feilaktig som personer med høy risiko for å begå en ny forbrytelse når de løslates fra fengselet [@angwin2016machine].
 
 Opplevd diskriminering fra myndighetenes side mot sosiale grupperinger er ikke noe nytt, og spesielt ikke i USA hvor automatiserte beslutninger har fått mest oppmerksomhet til nå. 
-I Norge har vi mindre forskjeller mellom folk, både økonomisk, politisk og sosialt. Norge har også en høyt kompetent og effektiv offentlig forvaltning som jevnt over nyter høy tillit i befolkningen.
+I Norge har vi mindre forskjeller mellom folk, både økonomisk, politisk og sosialt. 
+Norge har også en høyt kompetent og effektiv offentlig forvaltning som jevnt over nyter høy tillit i befolkningen.
 I overgangen til økt automatisering i forvaltningen er det viktig at tilliten og legitimiteten til offentlig forvaltning opprettholdes.
 
-NAV er ledende i utviklingen av digitale tjenester og verktøy (Hansen, Lundberg, and Syltevik 2018), og utvikler systemer som kan nyttiggjøre seg framskritt som gjøres innenfor databehandling og analyse. 
-Beslutningsprosesser som benytter seg av kunstig intelligens vil være en del av løsningen for at NAV skal oppnå samfunnsoppdraget sitt om å bidra til at flere kommer i arbeid og færre på stønad, og samtidig sørge for at de som trenger det, får rett ytelse til rett tid gjennom en pålitelig og effektiv forvaltning. 
-Kunstig intelligens kan brukes både i automatiserte beslutningsprosesser, og som beslutningsstøtte for saksbehandlere. 
-Et sentralt kjennetegn ved kunstig intellignes er at slike systemer etterligner, erstatter og utvider menneskelig intelligent handling, og menneskelig beslutningstaking og vurdering (Mikkelsen 2019).
-Mulige områder hvor kunstig intelligens kan benyttes i NAV er blant annet for å beregne sannsynlighet for at den arbeidsledige trenger bistand fra NAV; til å bestemme om en person i sykefravær skal kalles inn til oppfølgingsmøte fra NAV; og til å anbefale arbeidsrettede tiltak.
-På veien mot bedre tjenester er det viktig at man har med seg brukerne – det vil si innbyggerne i Norge – og lager ansvarlige systemer som gir lik og rettferdig behandling uavhengig av sosial status.
+NAV er ledende i utviklingen av digitale tjenester og verktøy[@hansen2018digitalization], og utvikler systemer som kan nyttiggjøre seg framskritt som gjøres innenfor databehandling og analyse. 
+Beslutningsprosesser som benytter seg av maskinlæring og kunstig intelligens vil være en del av løsningen for at NAV skal oppnå samfunnsoppdraget sitt om å bidra til at flere kommer i arbeid og færre på stønad, og samtidig sørge for at de som trenger det, får rett ytelse til rett tid gjennom en pålitelig og effektiv forvaltning. 
+Maskinlæring og kunstig intelligens kan brukes både i helautomatiserte beslutningsprosesser, og som beslutningsstøtte for saksbehandlere. 
+Et sentralt kjennetegn er at slike verktøy etterligner, erstatter og utvider menneskelig intelligent handling, og menneskelig beslutningstaking og vurdering.
+Mulige områder hvor maskinlæring og kunstig intelligens kan benyttes i NAV er blant annet for å beregne sannsynlighet for at den arbeidsledige trenger bistand fra NAV; til å bestemme om en person i sykefravær skal kalles inn til oppfølgingsmøte fra NAV; og til å anbefale arbeidsrettede tiltak.
+På veien mot bedre tjenester er det viktig at man har med seg brukerne –- det vil si innbyggerne i Norge -– og lager ansvarlige systemer som gir lik og rettferdig behandling uavhengig av sosial status.
 
-## Rettferdighet og legitimitet
-En massiv litteratur på prosedyrerettferdighet med utspring fra sosialpsykologi (Tyler and Lind 1992) har hatt stor innvirkning på hvordan vi forstår relasjonene mellom innbyggere og myndighetene, og hvordan myndighetene bør forholde seg i møte med innbyggerne.
-Når beslutningsprosessene dreier i retning av mer automatisering, fungerer denne litteraturen som et velegnet rammeverk for å undersøke empirisk om, og i så fall hvordan, relasjonene mellom innbyggerne og myndighetene vil påvirkes av denne utviklingen.
+## Beslutningsprosesser, rettferdighet og legitimitet
+En massiv litteratur på prosedyrerettferdighet med utspring fra sosialpsykologi [@lind1988social] har hatt stor innvirkning på hvordan vi forstår relasjonene mellom innbyggere og myndighetene, og hvordan myndighetene bør forholde seg i møte med innbyggerne.
+Når beslutningsprosessene dreier i retning av mer bruk av maskinlæring og kunstig intelligens, fungerer denne litteraturen som et velegnet rammeverk for å undersøke empirisk om, og i så fall hvordan, relasjonene mellom innbyggerne og myndighetene vil påvirkes av denne utviklingen.
 Det vi vet fra eksperimentell forskning på politisk atferd er at både aspekter ved prosessen og utfallet i seg selv påvirker rettferdighetsoppfatningen av beslutningen og i sin tur villigheten til å akseptere beslutningen (se figur under). 
 På kort sikt handler det om å skaffe aksept for enkeltbeslutninger. 
 I et mer overordnet perspektiv dreier det seg om systemstøtte; om å sikre tillit og legitimitet til styresmaktene, og opprettholde tilfredsheten med demokratiet som styresett. 
-Legitimitet forstår vi her som makten til å få noen til villig å føye seg etter en beslutning (Weber 2009), som i sin tur gir myndighetene den autoriteten de trenger for å styre effektivt uten bruk av sanksjoner (Tyler 2006). 
-Demokratisk legitimitet viser til den legitimiteten som vinnes ved at beslutningene utgår fra folkeviljen (Rosanvallon 2011).
-Både tillit og legitimitet omhandler relasjonen mellom innbyggere og myndighetene, og faller under det bredere konseptet om politisk støtte (Easton 1965).
+Legitimitet forstår vi her som makten til å få noen til villig å føye seg etter en beslutning [@weber2009theory], som i sin tur gir myndighetene den autoriteten de trenger for å styre effektivt uten bruk av sanksjoner [@tyler2021people]. 
+Demokratisk legitimitet viser til den legitimiteten som vinnes ved at beslutningene utgår fra folkeviljen [@rosanvallon2011democratic].
+Både tillit og legitimitet omhandler relasjonen mellom innbyggere og myndighetene, og faller under det bredere konseptet om politisk støtte [@easton1965systems].
 
 Prosessrelaterte spørsmål som har blitt studert er blant annet om rettferdighetsoppfatningen og aksepten av beslutningen påvirkes av forhold som er sentrale i demokratiske systemer.
-Slike forhold kan for eksempel være grad av åpenhet rundt beslutningsprosessen (De Fine Licht et al. 2014), mulighet for direkte påvirkning på en avgjørelse (Esaiasson, Gilljam, and Persson 2012; Arnesen 2017; Christensen, Himmelroos, and Setälä 2020), hvem beslutningstakerne er, og hvor godt disse beslutningstakerne gjenspeiler befolkningen med tanke på sosial bakgrunn, også kjent som deskriptiv representasjon (Arnesen and Peters 2018; Clayton, O’Brien, and Piscopo 2019). Videre er et gjennomgående funn at dersom utfallet går imot ens egne ønsker, blir prosessen diskreditert (Esaiasson et al. 2019; Marien and Kern 2018; Arnesen, Broderstad, et al. 2019; Arnesen, Bergh, et al. 2019).
+Slike forhold kan for eksempel være grad av åpenhet rundt beslutningsprosessen [@de2014does], mulighet for direkte påvirkning på en avgjørelse [@EJPR:EJPR2052; @arnesen2017legitimacy; @christensen2020matter], hvem beslutningstakerne er, og hvor godt disse beslutningstakerne gjenspeiler befolkningen med tanke på sosial bakgrunn [@arnesen2018legitimacy; @clayton2019all]. 
+Videre er et gjennomgående funn at dersom utfallet går imot ens egne ønsker, blir prosessen diskreditert [@esaiasson2016reconsidering].
 
-Det er viktig å studere rettferdighet fra et statsvitenskapelig perspektiv fordi oppfatninger av rettferdighet antas å påvirke institusjonell legitimitet (Tyler 2003). Dette begrenser seg ikke bare til input-siden av det politiske systemet hvor politikk vedtas, men også output-siden i forvaltningen hvor politikk settes ut i live (Krislov 2012; Rosanvallon 2011; Rothstein 2011).
 
 ```{r dag, fig.width=15, fig_height=7}
 theme_set(theme_dag_grid(base_size = 14))
@@ -54,25 +55,15 @@ dag <- dagify(y ~ x + v,
 ggdag(dag, text = FALSE, use_labels = "label") 
 ```
 
-Forskningen på kunstig intelligens og rettferdighet er raskt voksende. 
-Flere definisjoner brukes om rettferdighet, og de fleste av dem er basert på forhold mellom sanne/falske positive og sanne/falske negativer (Verma and Rubin 2018). 
-Alexandra Chouldechova @chouldechova2018case viser teoretisk og empirisk hvordan to velbrukte definisjoner av rettferdighet umulig kan oppnås samtidig i visse tilfeller. 
-Hvilke definisjoner bør prioriteres når man står overfor slike avveininger? 
-Chouldechovas studie viser med tydelighet at det ikke er gjort i en håndvending å lage rettferdige prediksjonsmodeller. 
-Tvert imot er det komplisert utfordring som krever oppmerksomhet om konkret kontekst.
-Vi vet fortsatt lite om hvilke definisjoner som resonnerer blant innbyggerne, og i hvilken grad de modereres av kontekst eller innbyggernes sosiale bakgrunn eller politiske holdninger.
-Vi vet fra samfunnsforskning at hva som oppfattes som rettferdig kan variere med sosial identitet og kultur, politiske holdninger, og personlige karaktertrekk, og det er derfor viktig å gjøre konkrete empiriske studier på realistiske problemstillinger før slike prediksjonsmodeller tas i bruk. 
-I [kapittel] \@ref(#paritet) tar vi for oss et realistisk scenario for NAV hvor vi setter opp to motstridende rettferdighetshensyn knyttet til hvem som skal få tilbud om dialogmøte.
-
-På tross av et økende krav om at innbyggerne må involveres og konsulteres (Balaram, Greenham, and Leonard 2018), har demokrati- og opinionsforskere i liten grad studert hvordan overgangen til økt bruk av kunstig intelligens i forvaltningen kan påvirke tillit og legitimitet. 
-Viktige unntak er De Fine Licht & De Fine Licht (2020) som studerer rollen som åpenhet når det gjelder hvordan allmennheten oppfatter kunstig intelligens-beslutninger som legitim, og Binns et al (2018) som foretar eksperimentelle studier som undersøker folks oppfatning av rettferdighet i algoritmiske beslutninger.
-Vår kunnskap om hvordan overgangen vil påvirke innbyggernes oppfatninger av forvaltningen er imidlertid fortsatt svært begrenset, og behovet for befolkningsrepresentative studier med et demokratiperspektiv er stort.
+Demokrati- og opinionsforskere har i liten grad studert hvordan overgangen til økt bruk av maskinlæring og kunstig intelligens i forvaltningens beslutningsprosesser kan påvirke systemtillit og legitimitet. 
+Unntak er De Fine Licht & De Fine Licht [-@de2020artificial] som studerer rollen som åpenhet når det gjelder hvordan allmennheten oppfatter kunstig intelligens-beslutninger som legitim, og Binns et al [-@binns2018s] som foretar eksperimentelle studier som undersøker folks oppfatning av rettferdighet i algoritmiske beslutninger.
+Vår kunnskap om hvordan overgangen vil påvirke innbyggernes oppfatninger av forvaltningen er imidlertid fortsatt begrenset, og behovet for befolkningsrepresentative studier med et demokratiperspektiv er stort.
 Det er motivasjonen for å lage denne rapporten.
 
 Rapporten presenterer resultatene fra en spørreundersøkelse gjennomført på et befolkningsrepresentativt utvalg av innbyggere i Norge.
 Undersøkelsen tar for seg generelle holdninger til og kunnskap om maskinlæring og kunstig intelligens i befolkningen. 
 Bredere spørsmål knyttet til relasjonen mellom NAV og innbyggerne -- uavhengig av tematikken om maskinlæring og kunstig intelligens -- blir også analysert for å kontekstualisere de mer spesifikke spørsmålene og eksperimentene knyttet til bruk av maskinlæring og kunstig intelligens i NAV.
-Deretter fokuserer vi på holdninger som har relevans for en framtid hvor maskinlæring og kunstig intelligens har en sentral rolle i.
+Deretter fokuserer vi på holdninger som har relevans for en framtid hvor maskinlæring og kunstig intelligens vil spille en sentral rolle.
 Dette gjelder problemstillinger knyttet til konkrete, aktuelle situasjoner i NAV, såvel som mer overordnete spørsmål om maskinlæring og kunstig intelligens i forvaltningen.
 
 
