@@ -52,7 +52,13 @@ Kvinner støtter statistisk paritet noe mer enn menn i dette konkrete tilfellet.
 Både menn og kvinner støtter statistisk paritet i sterkere grad dersom det er kvinner som blir forfordelt, dog er denne effekten er sterkest blant kvinner.
 Befolkningen er med andre ord ikke samstemt om hvilket rettferdighetskriterie som skal gjelde i dette tilfellet, noe som samsvarer med andre studier som viser at hva som er rettferdig er avhengig både av kontekst og av øyet som ser.
 
-NOE OM INPUTVARIABLER HER
+Et annet viktig spørsmål knyttet til bruk av maskinlæring og kunstig intelligens er hvilke data det oppfattes som passende å bruke. 
+I mange brukstilfeller vil det finnes et bredt spektrum av informasjon tilgjenglig, men det vil sannsynligvis variere hvor passende innbyggere faktisk mener det er bruke de ulike typene informasjon -- uanvhengig av om de gjør prediksjonen mer treffsikker. 
+Vi har derfor spurt innbyggere hvor passende de synes en rekke variabler er i et konkret eksempel.
+Eksempelet vi trekker fram gjelder å bruke maskinlæring og kunstig intelligens for å foreslå hvilke arbeidsrettede tiltak en jobbsøker skal få tilgang til. 
+Vi finner at ingen variabler blir sett på som utvilsomt passende eller upassende, men samtidig at det er tydelige forskjeller mellom variabler.
+For eksempel så blir informasjon om kjønn og landbakgrunn sett på mindre passende enn andre variabler, og utdanning sett på som mer passende enn andre variabler.
+Samtidig finner vi også viktige systematiske forskjeller mellom ulike undergrupper i befolkningen for hvordan de gjør denne vurderingen.
 
 Mye forskning gjenstår for å kunne trekke vidtrekkende konklusjoner om hvordan tillit og legitimitet best kan bevares i overgangen til økt bruk av maskinlæring og kunstig intelligens.
 Vi er fortsatt i en tidlig fase, hvor de fleste innbyggerne har liten kjennskap til tematikken, og hvor svært få har personlige erfaringer med saksbehandling hvor dette benyttes.
