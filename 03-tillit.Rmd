@@ -1,18 +1,16 @@
-# Oppfatninger om NAV {#nav}
+\newpage
+# Befolkningen og NAV {#nav}
 
 I dette kapitlet ser vi nærmere på relasjonen mellom NAV og innbyggerne i Norge.
-Kapitlet danner grunnlaget for å forstå konteksten når vi senere fokuserer mer spesifikt på maskinlæring og kunstig intelligens i organisasjone. 
+Kapitlet danner grunnlaget for å forstå konteksten når vi senere fokuserer mer spesifikt på maskinlæring og kunstig intelligens i organisasjon. 
 Vi måler folks tillit til NAV, samt deres erfaring med og kjennskap til NAV.
 Vi måler også i hvilken grad innbyggerne opplever at de forstår hvordan organisasjonen fungerer, og i hvilken grad de opplever at deres interesser blir ivaretatt i systemet.
 
 Vi finner at 
 
 - over halvparten av innbyggerne har vært i personlig kontakt med saksbehandler i NAV, men mange oppgir likevel at de har liten kjennskap til NAV.
-
 - innbyggerne har middels til høy tillit til NAV. Det er få som oppgir å ha svært høy tillit eller ingen tillit i det hele tatt.
-
 - flertallet av innbyggerne opplever at de er i stand til å få de tjenestene de har krav på fra det offentlige. Dette på tross av at mange opplever forvaltningen som krevende å forstå.
-
 - innbyggerne i liten til noen grad mener at saksbehandlere i NAV lar seg påvirke av egne holdninger. Det skiller lite mellom hvilke områder av NAVs ansvarsområde man spør etter.
 
 
@@ -23,11 +21,17 @@ Noen kontakter er lite personlige, som for eksempel når man mottar barnetrygd.
 Andre krever mer kontakt med NAV, og gjerne personlig kontakt med en saksbehandler.
 I vårt utvalg har godt over halvparten minst en gang vært i personlig kontakt med NAV.
 
-![Personlig kontakt med NAV](figs/png/fig_nav_personal_contact.png)
+```{r, out.width = "80%", fig.align = "center", fig.cap= "Personlig kontakt med NAV"}
+knitr::include_graphics("figs/png/fig_nav_personal_contact.png")
+```
 
 Fire av ti innbyggere i Norge har liten eller ingen kjennskap til NAV, mens seks av ti har ganske god, god, eller svært god kjennskapt til institusjonen.
 
-![](figs/png/fig_nav_knowledge.png)
+
+```{r, out.width = "80%", fig.align = "center", fig.cap= "Selvrapportert kunnskap om NAV"}
+knitr::include_graphics("figs/png/fig_nav_knowledge.png")
+```
+
 
 ## Tillit
 Tillit er noe som tar lang til å bygge opp, men som fort kan rives ned.
@@ -37,10 +41,21 @@ Fire av ti innbyggere i Norge har høy eller svært høy tillit til NAV, mens ba
 Det er et godt utgangspunkt at NAV nyter tillit i befolkningen, og ikke desto viktigere at denne relasjonen ivaretaes parallelt med at organisasjonen endrer seg og utvikler morgendagens forvaltning.
 Hvordan NAV ligger i forhold til andre forvaltningsorganer har vi ikke data på.
 
-![Tillit til NAV](figs/png/fig_nav_trust.png)
+```{r, out.width = "80%", fig.align = "center", fig.cap= "Tillit til NAV"}
+knitr::include_graphics("figs/png/fig_nav_trust.png")
+```
 
-Om vi bryter ned tillit etter kjennskap til NAV, ser vi at ...
-2. TILLIT BRUTT NED PÅ ERFARING MED OG KJENNSKAP TIL NAV
+Om vi bryter ned tillit etter kjennskap til NAV, ser vi at det ikke er noen tydelig sammenheng mellom selvrapportert kjennskap og tillit, men at de som har hatt personlig kontkat med en saksbehandler i snitt er har noe lavere tillit. Forskjeller er relativt liten men statistisk signifikant.
+
+
+```{r, out.width = "60%", fig.align = "center", fig.cap= "Tillit til NAV for ulike nivåer av selvrapportert kjennskap"}
+knitr::include_graphics("figs/png/fig_nav_trust_by_nav_knowledge.png")
+```
+
+```{r, out.width = "100%", fig.align = "center", fig.cap= "Tillit til NAV for for de som har eller ikke har hatt personlig kontakt med NAV"}
+knitr::include_graphics("figs/png/fig_nav_trust_by_nav_personal_contact.png")
+```
+
 
 ## Byråkratisk kompetanse
 
@@ -65,7 +80,10 @@ Ekstern byråkratisk kompetanse måler vi ved hjelp av to nye påstander:
 
 2. Saksbehandlere i den offentlige forvaltningen er bare interessert i tekniske aspekter ved saken, ikke hva de det berører faktisk ønsker.
 
-![](figs/png/fig_be_hist.png)
+
+```{r, out.width = "80%", fig.align = "center", fig.cap= "Byråkratisk kompetanse"}
+knitr::include_graphics("figs/png/fig_be_hist.png")
+```
 
 Figurene viser at det er ganske stor spredning i svarene.
 Flertallet av innbyggerne er enige i påstanden at de får alle ytelser som de har rett på. 
@@ -77,7 +95,9 @@ Dette er befolkningen i sin helhet.
 Når vi bryter svarene ned på sosiopolitiske undergrupper ser vi at dem som har lav byråkratisk kompetanse også har lav politisk kompetanse (efficacy).
 Det vil si at de som har tillit til NAV er de som opplever at de får ytelsene de har rett på, som føler at de forstår de byråkratiske prosessene, som tenker at de som jobber i offentlig sektor bryr seg om folks behov, og som ikke bare forholder seg til tekniske aspekter i saksbehandlingen.
 
-![](figs/png/fig_be_coefs_by_type.png)
+```{r, out.width = "80%", fig.align = "center", fig.cap= "Byråkratisk kompetanse covariater"}
+knitr::include_graphics("figs/png/fig_be_coefs_by_type.png")
+```
 
 Byråkratisk kompetanse varierer også til dels mye mellom folk når vi deler dem inn i hvilket parti de ville ha stemt på dersom det var stortingsvalg i morgen.
 Figuren under viser at det er størst forskjell på de som stemmer Fremskrittspartiet og de som stemmer Miljøpartiet de grønne, spesielt når det gjelder ekstern byråkratisk kompetanse.
@@ -88,7 +108,11 @@ De scorer også noe lavere på intern byråkratisk kompetanse, men her er forskj
 Tillit til NAV samvarierer også sterkt med byråkratisk kompetanse.
 Figuren under viser mer dette mer detaljert.
 Vi observerer en lineær sammenheng mellom de to variablene, som flater ut først blant de som har svært høy tillit til NAV.
-![](figs/png/fig_be_by_navtrust.png)
+
+```{r, out.width = "60%", fig.align = "center", fig.cap= "Byråkratisk kompetanse for ulike nivåer av tillit til NAV"}
+knitr::include_graphics("figs/png/fig_be_by_navtrust.png")
+```
+
 
 
 ## Tiltro til likebehandling i NAV
@@ -99,12 +123,22 @@ Slik upartisk behandling av innbyggerne står også sentralt i forskning på hvi
 Når vi spør innbyggerne i Norge hvordan de oppfatter at saksbehandlerne i NAV lar seg påvirke av egne holdninger, finner vi at de tror det forekommer i noen grad.
 Det er liten forskjell på de ulike områdene innenfor NAV.
 
-![](figs/png/fig_nav_exp_attinfluence_all.png)
-![](figs/png/fig_nav_exp_attinfluence_area.png)
+```{r, out.width = "80%", fig.align = "center", fig.cap= "Tilltro til likebehandling i NAV"}
+knitr::include_graphics("figs/png/fig_nav_exp_attinfluence_all.png")
+```
+
+
+```{r, out.width = "80%", fig.align = "center", fig.cap= "Tilltro til likebehandling i NAV II"}
+knitr::include_graphics("figs/png/fig_nav_exp_attinfluence_area.png")
+```
+
 Figuren under viser også at byråkratisk kompetanse samvarierer med oppfatningen om at saksbehandlere lar seg påvirke av egne holdninger:
 Jo høyere byråkratisk kompetanse en innbygger har, desto mindre mener man at saksbehandlerne lar seg påvirke av egne holdninger.
 
-![](figs/png/fig_attinfluence_by_be.png)
+```{r, out.width = "60%", fig.align = "center", fig.cap= "Tilltro til likebehandling i NAV for ulike nivåer av byråkratisk kompetanse"}
+knitr::include_graphics("figs/png/fig_attinfluence_by_be.png")
+```
+
 I utvalget mener de som har vært i personlig kontakt med en saksbehandler i NAV i litt større grad at saksbehandlerne lar seg påvirke av egne holdninger. 
 Forskjellen er imidlertid ikke stor.
 

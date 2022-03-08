@@ -1,17 +1,18 @@
+\newpage
 # Rettferdighetsoppfatninger
 
-## Bruke kunstig intelligens? {#relval}
+## Når er det passende å bruke kunstig intelligens? {#relval}
 
-I dette kapitlet viser vi at
+<!-- Vi finner at -->
 
-- Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens
+<!-- - Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens -->
 
-- Innbyggerne er delt i oppfatningen om bruken av maskinlæring og kunstig intelligens i forvaltningen er noe å bekymre seg over
+<!-- - Innbyggerne er delt i oppfatningen om bruken av maskinlæring og kunstig intelligens i forvaltningen er noe å bekymre seg over -->
 
-- De som oppfatter at de har god kunnskap om maskinlæring er mer positive til bruk av kunstig intelligens i forvaltningen
+<!-- - De som oppfatter at de har god kunnskap om maskinlæring er mer positive til bruk av kunstig intelligens i forvaltningen -->
 
-- Det er en omvendt U-formet sammenheng mellom selvplassering på politisk høyre/venstre-skala og oppslutning om bruk av kunstig intelligens: 
-Innbyggere som plasserer seg mot midten av det politiske spekteret er mer positive enn de som plasserer seg mot en av endene på skalaen.
+<!-- - Det er en omvendt U-formet sammenheng mellom selvplassering på politisk høyre/venstre-skala og oppslutning om bruk av kunstig intelligens:  -->
+<!-- Innbyggere som plasserer seg mot midten av det politiske spekteret er mer positive enn de som plasserer seg mot en av endene på skalaen. -->
 
 I mange beslutninger i forvaltningen må det utvises skjønn basert på en samlet vurdering av den enkelte saken.
 Om man tar i bruk kunstig intelligens, ved hjelp av maskinlæring, vil beslutningene antakelig bli mer treffsikker, og dermed øke andelen riktige beslutninger.
@@ -21,19 +22,15 @@ Dette fordi det er stor variasjon mellom hvordan menneskelige saksbehandlere utv
 
 Med dette som bakgrunn spurte vi respondentene hva foretrekker i slike situasjoner: 
 Enten 1) Bruke kunstig intelligens, som fører til mange flere riktige beslutninger i bytte mot at det alltid er de samme som blir gjenstand for uriktige avgjørelser, eller 2) ikke bruke kunstig intelligens, som fører til mange færre riktige beslutninger i bytte mot at det varierer hvem som blir gjenstand for uriktige avgjørelser.
+Fordelingen er vist i tabellen under. 
+Respondentene delte seg på midten i dette spørsmålet, hvor rundt 47 prosent foretrakk å bruke kunstig intelligens, mens 53% foretrakk å ikke bruke kunstig intelligenst. 
 
-
-
-Respondentene delte seg på midten i dette spørsmålet, hvor XX PROSENT FORETRAKK Å BRUKE KUNSTIG INTELLIGENS, MENS XX FORETRAKK Å IKKE BRUKE KUNSTIG INTELLIGENS.
-
-
-
-Table: (\#tab:relval) Resulater: Bruke eller ikke bruke AI
+Table: (\#tab:relval) Tradeoff mellom generell treffsikkerhet og spesfikke systematiske feil (bruke eller ikke bruke KI)
 
 |Svar                |                                             |   Prosent|
 |:-------------------|:--------------------------------------------|---------:|
-|Bruke AI            | (mer treffsikkerhet, systemic error)        | 47       |
-|Ikke bruke AI       | (mindre treffsikkerhet, non-systemic error) | 53       |
+|Bruke KI            |    | 47       |
+|Ikke bruke KI       | | 53       |
 
 Figuren under viser at de med lav kjennskap til maskinlæring og kunstig intelligens var mest skeptiske.
 Det kan altså ha sammenheng med skepsis til det ukjente.
@@ -57,61 +54,53 @@ Inntil videre må vi nøye oss med å konstatere at det er store forskjeller i s
 
 ## Hvilken informasjon anses som passende? {#input}
 
-
-En viktig dimensjon er hvilken informasjon det er rettferdig å bruke. 
-(OM DETTE.)
-(Definér/forklar "variabel" her.)
-
-(Ekstremt eksempel med rase eller kjønn, for å sette det i perspektiv)
+Et annet viktig spørsmål knyttet til bruk av maskinlæring og kunstig intelligens er hvilke data det oppfattes som passende å bruke. 
+I mange brukstilfeller vil det finnes et bredt spektrum av informasjon tilgjenglig, men det vil sannsynligvis variere hvor passende innbyggere faktisk mener det er bruke de ulike typene informasjon -- uavhengig av om de gjør prediksjonen mer treffsikker. 
+Det er derfor nyttig å ha kunnskap om hvordan befolkning vurderer ulike typer informasjon. 
 
 Et realistisk eksempel hvor maskinlæring kan brukes i forvaltninger er hvilke jobbrette tiltak NAV skal tilby en jobbbsøker. Tilgangen til jobbrettede tiltak er behovsbasert og jobbsøkeren har ikke anledning til fritt å velge hvilke tiltak hun eller han ønsker seg. Godt over halvparten av alle jobbsøkere tilbys ingen eller liten bistand fra NAV. Saksbehandler vil på bakgrunn av en individuell vurdering av søkerens behov bestemme innsatsgruppe, og dermed også hvilke tiltak han/hun skal få tilbud om. Tidligere har denne vurderingen blitt gjort av saksbehandleren alene. I dag prøver NAV ut maskinlæring for å bistå saksbehandleren med forslag i denne vurdering. 
 
 I prinsippet finnes det et enormt utvalg av mulige variabler som kan være relevant for en slik prediksjon -- i den forstand at de kan bidra med å gjøre en prediksjon mer nøyaktig. Disse variablene omhandler et stort og variert utvalg informasjon om den enkelte jobbsøker. Det er derfor et godt eksempel på en situasjon hvor det må gjøres en avveining om hvilke variabler man skal bruke, hvor det er sannsynlig at innbyggere vil oppfatte noen variabler som mer eller mindre passende enn andre. I verste fall kan enkelte variabler bli oppfattet som direkte urettferdig.
 
-For å studere dette spurte vi respondentene hvor passende de synes det er å bruke hver av en liste variabler, med utgangspunkt i at de skal brukes for å foreslå jobbrettede tiltak. I spørsmålet satt vi premisset at hver variabel bidrar med å gjøre forslagene mer nøyaktige. Vi spurte dem både om variabler som det har vært aktuelt for NAV å bruke ved en eventuell slik implementering: 
+For å studere dette spurte vi respondentene hvor passende de synes det er å bruke hver av en liste variabler, med utgangspunkt i at de skal brukes for å foreslå jobbrettede tiltak. I spørsmålet satt vi premisset at hver variabel bidrar med å gjøre forslagene mer nøyaktige. Vi ba dem om å vurdere hver variabel på en fem-punkts skala, fra "Ikke passende i det hele tatt" (1) til "Svært passende" (5). Vi spurte dem både om variabler som det har vært aktuelt for NAV å bruke ved en eventuell slik implementering og om variabler som det ikke har vært aktuelt å bruke: 
 
+- Alder;
+- Arbeidshistorikk: Hvorvidt den arbeidssøkende har hatt sammenhengende jobb i 6 av de siste 12 mnd;
+- Bosted: Hvor i landet bor brukeren;
+- Kjønn;
 - Helse: Hvorvidt jobbsøkere opplyser at hen har helseutfordringer; 
-
+- Landbakgrunn;
+- Rulleblad: Har brukeren blitt dømt for kriminelle handlinger.
 - Ufordringer: Hvorvidt jobbsøkere opplyser at hen har andre utfordringer som hindrer dem fra å jobbe; 
-
 - Utdanning: Hvorvidt jobbsøkeren har fullført utdanning godkjent i Norge;
 
-- Arbeidshistorikk: Hvorvidt den arbeidssøkende har hatt sammenhengende jobb i 6 av de siste 12 mnd;
-
-- Alder
-
-- Kjønn
-
-(HVILKE VAR DET SOM DE FAKTISK HADDE TENKT Å BRUKE?)
-Vi spurte dem også om varabler som det ikke har vært aktuelt å ta bruk, men som representerer andre typer informasjon som i prinsippet kan være informativt:
-
-- Landbakgrunn
-
-- Bosted: Hvor i landet bor brukeren?
-
-- Rulleblad: Har brukere blitt dømt for kriminelle handlinger?
-
-Vi ba dem om å vurdere hver variabel på en fem-punkts skala, fra "Ikke passende i det hele tatt" (1) til "Svært passende" (5). 
-
 Resultatene fra spørsmålet vises i figurene under. 
-Den første figurene viser snittet på skalaen for hver variabel, hvor variablene er rangert nedover etter hvor passende respondente synes de var i snitt. Den andre figuren viser hele fordelingen for hver variabel. Samlet sett ser vi at ingen av variablene oppfattes som utvilsomt passende eller upassende. De fleste har et gjennomsnitt mellom 3 ("Noe passende") og 4 ("Passende"). Men noen skiller seg ut. På den ene siden skiller kjønn og landsbakgrunn seg spesielt ut ved å ha et gjennomsnitt under 3, substantielt under de andre; på den andre siden skiller utdanning seg ut ved å ha et gjennomsnitt over 4, substantielt over de andre. Hva variasjonen skyldes vet vi ikke med sikkerhet. At kjønn og landbakgrunn blir sett på som mindre passende er gjerne fordi de er mer direkte knyttet til spørsmål og bekymringer om diskriminering. Samlet sett er det tydelig forskjeller i hvor passende ulike typer informasjon ble oppfattet av respondentene.
+Den første figurene viser snittet på skalaen for hver variabel, hvor variablene er rangert nedover etter hvor passende respondentene synes de var i snitt. Den andre figuren viser hele fordelingen for hver variabel. Samlet sett ser vi at ingen av variablene oppfattes som utvilsomt passende eller upassende. De fleste har et gjennomsnitt mellom 3 ("Noe passende") og 4 ("Passende"). Men noen skiller seg ut. På den ene siden skiller kjønn og landsbakgrunn seg spesielt ut ved å ha et gjennomsnitt under 3, substantielt under de andre; på den andre siden skiller utdanning seg ut ved å ha et gjennomsnitt over 4, substantielt over de andre. Hva variasjonen skyldes vet vi ikke med sikkerhet. At kjønn og landbakgrunn blir sett på som mindre passende er gjerne fordi de er mer direkte knyttet til spørsmål og bekymringer om diskriminering. Samlet sett er det tydelig forskjeller i hvor passende ulike typer informasjon ble oppfattet av respondentene.
 
-![](figs/png/fig_vars_avg.png)
-![](figs/png/fig_vars_hist.png)
+
+
+```{r, out.width = "90%", fig.align = "center", fig.cap= "Gjennomsnitt av hvor passende det oppfattes å bruke variabelen"}
+knitr::include_graphics("figs/png/fig_vars_avg.png")
+```
+
+
+```{r, out.width = "90%", fig.align = "center", fig.cap= "Fordeling for hver variabel av hvor passende den oppfattes å bruke"}
+knitr::include_graphics("figs/png/fig_vars_hist.png")
+```
 
 De to figurene under sammenligner gjennomsnittet for ulike undergrupper. I den første er det differensiert mellom respondenter med og uten høyere utdanning. Vi ser her at respondenter med ulik utdanning har noe ulikt syn på ulike variablene, og da særskilt når det kommer til nettopp utdanning. De med høyere utdanning synes det er betydelig mer passende enn de uten høyere utdanning å bruke utdanning som variabel. De underliggende årsaken til disse forskjellene kan være mange, men resultatene peker på at grupper med ulik oppfatning, kunnskap, erfaring, etc, kan forholde seg substansielt forskjellig til samme type informasjon.
 
-![](figs/png/fig_vars_avg_utd.png)
+```{r, out.width = "90%", fig.align = "center", fig.cap= "Gjennomsnitt av hvor passende det oppfattes å bruke variabelen for ulike utdanningsnivå"}
+knitr::include_graphics("figs/png/fig_vars_avg_utd.png")
+```
 
 I den neste figuren er det differensiert etter hvor mye selverklært kunnskap respondenene har om maskinlæring. Her ser vi også noen viktige forskjeller: De med mye selverklært kunnskap om maskinlæring synes at de fire variablene på toppen (som generelt blir sett på som mest passende) er substansielt mer passende enn de uten kunnskap. Dette kan være relatert til underliggende sosioøkonomiske forskjeller mellom de med høy og lav selverklært kunnskap, slik som utdanningsnivå, men det kan også være kunnskap i seg selv som endrer denne oppfatningen. En viktig alternativ mekanisme er at de med mye kunnskap om maskinlæring verdesetter økt nøyaktighet mer enn de uten slik kunnskap, som da endrer hvordan de balanserer ulike hensyn når de vurderer hvor passende variablene er. 
 
-![](figs/png/fig_vars_avg_ml_know.png)
-
+```{r, out.width = "90%", fig.align = "center", fig.cap= "Gjennomsnitt av hvor passende det oppfattes å bruke variabelen for ulike nivå av selvrapportert kjennskap til maskinlæring"}
+knitr::include_graphics("figs/png/fig_vars_avg_ml_know.png")
+```
 
 Sett i helhet antyder resultatene at den generelle befolkning er uenig i hvor passende det er å bruke ulike typer informasjon. Samtidig er det tydelig forskjeller mellom variablene, hvor særskilt kjønn og landbakgrunn blir sett på mindre passende av mange. Resultatene viser også at det er viktige systematiske forskjeller mellom ulike grupper for hvordan de gjør denne vurderingen.
-
-(LITREV: HVORDAN RELATERER DETTE SEG TIL HVA ANDRE FINNER?)
-Lignende studier gjort med andre eksempelsaker i andre land viser at x. 
 
 ## Statistisk paritet {#paritet}
 
@@ -145,7 +134,7 @@ Er etnisitet i dette tilfellet så viktig at man bør la det gå på bekostning 
 NAVs tilfelle om dialogmøte er mindre dramatisk enn eksempelet om prøveløslatelse.
 Samtidig er de prinsipielle problemstillingene de samme.
 Statistisk paritet innebærer i tilfellet om dialogmøte at modellen sikrer at like mange menn og kvinner skal få tilbud om dialogmøte.
-Denne prioriteringer vil i så fall gå delvis på bekostning av å prioritere treffsikkerhet med tanke på å invitere de som har størst nytte av et slikt møte.   
+Denne prioriteringer vil i så fall gå delvis på bekostning av å prioritere treffsikkerhet med tanke på å invitere de som har størst nytte av et slikt møte.
 
 For å studere respondentenes umiddelbare reaksjoner til et slik etisk dilemma knyttet til rettferdig bruk av kunstig intelligens ber vi respondentene se for seg et valg mellom to alternative maskinlæringsmodeller for å velge hvem som skal få tilbud om dialogmøte.
 
@@ -164,7 +153,11 @@ Hvis det står mellom disse to modellene, hvilken modell synes respondentene vir
 Figuren under viser at et knapt flertall foretrekker en modell som vektlegger statistisk paritet.
 Det vil si at de ønsker å bruke en modell som sikrer likebehandling av kjønn, selv på bekostning av lavere treffsikkerhet totalt sett.
 
-![](figs/png/fig_parity_avg.png)
+
+
+```{r, out.width = "90%", fig.align = "center", fig.cap= "Preferanse for statistisk paritet"}
+knitr::include_graphics("figs/png/fig_parity_avg.png")
+```
 
 I teksten over står det at den mest treffsikre modellen favoriserte menn.
 For å undersøke om det har noen innvirkning på svarene hvilket kjønn modellen favoriserer veksler vi på denne beskrivelsen. 
@@ -180,7 +173,9 @@ Man ser liknende kjønnseffekter i eksperimenter om politisk representasjon, hvo
 I den litteraturen pekes det på forklaringer om at folk er motivert ut fra et ønske om å kompensere for historisk underrepresentasjon av kvinner i politiske stillinger.
 Hvorvidt det ligger liknende strukturelle motivasjoner for våre resultater, psykologiske faktorer, eller andre forhold er et interessant forskningsspørsmål som vi ikke har data til å besvare, og som derfor bør studeres videre.
 
-![](figs/png/fig_parity_treat_avg.png)
+```{r, out.width = "90%", fig.align = "center", fig.cap= "Preferanse for statistisk paritet etter hvilken gruppe som får skjeivt utfall (treatment)"}
+knitr::include_graphics("figs/png/fig_parity_treat_avg.png")
+```
 
 
 Det vi imidlertid ser, og til forskjell fra litteraturen om politisk representasjon, er at kvinner responderer noe mer på informasjon om hvilket kjønn som kommer best ut av en modell som prioriterer treffsikkerhet.
@@ -188,10 +183,14 @@ Både menn og kvinner foretrekker paritetsmodellen oftere i de tilfellene kvinne
 
 Det er også en generell forskjell blant respondentene i den forstand at kvinner i sterkere grad foretrekker paritetsmodellen enn menn gjør, uavhengig av om det er menn eller kvinner som kommer best ut av det.
 
-![](figs/png/fig_parity_treat_avg_by_gender.png)
-<!-- Vi observerer også en modererende effekt av kunnskap om maskinlæring: -->
-<!-- Jevnt over ser vi at jo høyere kunnskap om maskinlæring, desto høyere andel modellen som prioriterer treffsikkerhet framfor statistisk paritet.  -->
-<!-- Det her er igjen verdt å nevne at slike bivariate, statistiske sammehenger ikke sier noe om årsakssammenhenger. -->
-<!-- SKAL VI TA MED DENNE FIGUREN? DEN PASSER IKKE SUPERGODT INN I NARRATIVET, OG ER VANSKELIG Å DISKUTERE. -->
-<!-- ![](figs/png/fig_parity_treat_avg_by_ml_know.png) -->
+```{r, out.width = "90%", fig.align = "center", fig.cap= "Preferanse for statistisk paritet etter hvilken gruppe som får skjeivt utfall (treatment) og respondentens kjønn"}
+knitr::include_graphics("figs/png/fig_parity_treat_avg_by_gender.png")
+```
+
+<!-- ![](figs/png/fig_parity_treat_avg_by_gender.png) -->
+<!-- <\!-- Vi observerer også en modererende effekt av kunnskap om maskinlæring: -\-> -->
+<!-- <\!-- Jevnt over ser vi at jo høyere kunnskap om maskinlæring, desto høyere andel modellen som prioriterer treffsikkerhet framfor statistisk paritet.  -\-> -->
+<!-- <\!-- Det her er igjen verdt å nevne at slike bivariate, statistiske sammehenger ikke sier noe om årsakssammenhenger. -\-> -->
+<!-- <\!-- SKAL VI TA MED DENNE FIGUREN? DEN PASSER IKKE SUPERGODT INN I NARRATIVET, OG ER VANSKELIG Å DISKUTERE. -\-> -->
+<!-- <\!-- ![](figs/png/fig_parity_treat_avg_by_ml_know.png) -\-> -->
 

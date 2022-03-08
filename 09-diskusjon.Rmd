@@ -1,3 +1,4 @@
+\newpage
 # Diskusjon og videre forskning
 
 Bruk av maskinlæring og kunstig intelligens i forvaltningen er per i dag ikke høyt på agendaen hos innbyggere i Norge.
@@ -22,6 +23,7 @@ Den representerer imidlertid bare starten, og må følges opp av videre studier 
 Under presenterer vi to tilnærminger til videre opinionsforskning.
 
 ## Deliberativ meningsmåling
+
 Spørreundersøkelser har mange fordeler, ikke minst det at man når et representativt og relativt stort antall innbyggere på kort tid.
 Samtidig er det behov for å gå mer i dybden, hvor innbyggerne får anledning til å sette seg grundigere inn i det som ofte er komplekse spørsmål.
 De involverte forskerne i denne rapporten skal derfor gjennomføre en såkalt deliberativ meningsmåling sommeren 2022, hvor et representativt utvalg av innbyggerne i Norge gjennom en hel dag skal diskutere og uttrykke sine meninger om tematikken.

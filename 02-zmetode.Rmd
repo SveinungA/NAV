@@ -1,0 +1,17 @@
+\newpage
+# Data og metode {#metode}
+
+
+## Norsk medborgerpanel
+Datagrunnlaget for denne rapporten er samlet inn i Norsk medborgerpanels runde 22 og 23.
+Norsk medborgerpanel er en internettbasert undersøkelse om nordmenns holdninger til viktige samfunnstema.
+Panelet drives av samfunnsforskere ved Universitetet i Bergen og NORCE, og er et non-profit prosjekt utelukkende benyttet til forskningsformål. 
+Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.
+
+Panelet blir driftet av [Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE)](www.digsscore.uib.no), som er samarbeidspartner i prosjektet.
+
+Samlet antall respondenter som svarte på deler av denne undersøkelsen var 3971.
+Typisk antall respondenter for hvert spørsmål er om lag 2000.
+
+[Metoderapport for data kan lastes ned her.](https://www.uib.no/en/digsscore/122162/methodology-and-field-periods)
+Data er åpent tilgjengelig for forskere, og kan lastes ned ved å kontakte [Sikt – Kunnskapssektorens tjenesteleverandør (tidligere kjent som NSD)](https://sikt.no/).

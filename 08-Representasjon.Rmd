@@ -1,3 +1,4 @@
+\newpage
 # Representativt byråkrati {#representasjon}
 
 Den dominerende forståelsen av hva det norske politisk-administrative systemet skal være er den weberianske forestillingen om et byråkrati som ikke skal ha noen selvstendig innflytelse på politikken.
@@ -40,8 +41,10 @@ Eksperimentdelen av studien innebærer at vi legger til en ekstra setning til ha
 
 >Som støtte i beslutningsprosessen bruker saksbehandleren kunstig intelligens, basert på maskinlæring, som anbefaler hvem som skal få støtte.
 
+```{r, out.width = "90%", fig.align = "center", fig.cap= "Representajon: Gjennomsnitt av hvor viktig det oppfattes at saksbehandler har samme [egenskap] for å ivareta interesser, delt opp etter hvorvidt saksbehandleren bruker maskinlæring"}
+knitr::include_graphics("figs/png/fig_exp_repr_each.png")
+```
 
-![](figs/png/fig_exp_repr_each.png)
 Resultatene fra eksperimentet viser at folk jevnt over blir mer opptatt av representativt byråkrati når forvaltningen benytter seg av maskinlæring og kunstig intelligens som beslutningsstøtte.
 Spesielt arbeidserfaring og utdanningsnivå blir viktigere for respondentene.
 Relevant i denne sammenhengen er et spørsmål vi stilte tilbake i 2018 i Norsk medborgerpanel om man trodde økt grad av automatisering ville gjøre forvaltningen verre eller bedre.
