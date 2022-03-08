@@ -1,4 +1,15 @@
-# Bruke kunstig intelligens?
+# Bruke kunstig intelligens? {#relval}
+
+I dette kapitlet viser vi at
+
+- Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens
+
+- Innbyggerne er delt i oppfatningen om bruken av maskinlæring og kunstig intelligens i forvaltningen er noe å bekymre seg over
+
+- De som oppfatter at de har god kunnskap om maskinlæring er mer positive til bruk av kunstig intelligens i forvaltningen
+
+- Det er en omvendt U-formet sammenheng mellom selvplassering på politisk høyre/venstre-skala og oppslutning om bruk av kunstig intelligens: 
+Innbyggere som plasserer seg mot midten av det politiske spekteret er mer positive enn de som plasserer seg mot en av endene på skalaen.
 
 I mange beslutninger i forvaltningen må det utvises skjønn basert på en samlet vurdering av den enkelte saken.
 Om man tar i bruk kunstig intelligens, ved hjelp av maskinlæring, vil beslutningene antakelig bli mer treffsikker, og dermed øke andelen riktige beslutninger.
@@ -9,17 +20,34 @@ Dette fordi det er stor variasjon mellom hvordan menneskelige saksbehandlere utv
 Med dette som bakgrunn spurte vi respondentene hva foretrekker i slike situasjoner: 
 Enten 1) Bruke kunstig intelligens, som fører til mange flere riktige beslutninger i bytte mot at det alltid er de samme som blir gjenstand for uriktige avgjørelser, eller 2) ikke bruke kunstig intelligens, som fører til mange færre riktige beslutninger i bytte mot at det varierer hvem som blir gjenstand for uriktige avgjørelser.
 
+
+
 Respondentene delte seg på midten i dette spørsmålet, hvor XX PROSENT FORETRAKK Å BRUKE KUNSTIG INTELLIGENS, MENS XX FORETRAKK Å IKKE BRUKE KUNSTIG INTELLIGENS.
+
+
+
+Table: (\#tab:relval) Resulater: Bruke eller ikke bruke AI
+
+|Svar                |                                             |   Prosent|
+|:-------------------|:--------------------------------------------|---------:|
+|Bruke AI            | (mer treffsikkerhet, systemic error)        | 47       |
+|Ikke bruke AI       | (mindre treffsikkerhet, non-systemic error) | 53       |
+
 Figuren under viser at de med lav kjennskap til maskinlæring og kunstig intelligens var mest skeptiske.
 Det kan altså ha sammenheng med skepsis til det ukjente.
 
-![](figs/png/fig_relval_ml_know.png){width='70%'}
+```{r, out.width = "50%", fig.align = "center", fig.cap= "Repiterbarhet etter selvrapportert kunnskap"}
+knitr::include_graphics("figs/png/fig_relval_ml_know.png")
+```
 
 Spørsmålet har også en politisk-filosofisk dimensjon over seg.
 Premisset som legges til grunn for spørsmålet er at man ved å innføre kunstig intelligens påvirker fordelingen av riktige beslutninger. 
 Det blir da et spørsmål om fordeling av goder, og om man er villig til å ofre et lite antall individer som systematisk forfordeles med uriktige beslutninger, mot at populasjonen som helhet nyter godt av en høyere andel riktige beslutninger.
 
-![](figs/png/fig_relval_polscale.png){width='70%'}
+```{r, out.width = "60%", fig.align = "center", fig.cap= "Repiterbarhet etter selvplassering på politiske skala"}
+knitr::include_graphics("figs/png/fig_relval_polscale.png")
+```
+
 
 Ut fra dette perspektivet gir det mening at de som plasserer seg lengst til venstre på den politiske høyre/venstre-skalaen er minst villige til å bruke kunstig intelligens, da man kan anta at borgere som plasserer seg lengst til venstre er mer egalitær enn de som plasserer seg på høyresiden.
 Vi noterer oss imidlertid også at de som plasserer seg lengst til høyre også er mindre villige til å bruke kunstig intelligens når konsekvensene av bruken presenteres slik som den har blitt gjort i dette konkrete tilfellet.

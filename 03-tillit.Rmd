@@ -1,4 +1,4 @@
-# Oppfatninger om NAV
+# Oppfatninger om NAV {#nav}
 
 I dette kapitlet ser vi nærmere på relasjonen mellom NAV og innbyggerne i Norge.
 Kapitlet danner grunnlaget for å forstå konteksten når vi senere fokuserer mer spesifikt på maskinlæring og kunstig intelligens i organisasjone. 
