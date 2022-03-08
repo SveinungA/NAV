@@ -14,20 +14,20 @@ description: "Demokratiske algoritmer: Hvordan oppnå legitimitet og rettferdigh
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, knitr.kable.NA = " ", cache = FALSE, warning = FALSE)
 
-if(!require("ggdag")){install.packages("ggdag");  library(ggdag)}
-if(!require("haven")){install.packages("haven");  library(haven)}
-if(!require("here")){install.packages("here");  library(here)}
-if(!require("kableExtra")){install.packages("kableExtra");  library(kableExtra)}
-if(!require("patchwork")){install.packages("patchwork");  library(patchwork)}
-if(!require("readxl")){install.packages("readxl");  library(readxl)}
-if(!require("rio")){install.packages("rio");  library(rio)}
-if(!require("tidyverse")){install.packages("tidyverse");  library(tidyverse)}
+## if(!require("ggdag")){install.packages("ggdag");  library(ggdag)}
+## if(!require("haven")){install.packages("haven");  library(haven)}
+## if(!require("here")){install.packages("here");  library(here)}
+## if(!require("kableExtra")){install.packages("kableExtra");  library(kableExtra)}
+## if(!require("patchwork")){install.packages("patchwork");  library(patchwork)}
+## if(!require("readxl")){install.packages("readxl");  library(readxl)}
+## if(!require("rio")){install.packages("rio");  library(rio)}
+## if(!require("tidyverse")){install.packages("tidyverse");  library(tidyverse)}
 ```
 
 
 # Om rapporten {#om}
 
-![](figs/png/nav_ordsky.png)
+<!-- ![](figs/png/nav_ordsky.png) -->
 <!-- ## Kort sammendrag -->
 <!-- Den pågående automatiseringen av beslutningsprosesser i offentlig forvaltning representerer en omveltning innenfor byråkratisk myndighetsutøvelse. -->
 <!-- Tilgang på store mengder relevant digital data og økende muligheter for å behandle informasjonen gjør at oppgaver som tidligere måtte behandles manuelt kan overlates til hel- eller halvautomatiserte prosesser med vesentlig redusert menneskelig inngripen. -->
@@ -80,68 +80,68 @@ Ved referering til rapporten, vennligst bruk følgende sitering:
 Arnesen, Sveinung, Mikael P. Johannesson (2022): Demokratiske algoritmer. Norce-rapport #..., Bergen, mars 2022. Url: https://bookdown.org/sveinungarnesen78/NAV/.
 
 ```{r}
-ncp21_raw <- import('C:/Users/svein/OneDrive - NORCE/Infrastruktur/Digsscore/Medborgerpanelet/2021-2/Norsk medborgerpanel - runde 21 - v-100-O.sav')
-ncp22_raw <- import('C:/Users/svein/OneDrive - NORCE/Infrastruktur/Digsscore/Medborgerpanelet/2021-3/Norsk medborgerpanel - runde 22 - v-100-O.sav')
+## ncp21_raw <- import('C:/Users/svein/OneDrive - NORCE/Infrastruktur/Digsscore/Medborgerpanelet/2021-2/Norsk medborgerpanel - runde 21 - v-100-O.sav')
+## ncp22_raw <- import('C:/Users/svein/OneDrive - NORCE/Infrastruktur/Digsscore/Medborgerpanelet/2021-3/Norsk medborgerpanel - runde 22 - v-100-O.sav')
 
-d <- ncp21_raw %>% select(
-  be_internal1 = r21padkom13_1,
-  be_internal2 = r21padkom13_2,
-  be_external1 = r21padkom14_1,
-  be_external2 = r21padkom14_2,
-  nav_trust = r21padkom15,
-  nav_knowledge = r21padkom16,
-  r21padkom17_1_1,
-  r21padkom17_1_2,
-  r21padkom17_1_3,
-  r21padkom17_2_1,
-  r21padkom17_2_2,
-  r21padkom17_2_3,
-  r21padkom17_3_1,
-  r21padkom17_3_2,
-  r21padkom17_4_1,
-  r21padkom17_4_2,
-  r21padkom17_4_3,
-  r21padkom17_5_1,
-  r21padkom17_5_2,
-  r21padkom17_5_3,
-  r21padkom17_6_1,
-  r21padkom17_6_2,
-  r21padkom17_6_3,
-  r21padkom17_7_1,
-  r21padkom17_7_2,
-  r21padkom17_7_3,
-  nav_kontakt = r21padkom18,
-  r21padkom19_ran,
-  caseworker_bias = r21padkom19,
-  ml_knowledge = r21padkom20,
-  ml_interests = r21padkom21,
-  job_prep = r21padkom24,
-  input_health = r21padkom25_1,
-  input_challenges = r21padkom25_2,
-  input_edu = r21padkom25_3,
-  input_work = r21padkom25_4,
-  input_age = r21padkom25_5,
-  input_gender = r21padkom25_6,
-  input_country = r21padkom25_7,
-  input_geo = r21padkom25_8,
-  input_crime = r21padkom25_9,
-  r21padkom29_ran,
-  same_edu = r21padkom29_1,
-  same_geo = r21padkom29_2,
-  same_gender = r21padkom29_3,
-  same_faith = r21padkom29_4,
-  same_age = r21padkom29_5,
-  same_ethnicity = r21padkom29_6,
-  same_polviews = r21padkom29_7,
-  same_workexp = r21padkom29_8,
-  same_sexualorient = r21padkom29_9,
-  ml_worry = r21padkom22,
-  #opentext variable r21padkom23
-  r21padkom26_ran,
-  r21padkom26_ran_contra,
-  parity_post = r21padkom26,
-  parity_reasoning = r21padkom27,
-  systematic_bias = r21padkom28
+## d <- ncp21_raw %>% select(
+##   be_internal1 = r21padkom13_1,
+##   be_internal2 = r21padkom13_2,
+##   be_external1 = r21padkom14_1,
+##   be_external2 = r21padkom14_2,
+##   nav_trust = r21padkom15,
+##   nav_knowledge = r21padkom16,
+##   r21padkom17_1_1,
+##   r21padkom17_1_2,
+##   r21padkom17_1_3,
+##   r21padkom17_2_1,
+##   r21padkom17_2_2,
+##   r21padkom17_2_3,
+##   r21padkom17_3_1,
+##   r21padkom17_3_2,
+##   r21padkom17_4_1,
+##   r21padkom17_4_2,
+##   r21padkom17_4_3,
+##   r21padkom17_5_1,
+##   r21padkom17_5_2,
+##   r21padkom17_5_3,
+##   r21padkom17_6_1,
+##   r21padkom17_6_2,
+##   r21padkom17_6_3,
+##   r21padkom17_7_1,
+##   r21padkom17_7_2,
+##   r21padkom17_7_3,
+##   nav_kontakt = r21padkom18,
+##   r21padkom19_ran,
+##   caseworker_bias = r21padkom19,
+##   ml_knowledge = r21padkom20,
+##   ml_interests = r21padkom21,
+##   job_prep = r21padkom24,
+##   input_health = r21padkom25_1,
+##   input_challenges = r21padkom25_2,
+##   input_edu = r21padkom25_3,
+##   input_work = r21padkom25_4,
+##   input_age = r21padkom25_5,
+##   input_gender = r21padkom25_6,
+##   input_country = r21padkom25_7,
+##   input_geo = r21padkom25_8,
+##   input_crime = r21padkom25_9,
+##   r21padkom29_ran,
+##   same_edu = r21padkom29_1,
+##   same_geo = r21padkom29_2,
+##   same_gender = r21padkom29_3,
+##   same_faith = r21padkom29_4,
+##   same_age = r21padkom29_5,
+##   same_ethnicity = r21padkom29_6,
+##   same_polviews = r21padkom29_7,
+##   same_workexp = r21padkom29_8,
+##   same_sexualorient = r21padkom29_9,
+##   ml_worry = r21padkom22,
+##   #opentext variable r21padkom23
+##   r21padkom26_ran,
+##   r21padkom26_ran_contra,
+##   parity_post = r21padkom26,
+##   parity_reasoning = r21padkom27,
+##   systematic_bias = r21padkom28
 )
 ```
 
