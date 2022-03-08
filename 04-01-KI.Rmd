@@ -1,5 +1,5 @@
 \newpage
-# Befolkningen og maskinlæring {#ki}
+# Innbyggernes relasjon til maskinlæring og KI {#ki}
 
 I dette kapitlet ser vi nærmere på hvilke forventinger innbyggerne i Norge har når det gjelder bruk av maskinlæring og kunstig intelligens generelt og i NAV. Respondentene ble først gitt enn introduksjon som kort forklarte maskinlæring og kunstig intelligens og spurte de hvor mye kjennskap de har til temaet. Deretter undersøkte vi deres generelle forventinger rundt dette. Vi finner at
 

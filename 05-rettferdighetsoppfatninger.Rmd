@@ -134,7 +134,7 @@ Er etnisitet i dette tilfellet så viktig at man bør la det gå på bekostning 
 NAVs tilfelle om dialogmøte er mindre dramatisk enn eksempelet om prøveløslatelse.
 Samtidig er de prinsipielle problemstillingene de samme.
 Statistisk paritet innebærer i tilfellet om dialogmøte at modellen sikrer at like mange menn og kvinner skal få tilbud om dialogmøte.
-Denne prioriteringer vil i så fall gå delvis på bekostning av å prioritere treffsikkerhet med tanke på å invitere de som har størst nytte av et slikt møte.
+Denne prioriteringer vil i så fall gå delvis på bekostning av å prioritere treffsikkerhet med tanke på å invitere de som har størst nytte av et slikt møte.   
 
 For å studere respondentenes umiddelbare reaksjoner til et slik etisk dilemma knyttet til rettferdig bruk av kunstig intelligens ber vi respondentene se for seg et valg mellom to alternative maskinlæringsmodeller for å velge hvem som skal få tilbud om dialogmøte.
 
@@ -152,7 +152,6 @@ Dette gjelder både kvinner og menn.
 Hvis det står mellom disse to modellene, hvilken modell synes respondentene virker mest rettferdig?
 Figuren under viser at et knapt flertall foretrekker en modell som vektlegger statistisk paritet.
 Det vil si at de ønsker å bruke en modell som sikrer likebehandling av kjønn, selv på bekostning av lavere treffsikkerhet totalt sett.
-
 
 
 ```{r, out.width = "90%", fig.align = "center", fig.cap= "Preferanse for statistisk paritet"}
@@ -177,20 +176,33 @@ Hvorvidt det ligger liknende strukturelle motivasjoner for våre resultater, psy
 knitr::include_graphics("figs/png/fig_parity_treat_avg.png")
 ```
 
-
 Det vi imidlertid ser, og til forskjell fra litteraturen om politisk representasjon, er at kvinner responderer noe mer på informasjon om hvilket kjønn som kommer best ut av en modell som prioriterer treffsikkerhet.
 Både menn og kvinner foretrekker paritetsmodellen oftere i de tilfellene kvinnene kommer dårlig ut av treffsikkerhetsmodellen enn i de tilfellene hvor menn kommer dårlig ut av samme modell, men denne effekten er noe sterkere hos kvinner enn menn.
 
 Det er også en generell forskjell blant respondentene i den forstand at kvinner i sterkere grad foretrekker paritetsmodellen enn menn gjør, uavhengig av om det er menn eller kvinner som kommer best ut av det.
 
+
 ```{r, out.width = "90%", fig.align = "center", fig.cap= "Preferanse for statistisk paritet etter hvilken gruppe som får skjeivt utfall (treatment) og respondentens kjønn"}
 knitr::include_graphics("figs/png/fig_parity_treat_avg_by_gender.png")
 ```
+<!-- Vi observerer også en modererende effekt av kunnskap om maskinlæring: -->
+<!-- Jevnt over ser vi at jo høyere kunnskap om maskinlæring, desto høyere andel modellen som prioriterer treffsikkerhet framfor statistisk paritet.  -->
+<!-- Det her er igjen verdt å nevne at slike bivariate, statistiske sammehenger ikke sier noe om årsakssammenhenger. -->
+<!-- SKAL VI TA MED DENNE FIGUREN? DEN PASSER IKKE SUPERGODT INN I NARRATIVET, OG ER VANSKELIG Å DISKUTERE. -->
+<!-- ![](figs/png/fig_parity_treat_avg_by_ml_know.png) -->
 
-<!-- ![](figs/png/fig_parity_treat_avg_by_gender.png) -->
-<!-- <\!-- Vi observerer også en modererende effekt av kunnskap om maskinlæring: -\-> -->
-<!-- <\!-- Jevnt over ser vi at jo høyere kunnskap om maskinlæring, desto høyere andel modellen som prioriterer treffsikkerhet framfor statistisk paritet.  -\-> -->
-<!-- <\!-- Det her er igjen verdt å nevne at slike bivariate, statistiske sammehenger ikke sier noe om årsakssammenhenger. -\-> -->
-<!-- <\!-- SKAL VI TA MED DENNE FIGUREN? DEN PASSER IKKE SUPERGODT INN I NARRATIVET, OG ER VANSKELIG Å DISKUTERE. -\-> -->
-<!-- <\!-- ![](figs/png/fig_parity_treat_avg_by_ml_know.png) -\-> -->
+Et oppfølgingseksperiment viser hvordan innbyggerne responderer på signaler om hvordan modellene har blitt til. 
+Mens de to modellene i utgangspunktet er tilnærmet like populære blant respondentene, endrer svarene seg markant når vi opplyser om at en ekspertkomité anbefaler den ene modellen framfor den andre.
+Dette viser med tydelighet at innbyggerne bryr seg om ikke bare hvordan modellene virker, men også hvordan prosessen i forkant har vært.
 
+
+```{r, out.width = "90%", fig.align = "center", fig.cap= "Preferanse for statistisk paritet etter hvilken gruppe som får skjeivt utfall (treatment) og respondentens kjønn"}
+knitr::include_graphics("figs/png/fig_parity_komite.png")
+```
+
+Eksperter har autoritet i kraft av sin kompetanse som gir legitimitet til bruken av modellene.
+En ekspertkomité fungerer som et godkjentstempel -- en svanemerking om du vil -- på at modellene oppfyller grunnleggende etiske, administrative og politiske krav.
+At folk responderer på signaler fra eliter er ikke uvanlig i studier av politisk atferd, og spesielt ikke i saker hvor innbyggerne mangler kunnskap eller ikke har sterke oppfatninger på forhånd.
+Eksperter kan være så mangt, og for å følge opp studiet om byråkratisk representasjon (beskrevet i et annet kapittel) undersøker vi om det spiller noen rolle for innbyggerne at ekspertene gjenspeiler befolkningen, altså er deskriptivt representativ.
+Denne ekstra informasjonen om ekspertkomiteen gir ingen statistisk signifikant utslag på oppslutningen om modellene.
+Det betyr enten at innbyggerne ikke er opptatt av representativitet blant eksperter, eventuelt at dette er implisitt antatt slik at eksplisitt informasjon om at ekspertgruppen er representativ ikke tilfører respondentene noen ny informasjon.
