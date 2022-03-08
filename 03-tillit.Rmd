@@ -30,17 +30,16 @@ Fire av ti innbyggere i Norge har liten eller ingen kjennskap til NAV, mens seks
 ![](figs/png/fig_nav_knowledge.png)
 
 ## Tillit
+Tillit er noe som tar lang til å bygge opp, men som fort kan rives ned.
 Norge er kjent som et land der myndighetene nyter høy tillit i befolkningen.
 Dette bekreftes også i vår undersøkelse for NAV sin del.
 Fire av ti innbyggere i Norge har høy eller svært høy tillit til NAV, mens bare en av seks har liten eller ingen tillit.
-På en skala fra 1 til 5 der 1 er lavest og 5 er høyest, er gjennomsnittsverdien på **xx**.
+Det er et godt utgangspunkt at NAV nyter tillit i befolkningen, og ikke desto viktigere at denne relasjonen ivaretaes parallelt med at organisasjonen endrer seg og utvikler morgendagens forvaltning.
+Hvordan NAV ligger i forhold til andre forvaltningsorganer har vi ikke data på.
 
 ![Tillit til NAV](figs/png/fig_nav_trust.png)
 
-Tillit er noe som tar lang til å bygge opp, men som fort kan rives ned.
-Det er et godt utgangspunkt at NAV nyter tillit i befolkningen, og ikke desto viktigere at denne relasjonen ivaretaes parallelt med at organisasjonen endrer seg og utvikler morgendagens forvaltning.
-
-1. SAMMENLIKNE MED TILLIT TIL ANDRE ORGANISASJONER
+Om vi bryter ned tillit etter kjennskap til NAV, ser vi at ...
 2. TILLIT BRUTT NED PÅ ERFARING MED OG KJENNSKAP TIL NAV
 
 ## Byråkratisk kompetanse
@@ -53,7 +52,7 @@ Vi ser at intern og ekstern politisk kompetanse henger sammen med politisk delta
 På samme måte som at innbyggerne har ulike evner til å forstå politikk og påvirke politiske prosesser, har de også ulike evner til å forstå forvaltningen.
 I motsetning til i politisk arbeid er det ikke et mål at innbyggerne nødvendigvis skal kunne påvirke en byråkratisk prosess, men det er likefullt en kjennsgjerning at noen personer er flinkere til å følge opp saker på vegne av seg selv eller pårørende, og slik sett er bedre i stand til å ivareta sine interesser i saker som angår dem.
 
-For å avdekke hvordan disse ferdighetene fordeler seg i befolkningen har vi spurt respondentene om det vil benevner deres *byråkratiske kompetanse* - intern og ekstern.
+For å avdekke hvordan disse ferdighetene fordeler seg i befolkningen har vi spurt respondentene om det vi benevner deres *byråkratiske kompetanse* - intern og ekstern.
 Intern byråkratisk kompetanse måler vi ved hjelp av to påstander som de skal si seg enig eller uenig i:
 
 1. 	Jeg er i stand til å skaffe alle offentlige ytelser, tjenester, og tillatelser som jeg har rett på.
@@ -96,7 +95,7 @@ Vi observerer en lineær sammenheng mellom de to variablene, som flater ut førs
 
 Et styrende prinsipp i norsk forvaltning er nøytralitet:
 Saksbehandlere skal utøve sitt mandat uten å la egne holdninger komme i veien og påvirke beslutningsprosessen.
-Slik uhildet behandling av innbyggerne står også sentralt i forskning på hvilke egenskaper ved byråkratiet som underbygger legitimitet og rettferdighetsoppfatninger.
+Slik upartisk behandling av innbyggerne står også sentralt i forskning på hvilke egenskaper ved byråkratiet som underbygger legitimitet og rettferdighetsoppfatninger.
 Når vi spør innbyggerne i Norge hvordan de oppfatter at saksbehandlerne i NAV lar seg påvirke av egne holdninger, finner vi at de tror det forekommer i noen grad.
 Det er liten forskjell på de ulike områdene innenfor NAV.
 

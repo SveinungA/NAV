@@ -34,8 +34,6 @@ Innbyggerne er delt i synet på grad av bekymring knyttet til bruk av maskinlær
 
 ![Bekymring for maskinlæring](figs/png/fig_ml_worried.png)
 
-1. ÅPENT TEKSTSVAR MED BEGRUNNELSE FOR SVAR OM BEKYMRING
-
 2. ER DET MANGEL PÅ KUNNSKAP SOM LEDER TIL BEKYMRING?
 
 ### Interesser ivaretatt med maskinlæring?

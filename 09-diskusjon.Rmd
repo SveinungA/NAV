@@ -19,7 +19,7 @@ Det kan bety å invitere relevante interessegrupper inn på et tidlig stadium fo
 Det kan også bety å gi befolkningen medvirkning og invitere til en bred diskusjon om etiske og politiske aspekter knyttet til bruk av maskinlæring og kunstig intelligens.
 Denne rapporten presenterer etter det vi kjenner den første studien i norsk sammenheng som involverer den generelle befolkningen i en slik dialog.
 Den representerer imidlertid bare starten, og må følges opp av videre studier både med tanke på hvilke spørsmål som taes opp og med tanke på innretningen av en slik dialog. 
-Under presenterer vi to tilnærminger for videre forskning.
+Under presenterer vi to tilnærminger til videre opinionsforskning.
 
 ## Deliberativ meningsmåling
 Spørreundersøkelser har mange fordeler, ikke minst det at man når et representativt og relativt stort antall innbyggere på kort tid.
@@ -42,7 +42,7 @@ Denne ekspertisen gjør at saksbehandlere har bedre forutsetninger enn befolknin
 Det kan gi utslag når det kommer til hvilke kriterier de legger til grunn for å oppfatte implementering og bruk av maskinlæring og kunstig intelligens i deres daglige virke som legitimt og rettferdig. 
 Det kan handle både om når det burde brukes og hvor mye man burde vektlegge maskinanbefalinger der hvor det er tilgjengelig. 
 Selv om man kan forvente at saksbehandlere i stor grad følger samme holdningsmønster, er det sannsynlig at det finnes spesifikke tilfeller hvor det ikke er samsvar i holdninger. 
-Dette kalles for kongruens [@golder2010ideological], og mer spesifikt prosedyrekongruens for samsvar i holdninger knyttet til beslutningsprosesser.
+Dette kalles for kongruens [@golder2010ideological], og mer spesifikt prosedyrekongruens for samsvar i holdninger knyttet til beslutningsprosesser [@BroderstadTroySaghaug2022DR:T].
 Hvis det finnes tilfeller av inkongruens på tvers av saksområder, kan det påvirke tilliten til NAV og forvaltning som helhet negativt. 
 Eventuelle systematiske forskjeller vil belyse fallgruver hvor implementering eller bruk som  oppfattes som legitim av forvaltningen vil oppfattes som illegitim av den generelle befolkningen, og som derfor utilsiktet kan føre til redusert systemtillit og tillit til NAV.
 Framtidig forskning bør derfor søke å identifisere likheter og forskjeller i holdninger til maskinlæring og kunstig intelligens for henholdsvis saksbehandlere og den generelle befolkningen.
