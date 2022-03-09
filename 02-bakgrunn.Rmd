@@ -1,4 +1,5 @@
-# Introduksjon {#introduksjon}
+\newpage\doublespacing
+# Bakgrunn og motivasjon {#bakgrunn}
 
 ## Byråkratisk omveltning
 Den pågående automatiseringen av beslutningsprosesser i offentlig forvaltning representerer en omveltning innenfor byråkratisk myndighetsutøvelse. 
@@ -40,19 +41,8 @@ Slike forhold kan for eksempel være grad av åpenhet rundt beslutningsprosessen
 Videre er et gjennomgående funn at dersom utfallet går imot ens egne ønsker, blir prosessen diskreditert [@esaiasson2016reconsidering].
 
 
-```{r dag, fig.width=15, fig_height=7}
-theme_set(theme_dag_grid(base_size = 14))
-
-dag <- dagify(y ~ x + v,
-              x ~ z,
-              v ~ z,
-              x ~ v,
-              labels = c(y = 'Institusjonell legitimitet',
-                         x = 'Rettferdigsoppfatning',
-                         z = 'Beslutningsprosess',
-                         v = 'Fordelaktig utfall')) 
-
-ggdag(dag, text = FALSE, use_labels = "label") 
+```{r, out.width = "100%", fig.align = "center", fig.cap= "Antatt årsakssammenheng"}
+knitr::include_graphics("figs/png/dag-1.png")
 ```
 
 Demokrati- og opinionsforskere har i liten grad studert hvordan overgangen til økt bruk av maskinlæring og kunstig intelligens i forvaltningens beslutningsprosesser kan påvirke systemtillit og legitimitet. 
@@ -72,3 +62,17 @@ Bredere spørsmål knyttet til relasjonen mellom NAV og innbyggerne -- uavhengig
 Deretter fokuserer vi på holdninger som har relevans for en framtid hvor maskinlæring og kunstig intelligens vil spille en sentral rolle.
 Dette gjelder problemstillinger knyttet til konkrete, aktuelle situasjoner i NAV, såvel som mer overordnete spørsmål om maskinlæring og kunstig intelligens i forvaltningen.
 
+<!-- ## Data -->
+
+<!-- Datagrunnlaget for denne rapporten er samlet inn i Norsk medborgerpanels runde 22 og 23. -->
+<!-- Norsk medborgerpanel er en internettbasert undersøkelse om nordmenns holdninger til viktige samfunnstema. -->
+<!-- Panelet drives av samfunnsforskere ved Universitetet i Bergen og NORCE, og er et non-profit prosjekt utelukkende benyttet til forskningsformål.  -->
+<!-- Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk. -->
+
+<!-- Panelet blir driftet av [Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE)](www.digsscore.uib.no), som er samarbeidspartner i prosjektet. -->
+
+<!-- Samlet antall respondenter som svarte på deler av denne undersøkelsen var 3971. -->
+<!-- Typisk antall respondenter for hvert spørsmål er om lag 2000. -->
+
+<!-- [Metoderapport for data kan lastes ned her.](https://www.uib.no/en/digsscore/122162/methodology-and-field-periods) -->
+<!-- Data er åpent tilgjengelig for forskere, og kan lastes ned ved å kontakte [Sikt – Kunnskapssektorens tjenesteleverandør (tidligere kjent som NSD)](https://sikt.no/). -->

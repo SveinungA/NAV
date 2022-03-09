@@ -1,4 +1,5 @@
-# Utvidet sammendrag {#sammendrag}
+\newpage\singlespacing
+# Utvidet sammendrag {-}
 
 Den pågående automatiseringen av beslutningsprosesser i offentlig forvaltning representerer en omveltning innenfor byråkratisk myndighetsutøvelse. 
 Tilgang på store mengder relevant digital data og økende muligheter for å behandle informasjonen gjør at oppgaver som tidligere måtte behandles manuelt kan overlates til hel- eller halvautomatiserte prosesser med vesentlig redusert menneskelig inngripen. 
@@ -73,4 +74,4 @@ Allerede i dag jobber NAV på en måte som åpner for innspill fra flere hold n�
 Vi anbefaler å videreutvikle innspillsprosessen slik at innbyggere og berørte parter blir involvert allerede i designfasen og slik på et tidlig stadium kan medvirke til å identifisere etiske dilemma, interessekonflikter, og andre potensielle konfliktsaker som kan oppstå senere.
 
 
-
+\doublespacing
