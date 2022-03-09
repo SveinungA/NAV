@@ -41,20 +41,8 @@ Slike forhold kan for eksempel være grad av åpenhet rundt beslutningsprosessen
 Videre er et gjennomgående funn at dersom utfallet går imot ens egne ønsker, blir prosessen diskreditert [@esaiasson2016reconsidering].
 
 
-```{r dag, out.width = "100%", fig.align = "center", fig.cap= "Antatt årsakssammenheng"}
+```{r, out.width = "100%", fig.align = "center", fig.cap= "Antatt årsakssammenheng"}
 knitr::include_graphics("figs/png/dag-1.png")
-## theme_set(theme_dag_grid(base_size = 14))
-
-## dag <- dagify(y ~ x + v,
-##               x ~ z,
-##               v ~ z,
-##               x ~ v,
-##               labels = c(y = 'Institusjonell legitimitet',
-##                          x = 'Rettferdigsoppfatning',
-##                          z = 'Beslutningsprosess',
-##                          v = 'Fordelaktig utfall')) 
-
-## ggdag(dag, text = FALSE, use_labels = "label") 
 ```
 
 Demokrati- og opinionsforskere har i liten grad studert hvordan overgangen til økt bruk av maskinlæring og kunstig intelligens i forvaltningens beslutningsprosesser kan påvirke systemtillit og legitimitet. 
