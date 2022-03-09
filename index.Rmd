@@ -1,17 +1,23 @@
 --- 
 title: |
-  ![](norce_logo.png){width=1in}  
-  Demokratiske algoritmer: Hvordan oppnå legitimitet og rettferdighet i automatiserte beslutningsprosesser i offentlig forvaltning
-author: "Sveinung Arnesen og Mikael P. Johannesson"  
-date: "`r Sys.Date()`"
+  ![](norce_logo.png){width=1in}   
+  \bigskip  
+  Demokratiske algoritmer  
+  \bigskip   
+  \large
+  *Legitimitet, rettferdighet, og representasjon: Fremtidsutsikter til automatiserte beslutningsprosesser i offentlig forvaltning i befolkningens øyne*
+author: "Sveinung Arnesen og Mikael Poul Johannesson"
+date: |
+  Sluttrapport skrevet for NAV FOU.   
+  Denne versjonen: 9 Mars, 2022
 site: bookdown::bookdown_site
 documentclass: article
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "Demokratiske algoritmer: Hvordan oppnå legitimitet og rettferdighet i automatiserte beslutningsprosesser i offentlig forvaltning"
+description: "Demokratiske algoritmer: Legitimitet og rettferdighet i automatiserte beslutningsprosesser i offentlig forvaltning"
 fontsize: 12pt
-abstract: "Den pågående automatiseringen av beslutningsprosesser i offentlig forvaltning representerer en omveltning innenfor byråkratisk myndighetsutøvelse. Tilgang på store mengder relevant digital data og økende muligheter for å behandle informasjonen gjør at oppgaver som tidligere måtte behandles manuelt kan overlates til hel- eller halvautomatiserte prosesser med vesentlig redusert menneskelig inngripen. På den ene siden gir denne utviklingen store effektiviseringsmuligheter og potensial for offentlige besparelser. På den andre siden er ivaretakelsen av forvaltningens legitimitet i befolkningen et risikoaspekt i denne utviklingen. Det overordnede målet med denne rapporten er å studere ut fra et demokratiperspektiv om, og i så fall hvordan, oppfattelsen av NAV som institusjon blant innbyggere i Norge påvirkes av en overgang til økt grad av automatisert saksbehandling."
+abstract: "![](figs/png/nav_ordsky.png){width=6in,align=center} "
 toc: false
 output:
   pdf_document:
@@ -21,6 +27,8 @@ output:
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, knitr.kable.NA = " ", cache = FALSE, warning = FALSE)
+
+
 
 ## if(!require("ggdag")){install.packages("ggdag");  library(ggdag)}
 ## if(!require("haven")){install.packages("haven");  library(haven)}
@@ -32,8 +40,17 @@ knitr::opts_chunk$set(echo = FALSE, knitr.kable.NA = " ", cache = FALSE, warning
 ## if(!require("tidyverse")){install.packages("tidyverse");  library(tidyverse)}
 ```
 
+<!-- ![](figs/png/nav_ordsky.png) -->
+
+
+
 \newpage
 \tableofcontents 
+
+\newpage
+<!-- \listoftables -->
+\listoffigures
+
 
 \newpage
 # Om rapporten {-}

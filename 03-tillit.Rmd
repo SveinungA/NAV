@@ -123,12 +123,12 @@ Slik upartisk behandling av innbyggerne står også sentralt i forskning på hvi
 Når vi spør innbyggerne i Norge hvordan de oppfatter at saksbehandlerne i NAV lar seg påvirke av egne holdninger, finner vi at de tror det forekommer i noen grad.
 Det er liten forskjell på de ulike områdene innenfor NAV.
 
-```{r, out.width = "80%", fig.align = "center", fig.cap= "Tilltro til likebehandling i NAV"}
+```{r, out.width = "80%", fig.align = "center", fig.cap= "Fordeling av tilltro til likebehandling i NAV på tvers av saksområder"}
 knitr::include_graphics("figs/png/fig_nav_exp_attinfluence_all.png")
 ```
 
 
-```{r, out.width = "80%", fig.align = "center", fig.cap= "Tilltro til likebehandling i NAV II"}
+```{r, out.width = "80%", fig.align = "center", fig.cap= "Gjennomsnitt av tilltro til likebehandling for ulike saksområder"}
 knitr::include_graphics("figs/png/fig_nav_exp_attinfluence_area.png")
 ```
 

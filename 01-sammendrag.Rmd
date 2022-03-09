@@ -1,4 +1,4 @@
-\newpage
+\newpage\singlespacing
 # Utvidet sammendrag {-}
 
 Den pågående automatiseringen av beslutningsprosesser i offentlig forvaltning representerer en omveltning innenfor byråkratisk myndighetsutøvelse. 
@@ -73,3 +73,5 @@ I eksperimentet med statistisk paritet så vi at det hadde en positiv effekt å 
 Allerede i dag jobber NAV på en måte som åpner for innspill fra flere hold når maskinlæringsmodellene utvikles, og det er grunn til å anta at dette styrker legitimiteten til bruken av dem.
 Vi anbefaler å videreutvikle innspillsprosessen slik at innbyggere og berørte parter blir involvert allerede i designfasen og slik på et tidlig stadium kan medvirke til å identifisere etiske dilemma, interessekonflikter, og andre potensielle konfliktsaker som kan oppstå senere.
 
+
+\doublespacing
