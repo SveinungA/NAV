@@ -11,7 +11,9 @@ date: |
   Sluttrapport skrevet for NAV FOU.   
   Denne versjonen: 9 Mars, 2022
 site: bookdown::bookdown_site
+cover-image: figs/png/nav_ordsky.png
 documentclass: article
+classoption: a4paper, 12pt
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
