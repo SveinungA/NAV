@@ -1,5 +1,4 @@
-\newpage\doublespacing
-# Bakgrunn og motivasjon {#bakgrunn}
+# Introduksjon {#introduksjon}
 
 ## Byråkratisk omveltning
 Den pågående automatiseringen av beslutningsprosesser i offentlig forvaltning representerer en omveltning innenfor byråkratisk myndighetsutøvelse. 
