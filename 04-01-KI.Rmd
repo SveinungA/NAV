@@ -1,5 +1,5 @@
 \newpage
-# Innbyggernes relasjon til maskinlæring og KI {#ki}
+# Innbyggernes oppfatninger om maskinlæring og KI {#ki}
 
 I dette kapitlet ser vi nærmere på hvilke forventinger innbyggerne i Norge har når det gjelder bruk av maskinlæring og kunstig intelligens generelt og i NAV. Respondentene ble først gitt enn introduksjon som kort forklarte maskinlæring og kunstig intelligens og spurte de hvor mye kjennskap de har til temaet. Deretter undersøkte vi deres generelle forventinger rundt dette. Vi finner at
 
@@ -50,7 +50,6 @@ knitr::include_graphics("figs/png/fig_ml_worried_by_knowledge.png")
 
 ## Blir interesser bedre ivaretatt med maskinlæring?
 
-Det er naturlig å se maskinlæring og kunstig intelligens i NAV i sammenheng med spørsmål som ligger nær opptil byråkratisk kompetanse.
 Vil folk oppleve at det er lettere eller vanskeligere å forstå hvordan byråkratiet fungerer?
 Vil deres interesser ivaretas bedre eller dårligere når maskinlæring brukes i NAV?
 For å undersøke dette ba vi dem ta stilling til et noe mer konkret situasjon:

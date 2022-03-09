@@ -3,11 +3,17 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-]{book}
+  12pt,
+  a4paper, 12pt]{article}
 \title{\includegraphics[width=1in,height=\textheight]{norce_logo.png}\\
-Demokratiske algoritmer}
-\author{Sveinung Arnesen og Mikael P. Johannesson}
-\date{2022-03-08}
+\bigskip  
+Demokratiske algoritmer\\
+\bigskip   
+\large
+\emph{Legitimitet, rettferdighet, og representasjon: Fremtidsutsikter til automatiserte beslutningsprosesser i offentlig forvaltning i befolkningens øyne}}
+\author{Sveinung Arnesen og Mikael Poul Johannesson}
+\date{Sluttrapport skrevet for NAV FOU.\\
+Denne versjonen: 9 Mars, 2022}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -41,8 +47,8 @@ Demokratiske algoritmer}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={ Demokratiske algoritmer},
-  pdfauthor={Sveinung Arnesen og Mikael P. Johannesson},
+  pdftitle={  Demokratiske algoritmer   Legitimitet, rettferdighet, og representasjon: Fremtidsutsikter til automatiserte beslutningsprosesser i offentlig forvaltning i befolkningens øyne},
+  pdfauthor={Sveinung Arnesen og Mikael Poul Johannesson},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
@@ -73,31 +79,34 @@ Demokratiske algoritmer}
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
-\usepackage{booktabs}
-\AtBeginDocument{\renewcommand{\chaptername}{Kapittel}}
-\usepackage{amsthm}
-\makeatletter
-\def\thm@space@setup{%
-  \thm@preskip=8pt plus 2pt minus 4pt
-  \thm@postskip=\thm@preskip
-}
-\makeatother
-\usepackage[norsk]{babel}
-\selectlanguage{norsk}
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{wrapfig}
-\usepackage{float}
-\usepackage{colortbl}
-\usepackage{pdflscape}
-\usepackage{tabu}
-\usepackage{threeparttable}
-\usepackage{threeparttablex}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage[normalem]{ulem}
-\usepackage{makecell}
-\usepackage{xcolor}
+\usepackage[font=singlespacing]{caption}
+\usepackage{
+  sectsty, lmodern, setspace, graphicx, booktabs, geometry, hyperref,
+  tabularx, color, subcaption, bookmark, ragged2e, bookmark, arydshln, 
+  minitoc, fancyhdr
+}
+
+%% Font-related
+\usepackage{libertine, libertinust1math}
+\usepackage[scaled=0.9]{inconsolata}
+
+%% Setup
+\geometry{
+  hmargin = 2.5cm,
+  vmargin = 2.5cm
+}
+
+
+\renewcommand{\contentsname}{Innholdsfortegnelse}
+\renewcommand{\listfigurename}{Figurliste}
+\renewcommand{\listtablename}{Tabellliste}
+
+\renewcommand{\abstractname}{\vspace{-\baselineskip}}
+
+\renewcommand{\refname}{Referanser}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -106,18 +115,26 @@ Demokratiske algoritmer}
 
 \begin{document}
 \maketitle
-
-{
-\setcounter{tocdepth}{1}
-\tableofcontents
-}
-\hypertarget{om}{%
-\chapter{Om rapporten}\label{om}}
-
+\begin{abstract}
 \includegraphics{figs/png/nav_ordsky.png}
+\end{abstract}
+
+\newpage
+\tableofcontents
+
+\newpage
+
+\listoffigures
+
+\newpage
+
+\hypertarget{om-rapporten}{%
+\section*{Om rapporten}\label{om-rapporten}}
+\addcontentsline{toc}{section}{Om rapporten}
 
 \hypertarget{forfattere}{%
-\section{Forfattere}\label{forfattere}}
+\subsection*{Forfattere}\label{forfattere}}
+\addcontentsline{toc}{subsection}{Forfattere}
 
 \textbf{Sveinung Arnesen} er Forsker I og faglig leder for Demokrati og innovasjon ved \href{https://www.norceresearch.no/personer/sveinung-arnesen}{NORCE}, og førsteamanuensis II ved \href{https://www.uib.no/personer/Sveinung.Arnesen}{Institutt for administrasjons- og organisasjonsvitenskap}, UiB.
 PhD-graden ble avlagt ved \href{https://www.uib.no/sampol}{Institutt for sammenliknende politikk, UiB}.
@@ -128,7 +145,8 @@ Han har bred erfaring med eksperimentelle metoder, maskinlæring (inkludert deep
 Johannesson har utviklerkompetanse i statistikkprogrammet R, samt erfaring med Python (inkludert TensorFlow og Keras). \href{https://github.com/mikajoh}{Github}. \href{https://scholar.google.com/citations?user=wG8CyVUAAAAJ\&hl=no\&oi=ao}{Google Scholar}.
 
 \hypertarget{referansegruppe}{%
-\section{Referansegruppe}\label{referansegruppe}}
+\subsection*{Referansegruppe}\label{referansegruppe}}
+\addcontentsline{toc}{subsection}{Referansegruppe}
 
 \textbf{Anne Lise Fimreite} er professor ved \href{https://www.uib.no/personer/Anne.Lise.Fimreite}{Institutt for administrasjons- og organisasjonsvitenskap}, UiB.
 Hun har tidligere ledet den forskningsrådsfinansierte evaluering av NAV-reformen og har arbeidet mye med styringsutfordringer i flernivåsystem.
@@ -137,36 +155,25 @@ Hun har også nylig vært medlem av det offentlige utvalget som i 2019 leverte f
 \textbf{Jacob Aars} er professor ved \href{https://www.uib.no/personer/Jacob.Aars}{Institutt for administrasjons- og organisasjonsvitenskap, UiB}, og har ledet den NFR-finansierte evalueringen av NAV-reformen (tok over da Fimreite gikk inn i rektoratet ved UiB).
 Han har blant annet forsket på lokaldemokrati og tilfredshet med offentlige tjenester.
 
-\hypertarget{data}{%
-\section{Data}\label{data}}
-
-Datagrunnlaget for denne rapporten er samlet inn i Norsk medborgerpanels runde 22 og 23.
-Norsk medborgerpanel er en internettbasert undersøkelse om nordmenns holdninger til viktige samfunnstema.
-Panelet drives av samfunnsforskere ved Universitetet i Bergen og NORCE, og er et non-profit prosjekt utelukkende benyttet til forskningsformål.
-Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.
-
-Panelet blir driftet av \href{www.digsscore.uib.no}{Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE)}, som er samarbeidspartner i prosjektet.
-
-Samlet antall respondenter som svarte på deler av denne undersøkelsen var 3971.
-Typisk antall respondenter for hvert spørsmål er om lag 2000.
-
-\href{https://www.uib.no/en/digsscore/122162/methodology-and-field-periods}{Metoderapport for data kan lastes ned her.}
-Data er åpent tilgjengelig for forskere, og kan lastes ned ved å kontakte \href{https://sikt.no/}{Sikt -- Kunnskapssektorens tjenesteleverandør (tidligere kjent som NSD)}.
-
 \hypertarget{finansiering}{%
-\section{Finansiering}\label{finansiering}}
+\subsection*{Finansiering}\label{finansiering}}
+\addcontentsline{toc}{subsection}{Finansiering}
 
 Forskningsrapporten er finansiert av \href{https://www.nav.no/no/nav-og-samfunn/kunnskap/fou-midler/pagaende-fou-prosjekter2/navs-tiltak-og-virkemidler}{NAV Forskning og Utvikling}.
 Finansieringen er bidragsfinansiert.
 
 \hypertarget{sitering}{%
-\section{Sitering}\label{sitering}}
+\subsection*{Sitering}\label{sitering}}
+\addcontentsline{toc}{subsection}{Sitering}
 
 Ved referering til rapporten, vennligst bruk følgende sitering:
 Arnesen, Sveinung, Mikael P. Johannesson (2022): Demokratiske algoritmer. Norce-rapport \#\ldots, Bergen, mars 2022. Url: \url{https://bookdown.org/sveinungarnesen78/NAV/}.
 
-\hypertarget{sammendrag}{%
-\chapter{Utvidet sammendrag}\label{sammendrag}}
+\newpage\singlespacing
+
+\hypertarget{utvidet-sammendrag}{%
+\section*{Utvidet sammendrag}\label{utvidet-sammendrag}}
+\addcontentsline{toc}{section}{Utvidet sammendrag}
 
 Den pågående automatiseringen av beslutningsprosesser i offentlig forvaltning representerer en omveltning innenfor byråkratisk myndighetsutøvelse.
 Tilgang på store mengder relevant digital data og økende muligheter for å behandle informasjonen gjør at oppgaver som tidligere måtte behandles manuelt kan overlates til hel- eller halvautomatiserte prosesser med vesentlig redusert menneskelig inngripen.
@@ -240,11 +247,15 @@ I eksperimentet med statistisk paritet så vi at det hadde en positiv effekt å 
 Allerede i dag jobber NAV på en måte som åpner for innspill fra flere hold når maskinlæringsmodellene utvikles, og det er grunn til å anta at dette styrker legitimiteten til bruken av dem.
 Vi anbefaler å videreutvikle innspillsprosessen slik at innbyggere og berørte parter blir involvert allerede i designfasen og slik på et tidlig stadium kan medvirke til å identifisere etiske dilemma, interessekonflikter, og andre potensielle konfliktsaker som kan oppstå senere.
 
+\doublespacing
+
+\newpage\doublespacing
+
 \hypertarget{bakgrunn}{%
-\chapter{Bakgrunn og motivasjon}\label{bakgrunn}}
+\section{Bakgrunn og motivasjon}\label{bakgrunn}}
 
 \hypertarget{byruxe5kratisk-omveltning}{%
-\section{Byråkratisk omveltning}\label{byruxe5kratisk-omveltning}}
+\subsection{Byråkratisk omveltning}\label{byruxe5kratisk-omveltning}}
 
 Den pågående automatiseringen av beslutningsprosesser i offentlig forvaltning representerer en omveltning innenfor byråkratisk myndighetsutøvelse.
 Tilgang på store mengder relevant digital data og økende muligheter for å behandle informasjonen gjør at oppgaver som tidligere måtte behandles manuelt kan overlates til hel- eller halvautomatiserte prosesser med vesentlig redusert menneskelig inngripen \citep{zarsky2016trouble}.
@@ -271,7 +282,7 @@ Mulige områder hvor maskinlæring og kunstig intelligens kan benyttes i NAV er 
 På veien mot bedre tjenester er det viktig at man har med seg brukerne --- det vil si innbyggerne i Norge -\/-- og lager ansvarlige systemer som gir lik og rettferdig behandling uavhengig av sosial status.
 
 \hypertarget{beslutningsprosesser-rettferdighet-og-legitimitet}{%
-\section{Beslutningsprosesser, rettferdighet og legitimitet}\label{beslutningsprosesser-rettferdighet-og-legitimitet}}
+\subsection{Beslutningsprosesser, rettferdighet og legitimitet}\label{beslutningsprosesser-rettferdighet-og-legitimitet}}
 
 En massiv litteratur på prosedyrerettferdighet med utspring fra sosialpsykologi \citep{lind1988social} har hatt stor innvirkning på hvordan vi forstår relasjonene mellom innbyggere og myndighetene, og hvordan myndighetene bør forholde seg i møte med innbyggerne.
 Når beslutningsprosessene dreier i retning av mer bruk av maskinlæring og kunstig intelligens, fungerer denne litteraturen som et velegnet rammeverk for å undersøke empirisk om, og i så fall hvordan, relasjonene mellom innbyggerne og myndighetene vil påvirkes av denne utviklingen.
@@ -286,7 +297,14 @@ Prosessrelaterte spørsmål som har blitt studert er blant annet om rettferdighe
 Slike forhold kan for eksempel være grad av åpenhet rundt beslutningsprosessen \citep{de2014does}, mulighet for direkte påvirkning på en avgjørelse \citep{EJPR:EJPR2052, arnesen2017legitimacy, christensen2020matter}, hvem beslutningstakerne er, og hvor godt disse beslutningstakerne gjenspeiler befolkningen med tanke på sosial bakgrunn \citep{arnesen2018legitimacy, clayton2019all}.
 Videre er et gjennomgående funn at dersom utfallet går imot ens egne ønsker, blir prosessen diskreditert \citep{esaiasson2016reconsidering}.
 
-\includegraphics{NAV_files/figure-latex/dag-1.pdf}
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figs/png/dag-1} 
+
+}
+
+\caption{Antatt årsakssammenheng}\label{fig:unnamed-chunk-3}
+\end{figure}
 
 Demokrati- og opinionsforskere har i liten grad studert hvordan overgangen til økt bruk av maskinlæring og kunstig intelligens i forvaltningens beslutningsprosesser kan påvirke systemtillit og legitimitet.
 Unntak er De Fine Licht \& De Fine Licht \citeyearpar{de2020artificial} som studerer rollen som åpenhet når det gjelder hvordan allmennheten oppfatter kunstig intelligens-beslutninger som legitim, og Binns et al \citeyearpar{binns2018s} som foretar eksperimentelle studier som undersøker folks oppfatning av rettferdighet i algoritmiske beslutninger.
@@ -305,17 +323,57 @@ Bredere spørsmål knyttet til relasjonen mellom NAV og innbyggerne -- uavhengig
 Deretter fokuserer vi på holdninger som har relevans for en framtid hvor maskinlæring og kunstig intelligens vil spille en sentral rolle.
 Dette gjelder problemstillinger knyttet til konkrete, aktuelle situasjoner i NAV, såvel som mer overordnete spørsmål om maskinlæring og kunstig intelligens i forvaltningen.
 
-\hypertarget{oppfatninger-om-nav}{%
-\chapter{Oppfatninger om NAV}\label{oppfatninger-om-nav}}
+\newpage
+
+\hypertarget{metode}{%
+\section{Data og metode}\label{metode}}
+
+Denne rapporten er basert på spørreundersøkelse på et befolkningsrepresentativt utvalg av innbyggere i Norge.
+Undersøkelsen var delt i tre hoveddeler.
+Den første delen tar for seg spørsmål knyttet til relasjonen mellom innbyggerne og NAV.
+Den andre delen tar for seg mer generelle holdninger og kunnskap til maskinlæring og kunstig intelligens.
+I den tredje delen av undersøkelsen bruker eksperimentscenarier som er eller kan bli realistiske i NAV-sammenheng, hvor respondent må gjøre spesifikke avveinger rundt om og hvordan maskinlæring brukes eller implementeres.
+
+Ved flere deler av undersøkelsen benytter vi eksperiment.
+Eksperiment som metode i samfunnsforskningen defineres av to nøkkelelementer.
+For det første må det være en datainnsamlingsprosess som samfunnsforskeren setter i gang for å søke svar på et forskningsspørsmål.
+Eksperimentdata kan ikke være observasjonsdata, altså data som allerede eksisterer i «den virkelige verden» og har skjedd -- og ville ha skjedd -- uten forskerens innblanding.
+Et eksperiment må også ha en kontrollgruppe som viser hvordan verdiene på den avhengige variabelen framstår når de ikke er påvirket av den eller de faktorene som undersøkes.
+Når stimulusgruppene blir introdusert for påvirkning, måler vi nivåene på disse gruppene opp mot kontrollgruppen for å se om det er noen forskjell.
+Eksperimenter i samfunnsforskningen kan gjennomføres som felteksperimenter, som lab-eksperimenter og som surveyeksperimenter.
+Sistnevnte har vært mest brukt innenfor studier av demokratiske beslutningsprosesser og er også det vi benytter oss av i denne rapporten.
+
+\hypertarget{norsk-medborgerpanel}{%
+\subsection{Norsk medborgerpanel}\label{norsk-medborgerpanel}}
+
+Data for denne rapporten er samlet inn i Norsk medborgerpanels 22 og 23.
+Samlet antall respondenter som svarte på deler av denne undersøkelsen var 3971.
+Typisk antall respondenter for hvert spørsmål er om lag 2000.
+Vi presenterer også noen resultater samlet inn i 2018 (runde 13).
+
+Norsk medborgerpanel er en internettbasert undersøkelse om nordmenns holdninger til viktige samfunnstema.
+Panelet drives av samfunnsforskere ved Universitetet i Bergen og NORCE, og er et non-profit prosjekt utelukkende benyttet til forskningsformål.
+Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.
+Panelet blir driftet av \href{www.digsscore.uib.no}{Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE)}, som er samarbeidspartner i prosjektet.
+
+\href{https://www.uib.no/en/digsscore/122162/methodology-and-field-periods}{Metoderapport og kodefor data kan lastes ned her.}
+\href{https://www.uib.no/medborger/76892/data-og-dokumentasjon}{Kodebøker kan lastes ned her.}
+Data er åpent tilgjengelig for forskere, og kan lastes ned ved å kontakte \href{https://sikt.no/}{Sikt -- Kunnskapssektorens tjenesteleverandør (tidligere kjent som NSD)}.
+
+\newpage
+
+\hypertarget{nav}{%
+\section{Innbyggernes relasjon til NAV}\label{nav}}
 
 I dette kapitlet ser vi nærmere på relasjonen mellom NAV og innbyggerne i Norge.
-Kapitlet danner grunnlaget for å forstå konteksten når vi senere fokuserer mer spesifikt på maskinlæring og kunstig intelligens i organisasjone.
+Kapitlet danner grunnlaget for å forstå konteksten når vi senere fokuserer mer spesifikt på maskinlæring og kunstig intelligens i organisasjon.
 Vi måler folks tillit til NAV, samt deres erfaring med og kjennskap til NAV.
 Vi måler også i hvilken grad innbyggerne opplever at de forstår hvordan organisasjonen fungerer, og i hvilken grad de opplever at deres interesser blir ivaretatt i systemet.
 
 Vi finner at
 
 \begin{itemize}
+\tightlist
 \item
   over halvparten av innbyggerne har vært i personlig kontakt med saksbehandler i NAV, men mange oppgir likevel at de har liten kjennskap til NAV.
 \item
@@ -327,7 +385,7 @@ Vi finner at
 \end{itemize}
 
 \hypertarget{erfaring-med-og-kjennskap-til-nav}{%
-\section{Erfaring med og kjennskap til NAV}\label{erfaring-med-og-kjennskap-til-nav}}
+\subsection{Erfaring med og kjennskap til NAV}\label{erfaring-med-og-kjennskap-til-nav}}
 
 Et flertall av innbyggerne i Norge har hatt befatning med NAV i en eller annen form.
 Noen kontakter er lite personlige, som for eksempel når man mottar barnetrygd.
@@ -335,43 +393,66 @@ Andre krever mer kontakt med NAV, og gjerne personlig kontakt med en saksbehandl
 I vårt utvalg har godt over halvparten minst en gang vært i personlig kontakt med NAV.
 
 \begin{figure}
-\centering
-\includegraphics{figs/png/fig_nav_personal_contact.png}
-\caption{Personlig kontakt med NAV}
+
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_nav_personal_contact} 
+
+}
+
+\caption{Personlig kontakt med NAV}\label{fig:unnamed-chunk-4}
 \end{figure}
 
 Fire av ti innbyggere i Norge har liten eller ingen kjennskap til NAV, mens seks av ti har ganske god, god, eller svært god kjennskapt til institusjonen.
 
-\includegraphics{figs/png/fig_nav_knowledge.png}
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_nav_knowledge} 
+
+}
+
+\caption{Selvrapportert kunnskap om NAV}\label{fig:unnamed-chunk-5}
+\end{figure}
 
 \hypertarget{tillit}{%
-\section{Tillit}\label{tillit}}
+\subsection{Tillit}\label{tillit}}
 
+Tillit er noe som tar lang til å bygge opp, men som fort kan rives ned.
 Norge er kjent som et land der myndighetene nyter høy tillit i befolkningen.
 Dette bekreftes også i vår undersøkelse for NAV sin del.
 Fire av ti innbyggere i Norge har høy eller svært høy tillit til NAV, mens bare en av seks har liten eller ingen tillit.
-På en skala fra 1 til 5 der 1 er lavest og 5 er høyest, er gjennomsnittsverdien på \textbf{xx}.
+Det er et godt utgangspunkt at NAV nyter tillit i befolkningen, og ikke desto viktigere at denne relasjonen ivaretaes parallelt med at organisasjonen endrer seg og utvikler morgendagens forvaltning.
+Hvordan NAV ligger i forhold til andre forvaltningsorganer har vi ikke data på.
 
 \begin{figure}
-\centering
-\includegraphics{figs/png/fig_nav_trust.png}
-\caption{Tillit til NAV}
+
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_nav_trust} 
+
+}
+
+\caption{Tillit til NAV}\label{fig:unnamed-chunk-6}
 \end{figure}
 
-Tillit er noe som tar lang til å bygge opp, men som fort kan rives ned.
-Det er et godt utgangspunkt at NAV nyter tillit i befolkningen, og ikke desto viktigere at denne relasjonen ivaretaes parallelt med at organisasjonen endrer seg og utvikler morgendagens forvaltning.
+Om vi bryter ned tillit etter kjennskap til NAV, ser vi at det ikke er noen tydelig sammenheng mellom selvrapportert kjennskap og tillit, men at de som har hatt personlig kontkat med en saksbehandler i snitt er har noe lavere tillit. Forskjeller er relativt liten men statistisk signifikant.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  SAMMENLIKNE MED TILLIT TIL ANDRE ORGANISASJONER
-\item
-  TILLIT BRUTT NED PÅ ERFARING MED OG KJENNSKAP TIL NAV
-\end{enumerate}
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{figs/png/fig_nav_trust_by_nav_knowledge} 
+
+}
+
+\caption{Tillit til NAV for ulike nivåer av selvrapportert kjennskap}\label{fig:unnamed-chunk-7}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figs/png/fig_nav_trust_by_nav_personal_contact} 
+
+}
+
+\caption{Tillit til NAV for for de som har eller ikke har hatt personlig kontakt med NAV}\label{fig:unnamed-chunk-8}
+\end{figure}
 
 \hypertarget{byruxe5kratisk-kompetanse}{%
-\section{Byråkratisk kompetanse}\label{byruxe5kratisk-kompetanse}}
+\subsection{Byråkratisk kompetanse}\label{byruxe5kratisk-kompetanse}}
 
 I statsvitenskapen opererer man med et begrep som på engelsk heter \emph{political efficacy}.
 Vi kan gjerne oversette begrepet på norsk til \emph{politisk kompetanse}.
@@ -402,7 +483,14 @@ Ekstern byråkratisk kompetanse måler vi ved hjelp av to nye påstander:
   Saksbehandlere i den offentlige forvaltningen er bare interessert i tekniske aspekter ved saken, ikke hva de det berører faktisk ønsker.
 \end{enumerate}
 
-\includegraphics{figs/png/fig_be_hist.png}
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_be_hist} 
+
+}
+
+\caption{Byråkratisk kompetanse}\label{fig:unnamed-chunk-9}
+\end{figure}
 
 Figurene viser at det er ganske stor spredning i svarene.
 Flertallet av innbyggerne er enige i påstanden at de får alle ytelser som de har rett på.
@@ -414,7 +502,14 @@ Dette er befolkningen i sin helhet.
 Når vi bryter svarene ned på sosiopolitiske undergrupper ser vi at dem som har lav byråkratisk kompetanse også har lav politisk kompetanse (efficacy).
 Det vil si at de som har tillit til NAV er de som opplever at de får ytelsene de har rett på, som føler at de forstår de byråkratiske prosessene, som tenker at de som jobber i offentlig sektor bryr seg om folks behov, og som ikke bare forholder seg til tekniske aspekter i saksbehandlingen.
 
-\includegraphics{figs/png/fig_be_coefs_by_type.png}
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_be_coefs_by_type} 
+
+}
+
+\caption{Byråkratisk kompetanse covariater}\label{fig:unnamed-chunk-10}
+\end{figure}
 
 Byråkratisk kompetanse varierer også til dels mye mellom folk når vi deler dem inn i hvilket parti de ville ha stemt på dersom det var stortingsvalg i morgen.
 Figuren under viser at det er størst forskjell på de som stemmer Fremskrittspartiet og de som stemmer Miljøpartiet de grønne, spesielt når det gjelder ekstern byråkratisk kompetanse.
@@ -425,10 +520,18 @@ De scorer også noe lavere på intern byråkratisk kompetanse, men her er forskj
 Tillit til NAV samvarierer også sterkt med byråkratisk kompetanse.
 Figuren under viser mer dette mer detaljert.
 Vi observerer en lineær sammenheng mellom de to variablene, som flater ut først blant de som har svært høy tillit til NAV.
-\includegraphics{figs/png/fig_be_by_navtrust.png}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{figs/png/fig_be_by_navtrust} 
+
+}
+
+\caption{Byråkratisk kompetanse for ulike nivåer av tillit til NAV}\label{fig:unnamed-chunk-11}
+\end{figure}
 
 \hypertarget{tiltro-til-likebehandling-i-nav}{%
-\section{Tiltro til likebehandling i NAV}\label{tiltro-til-likebehandling-i-nav}}
+\subsection{Tiltro til likebehandling i NAV}\label{tiltro-til-likebehandling-i-nav}}
 
 Et styrende prinsipp i norsk forvaltning er nøytralitet:
 Saksbehandlere skal utøve sitt mandat uten å la egne holdninger komme i veien og påvirke beslutningsprosessen.
@@ -436,21 +539,48 @@ Slik upartisk behandling av innbyggerne står også sentralt i forskning på hvi
 Når vi spør innbyggerne i Norge hvordan de oppfatter at saksbehandlerne i NAV lar seg påvirke av egne holdninger, finner vi at de tror det forekommer i noen grad.
 Det er liten forskjell på de ulike områdene innenfor NAV.
 
-\includegraphics{figs/png/fig_nav_exp_attinfluence_all.png}
-\includegraphics{figs/png/fig_nav_exp_attinfluence_area.png}
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_nav_exp_attinfluence_all} 
+
+}
+
+\caption{Fordeling av tilltro til likebehandling i NAV på tvers av saksområder}\label{fig:unnamed-chunk-12}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_nav_exp_attinfluence_area} 
+
+}
+
+\caption{Gjennomsnitt av tilltro til likebehandling for ulike saksområder}\label{fig:unnamed-chunk-13}
+\end{figure}
+
 Figuren under viser også at byråkratisk kompetanse samvarierer med oppfatningen om at saksbehandlere lar seg påvirke av egne holdninger:
 Jo høyere byråkratisk kompetanse en innbygger har, desto mindre mener man at saksbehandlerne lar seg påvirke av egne holdninger.
 
-\includegraphics{figs/png/fig_attinfluence_by_be.png}
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{figs/png/fig_attinfluence_by_be} 
+
+}
+
+\caption{Tilltro til likebehandling i NAV for ulike nivåer av byråkratisk kompetanse}\label{fig:unnamed-chunk-14}
+\end{figure}
+
 I utvalget mener de som har vært i personlig kontakt med en saksbehandler i NAV i litt større grad at saksbehandlerne lar seg påvirke av egne holdninger.
 Forskjellen er imidlertid ikke stor.
 
-\hypertarget{kunstig-intelligens-i-forvaltningen}{%
-\chapter{Kunstig intelligens i forvaltningen}\label{kunstig-intelligens-i-forvaltningen}}
+\newpage
 
-I dette kapitlet viser vi at
+\hypertarget{ki}{%
+\section{Innbyggernes oppfatninger om maskinlæring og KI}\label{ki}}
+
+I dette kapitlet ser vi nærmere på hvilke forventinger innbyggerne i Norge har når det gjelder bruk av maskinlæring og kunstig intelligens generelt og i NAV. Respondentene ble først gitt enn introduksjon som kort forklarte maskinlæring og kunstig intelligens og spurte de hvor mye kjennskap de har til temaet. Deretter undersøkte vi deres generelle forventinger rundt dette. Vi finner at
 
 \begin{itemize}
+\tightlist
 \item
   Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens
 \item
@@ -462,58 +592,154 @@ I dette kapitlet viser vi at
   Innbyggere som plasserer seg mot midten av det politiske spekteret er mer positive enn de som plasserer seg mot en av endene på skalaen.
 \end{itemize}
 
-\hypertarget{norske-innbyggeres-kjennskap-og-fuxf8lelser-knyttet-til-maskinluxe6ring-og-kunstig-intelligens}{%
-\section{Norske innbyggeres kjennskap og følelser knyttet til maskinlæring og kunstig intelligens}\label{norske-innbyggeres-kjennskap-og-fuxf8lelser-knyttet-til-maskinluxe6ring-og-kunstig-intelligens}}
+\hypertarget{kunnskap-om-maskinluxe6ring-og-kunstig-intelligens}{%
+\subsection{Kunnskap om maskinlæring og kunstig intelligens}\label{kunnskap-om-maskinluxe6ring-og-kunstig-intelligens}}
 
-Maskinlæring som databehandlingsmetode er relativt fersk.
-Med økt datakraft og økt tilgang på data, har bruk av maskinlæring bredt om seg innenfor datavitenskapelige miljøer.
-I befolkningen for øvrig er det lite kjennskap til maskinlæring og kunstig intelligens.
-Bare en av syv innbyggere oppgir at de har god eller svært god kjennskap til maskinlæring og kunstig intelligens, mens nesten to tredjeler sier at de har liten eller ingen kjennskap til det i det hele tatt.
+Kunnskap rundt maskinlæring, kunstig intelligens, algoritmer, etc., utgjør viktig brikke for å forstå hvordan befolkningen forholder seg til bruken av slike verktøy.
+Maskinlæring og kunstig intelligens er avanserte tema som krever spesialkompetanse for å kunne implementere og bruke på en god måte.
+For å kunne grundig diskutere rammene for hva som utgjør rettferdig eller legitim bruk av slike verktøy må man ha en viss forståelse for hva de rammene er, noe som da krever en viss grunnkunnskap.
+I undersøkelsen så ga vi respondentene en kort forklaring av maskinlæring og spurte dem i hvor stor grad de har kjennskap til dette temaet. Vi ga dem følgende introduksjon til temaet:
 
-\includegraphics{figs/png/fig_ml_knowledge.png}
+\begin{quote}
+``\emph{Nå ønsker vi å spørre om dine holdninger rundt bruk av maskinlæring i den offentlige forvaltningen. Maskinlæring blir også ofte omtalt som kunstig intelligens.}
 
-Innbyggerne er delt i synet på grad av bekymring knyttet til bruk av maskinlæring og kunstig intelligens i den offentlige forvaltningen.
+\emph{Å bruke maskinlæring innebærer å få datamaskiner til å lære seg å løse oppgaver basert på et datamateriale. Ofte kan datamaskinen bli ekstremt treffsikker, men det krever typisk veldig mye datamateriale. Maskinlæring er i dag grunnlaget for alt fra automatisk stemmegjenkjenning til førerløse biler.}
+
+\emph{Den offentlige forvaltningen, inkludert NAV, bruker i enkelte tilfeller maskinlæring for å hjelpe med å ta beslutninger i saker de har ansvar for. Formålet er å redusere kostnader og behandlingstid, og å gjøre beslutninger bedre og mer treffsikre. Et eksempel kan være å lære en datamaskin å forutsi omtrent hvor lenge en person vil være sykmeldt, basert på informasjon om sykdommen og personen. Det kan en saksbehandler da bruke for å velge passende tiltak.}''
+\end{quote}
+
+Vi spurte derreter om hvor god kjennskap de har til maskinlæring og kunstig intelligens.
+Figuren under viser hvordan respondentene fordelte seg på spørsmålet.
+Det er kun én av syv innbyggere som oppgir at de har god eller svært god kjennskap, mens nesten to tredjeler sier at de har liten eller ingen kjennskap til det i det hele tatt.
 
 \begin{figure}
-\centering
-\includegraphics{figs/png/fig_ml_worried.png}
-\caption{Bekymring for maskinlæring}
+
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_ml_knowledge} 
+
+}
+
+\caption{Selvrapportert kunnskap om maskinlæring og kunstig intelligens}\label{fig:unnamed-chunk-15}
 \end{figure}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{1}
-\tightlist
-\item
-  ER DET MANGEL PÅ KUNNSKAP SOM LEDER TIL BEKYMRING?
-\end{enumerate}
+\hypertarget{bekymring}{%
+\subsection{Bekymring}\label{bekymring}}
 
-\hypertarget{interesser-ivaretatt-med-maskinluxe6ring}{%
-\subsection{Interesser ivaretatt med maskinlæring?}\label{interesser-ivaretatt-med-maskinluxe6ring}}
+Vi spurte deretter om hvor bekyrmet de er for bruken av slike verktøy i den offentlig forvaltningen. Figurene under viser hvordan respondentene fordelte seg på spørsmålet. Den viser at innbyggerne er delt i synet på grad av bekymring knyttet til bruk av maskinlæring og kunstig intelligens i den offentlige forvaltningen, hvorav over halvparten er bekymret eller noe bekymret.
+Samtidig er det kun fem prosent som oppgir at de er veldig bekymret.
 
-Det er naturlig å se maskinlæring og kunstig intelligens i NAV i sammenheng med spørsmål som ligger nær opptil byråkratisk kompetanse.
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_ml_worried} 
+
+}
+
+\caption{Bekymring for maskinlæring}\label{fig:unnamed-chunk-16}
+\end{figure}
+
+Den neste figuren viser hvordan gjennomsnitt av bekymring for ulike nivåer av kunnskap. Her ser vi at de med ingen kunnskap er mer bekymret enn de med god eller svært god kunnskap om maskinlæring.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{figs/png/fig_ml_worried_by_knowledge} 
+
+}
+
+\caption{Bekymring for maskinlæring for ulike nivåer av selvrapportert kunnskap om maskinlæring}\label{fig:unnamed-chunk-17}
+\end{figure}
+
+\hypertarget{blir-interesser-bedre-ivaretatt-med-maskinluxe6ring}{%
+\subsection{Blir interesser bedre ivaretatt med maskinlæring?}\label{blir-interesser-bedre-ivaretatt-med-maskinluxe6ring}}
+
 Vil folk oppleve at det er lettere eller vanskeligere å forstå hvordan byråkratiet fungerer?
 Vil deres interesser ivaretas bedre eller dårligere når maskinlæring brukes i NAV?
+For å undersøke dette ba vi dem ta stilling til et noe mer konkret situasjon:
 
-\begin{figure}
-\centering
-\includegraphics{figs/png/fig_nav_ml_helps_interest.png}
-\caption{Maskinlæring i NAV}
-\end{figure}
+\begin{quote}
+La oss si at du var i en situasjon hvor du måtte søke NAV om økonomisk stønad. Tror du interessene dine hadde blitt bedre eller dårligere ivaretatt dersom saksbehandleren brukte maskinlæring og kunstig intelligens som hjelp til å fatte beslutningen om økonomisk stønad?
+\end{quote}
 
-Det mest vanlige svaret var midtkategorien `verken bedre eller dårligere'.
+Figuren under viser fordelingen av svar.
+Det mest vanlige svaret var midtkategorien''\,'verken bedre eller dårligere''.
 For øvrig fordelte svarene seg normalt rundt denne midtkategorien.
 I spørreundersøkelser kan midtkategorier i slike bipolare skalaer ofte skjule at respondentene ikke har noen mening om spørsmålet.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  VI DELER DERFOR OPP SVARENE SLIK AT VI KAN UNDERSØKE OM SVARENE TIL RESPONDENTENE VARIERER ETTER HVOR GOD KJENNSKAP DE HAR TIL MASKINLÆRING.
-\end{enumerate}
+\begin{figure}
 
-\hypertarget{bruke-kunstig-intelligens}{%
-\section{Bruke kunstig intelligens?}\label{bruke-kunstig-intelligens}}
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_nav_ml_helps_interest} 
+
+}
+
+\caption{Forventninger om interesser ivaretas bedre med maskinlæring i NAV}\label{fig:unnamed-chunk-18}
+\end{figure}
+
+Den neste figuren viser hvordan dette varier etter nivå av selvrapportert kunnskap: De med mye kunnskap har større sannsynlighet for å tro at deres interesser blir bedre ivaretatt enn de med lite kunnskap.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{figs/png/fig_nav_ml_helps_interest_by_knowledge} 
+
+}
+
+\caption{Forventninger om interesser ivaretas bedre med maskinlæring i NAV for ulike nivåer av selvrapportert kunnskap om maskinlæring}\label{fig:unnamed-chunk-19}
+\end{figure}
+
+\hypertarget{forventinger-til-automatisering-i-offentlig-sektor}{%
+\subsection{Forventinger til automatisering i offentlig sektor}\label{forventinger-til-automatisering-i-offentlig-sektor}}
+
+Vi har studert befolkningens forventinger til automatisering i offentlig sektor ved en tidligere spørreundersøkelse.
+Resultatene under er basert på spørsmål stilt i 2018 (runde 13) i Norsk Medborgerpanel.
+Vi spurte dem først om de tror skiftet fra menneskelige til automatiserte beslutninger generelt vil føre til en forbedring eller forverring av offentlig tjenester.
+Dette var et eksperiment hvor halvparten også fikk oppgitt en rekke konkrekte eksempler.
+Detteretter ble de spurt om tror økende automatisering i offentlig sektor fører til mer eller mindre av henholdsvis etterprøvbarhet, legitimitet, og upartiskhet.
+De to figurene under viser fordelingene for alle, altså for både de som fikk og ikke fikk oppgitt konkrekte eksempler.
+Her ser vi at respondentene hadde delvis ulike forventing for de ulike punktene.
+De er relativt jevnfordelt når det gjelder generelle forventinger om det vil fære til forbedring eller forverring av offentlig tjenester.
+Samtidig tror majoriten av innbyggere at det vil føre til mindre etterprøvbarhet og legitimitet, men mer upartiskhet.
+
+Resultat: Folk har forventinger, og gjennomsnittet ligger like under 4.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.45\linewidth]{figs/png/fig_automat_hist} 
+
+}
+
+\caption{Generelle forventinger til automatisering i offentlig sektor}\label{fig:unnamed-chunk-20}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figs/png/fig_automat2_hist} 
+
+}
+
+\caption{Spesifikke forventinger til automatisering i offentlig sektor}\label{fig:unnamed-chunk-21}
+\end{figure}
+
+Figuren under viser gjennomsnittet delt opp etter hvorvidt de fikk oppgitt konkrete eksempler i spørsmålet om generelle forventinger. Halvparten fikk følgende ekstra tekst:
+
+\begin{quote}
+Ett konkret eksempel fra Norge er Utlendingsdirektoratet (UDI), som i enkelte tilfeller lar roboten Ada bestemme om enkeltpersoner skal få opphold i Norge. Et par eksempler fra USA er algoritmer som produserer anbefalinger vedrørende hvor politiet bør patruljere for å øke sjansen for å ta kriminelle, samt hvilke bekymringsmeldinger barnevernet bør ta på alvor og hvilke de kan la passere.
+\end{quote}
+
+Respondentene som fikk vist konkrete eksempler forventer i større grad at automatiseringen vil føre til forverring av offentlig tjenester, samt til mindre legitimitet, enn de som ikke fikk vist eksempler. Effekten er svak men statistisk signifikant.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{figs/png/fig_automat_treat} 
+
+}
+
+\caption{Effekt av å få vite konkrete eksempler på forventinger til automatisering i offentlig sektor}\label{fig:unnamed-chunk-22}
+\end{figure}
+
+\newpage
+
+\hypertarget{rettferdighetsoppfatninger}{%
+\section{Rettferdighetsoppfatninger}\label{rettferdighetsoppfatninger}}
+
+\hypertarget{relval}{%
+\subsection{Når er det passende å bruke kunstig intelligens?}\label{relval}}
 
 I mange beslutninger i forvaltningen må det utvises skjønn basert på en samlet vurdering av den enkelte saken.
 Om man tar i bruk kunstig intelligens, ved hjelp av maskinlæring, vil beslutningene antakelig bli mer treffsikker, og dermed øke andelen riktige beslutninger.
@@ -523,25 +749,135 @@ Dette fordi det er stor variasjon mellom hvordan menneskelige saksbehandlere utv
 
 Med dette som bakgrunn spurte vi respondentene hva foretrekker i slike situasjoner:
 Enten 1) Bruke kunstig intelligens, som fører til mange flere riktige beslutninger i bytte mot at det alltid er de samme som blir gjenstand for uriktige avgjørelser, eller 2) ikke bruke kunstig intelligens, som fører til mange færre riktige beslutninger i bytte mot at det varierer hvem som blir gjenstand for uriktige avgjørelser.
+Fordelingen er vist i tabellen under.
+Respondentene delte seg på midten i dette spørsmålet, hvor rundt 47 prosent foretrakk å bruke kunstig intelligens, mens 53\% foretrakk å ikke bruke kunstig intelligenst.
 
-Respondentene delte seg på midten i dette spørsmålet, hvor XX PROSENT FORETRAKK Å BRUKE KUNSTIG INTELLIGENS, MENS XX FORETRAKK Å IKKE BRUKE KUNSTIG INTELLIGENS.
+\begin{longtable}[]{@{}llr@{}}
+\caption{\label{tab:relval} Tradeoff mellom generell treffsikkerhet og spesfikke systematiske feil (bruke eller ikke bruke KI)}\tabularnewline
+\toprule
+Svar & & Prosent \\
+\midrule
+\endfirsthead
+\toprule
+Svar & & Prosent \\
+\midrule
+\endhead
+Bruke KI & & 47 \\
+Ikke bruke KI & & 53 \\
+\bottomrule
+\end{longtable}
+
 Figuren under viser at de med lav kjennskap til maskinlæring og kunstig intelligens var mest skeptiske.
 Det kan altså ha sammenheng med skepsis til det ukjente.
 
-\includegraphics[width=0.7\textwidth,height=\textheight]{figs/png/fig_relval_ml_know.png}
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{figs/png/fig_relval_ml_know} 
+
+}
+
+\caption{Repiterbarhet etter selvrapportert kunnskap}\label{fig:unnamed-chunk-23}
+\end{figure}
 
 Spørsmålet har også en politisk-filosofisk dimensjon over seg.
 Premisset som legges til grunn for spørsmålet er at man ved å innføre kunstig intelligens påvirker fordelingen av riktige beslutninger.
 Det blir da et spørsmål om fordeling av goder, og om man er villig til å ofre et lite antall individer som systematisk forfordeles med uriktige beslutninger, mot at populasjonen som helhet nyter godt av en høyere andel riktige beslutninger.
 
-\includegraphics[width=0.7\textwidth,height=\textheight]{figs/png/fig_relval_polscale.png}
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{figs/png/fig_relval_polscale} 
+
+}
+
+\caption{Repiterbarhet etter selvplassering på politiske skala}\label{fig:unnamed-chunk-24}
+\end{figure}
 
 Ut fra dette perspektivet gir det mening at de som plasserer seg lengst til venstre på den politiske høyre/venstre-skalaen er minst villige til å bruke kunstig intelligens, da man kan anta at borgere som plasserer seg lengst til venstre er mer egalitær enn de som plasserer seg på høyresiden.
 Vi noterer oss imidlertid også at de som plasserer seg lengst til høyre også er mindre villige til å bruke kunstig intelligens når konsekvensene av bruken presenteres slik som den har blitt gjort i dette konkrete tilfellet.
 Inntil videre må vi nøye oss med å konstatere at det er store forskjeller i svarene respondentene gir basert på deres politiske ståsted, og overlate til framtidig forskning å dykke dypere i hva denne forskjellen skyldes.
 
+\hypertarget{input}{%
+\subsection{Hvilken informasjon anses som passende?}\label{input}}
+
+Et annet viktig spørsmål knyttet til bruk av maskinlæring og kunstig intelligens er hvilke data det oppfattes som passende å bruke.
+I mange brukstilfeller vil det finnes et bredt spektrum av informasjon tilgjenglig, men det vil sannsynligvis variere hvor passende innbyggere faktisk mener det er bruke de ulike typene informasjon -- uavhengig av om de gjør prediksjonen mer treffsikker.
+Det er derfor nyttig å ha kunnskap om hvordan befolkning vurderer ulike typer informasjon.
+
+Et realistisk eksempel hvor maskinlæring kan brukes i forvaltninger er hvilke jobbrette tiltak NAV skal tilby en jobbbsøker. Tilgangen til jobbrettede tiltak er behovsbasert og jobbsøkeren har ikke anledning til fritt å velge hvilke tiltak hun eller han ønsker seg. Godt over halvparten av alle jobbsøkere tilbys ingen eller liten bistand fra NAV. Saksbehandler vil på bakgrunn av en individuell vurdering av søkerens behov bestemme innsatsgruppe, og dermed også hvilke tiltak han/hun skal få tilbud om. Tidligere har denne vurderingen blitt gjort av saksbehandleren alene. I dag prøver NAV ut maskinlæring for å bistå saksbehandleren med forslag i denne vurdering.
+
+I prinsippet finnes det et enormt utvalg av mulige variabler som kan være relevant for en slik prediksjon -- i den forstand at de kan bidra med å gjøre en prediksjon mer nøyaktig. Disse variablene omhandler et stort og variert utvalg informasjon om den enkelte jobbsøker. Det er derfor et godt eksempel på en situasjon hvor det må gjøres en avveining om hvilke variabler man skal bruke, hvor det er sannsynlig at innbyggere vil oppfatte noen variabler som mer eller mindre passende enn andre. I verste fall kan enkelte variabler bli oppfattet som direkte urettferdig.
+
+For å studere dette spurte vi respondentene hvor passende de synes det er å bruke hver av en liste variabler, med utgangspunkt i at de skal brukes for å foreslå jobbrettede tiltak. I spørsmålet satt vi premisset at hver variabel bidrar med å gjøre forslagene mer nøyaktige. Vi ba dem om å vurdere hver variabel på en fem-punkts skala, fra ``Ikke passende i det hele tatt'' (1) til ``Svært passende'' (5). Vi spurte dem både om variabler som det har vært aktuelt for NAV å bruke ved en eventuell slik implementering og om variabler som det ikke har vært aktuelt å bruke:
+
+\begin{itemize}
+\tightlist
+\item
+  Alder;
+\item
+  Arbeidshistorikk: Hvorvidt den arbeidssøkende har hatt sammenhengende jobb i 6 av de siste 12 mnd;
+\item
+  Bosted: Hvor i landet bor brukeren;
+\item
+  Kjønn;
+\item
+  Helse: Hvorvidt jobbsøkere opplyser at hen har helseutfordringer;
+\item
+  Landbakgrunn;
+\item
+  Rulleblad: Har brukeren blitt dømt for kriminelle handlinger.
+\item
+  Ufordringer: Hvorvidt jobbsøkere opplyser at hen har andre utfordringer som hindrer dem fra å jobbe;
+\item
+  Utdanning: Hvorvidt jobbsøkeren har fullført utdanning godkjent i Norge;
+\end{itemize}
+
+Resultatene fra spørsmålet vises i figurene under.
+Den første figurene viser snittet på skalaen for hver variabel, hvor variablene er rangert nedover etter hvor passende respondentene synes de var i snitt. Den andre figuren viser hele fordelingen for hver variabel. Samlet sett ser vi at ingen av variablene oppfattes som utvilsomt passende eller upassende. De fleste har et gjennomsnitt mellom 3 (``Noe passende'') og 4 (``Passende''). Men noen skiller seg ut. På den ene siden skiller kjønn og landsbakgrunn seg spesielt ut ved å ha et gjennomsnitt under 3, substantielt under de andre; på den andre siden skiller utdanning seg ut ved å ha et gjennomsnitt over 4, substantielt over de andre. Hva variasjonen skyldes vet vi ikke med sikkerhet. At kjønn og landbakgrunn blir sett på som mindre passende er gjerne fordi de er mer direkte knyttet til spørsmål og bekymringer om diskriminering. Samlet sett er det tydelig forskjeller i hvor passende ulike typer informasjon ble oppfattet av respondentene.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{figs/png/fig_vars_avg} 
+
+}
+
+\caption{Gjennomsnitt av hvor passende det oppfattes å bruke variabelen}\label{fig:unnamed-chunk-25}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{figs/png/fig_vars_hist} 
+
+}
+
+\caption{Fordeling for hver variabel av hvor passende den oppfattes å bruke}\label{fig:unnamed-chunk-26}
+\end{figure}
+
+De to figurene under sammenligner gjennomsnittet for ulike undergrupper. I den første er det differensiert mellom respondenter med og uten høyere utdanning. Vi ser her at respondenter med ulik utdanning har noe ulikt syn på ulike variablene, og da særskilt når det kommer til nettopp utdanning. De med høyere utdanning synes det er betydelig mer passende enn de uten høyere utdanning å bruke utdanning som variabel. De underliggende årsaken til disse forskjellene kan være mange, men resultatene peker på at grupper med ulik oppfatning, kunnskap, erfaring, etc, kan forholde seg substansielt forskjellig til samme type informasjon.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{figs/png/fig_vars_avg_utd} 
+
+}
+
+\caption{Gjennomsnitt av hvor passende det oppfattes å bruke variabelen for ulike utdanningsnivå}\label{fig:unnamed-chunk-27}
+\end{figure}
+
+I den neste figuren er det differensiert etter hvor mye selverklært kunnskap respondenene har om maskinlæring. Her ser vi også noen viktige forskjeller: De med mye selverklært kunnskap om maskinlæring synes at de fire variablene på toppen (som generelt blir sett på som mest passende) er substansielt mer passende enn de uten kunnskap. Dette kan være relatert til underliggende sosioøkonomiske forskjeller mellom de med høy og lav selverklært kunnskap, slik som utdanningsnivå, men det kan også være kunnskap i seg selv som endrer denne oppfatningen. En viktig alternativ mekanisme er at de med mye kunnskap om maskinlæring verdsetter økt nøyaktighet mer enn de uten slik kunnskap, som da endrer hvordan de balanserer ulike hensyn når de vurderer hvor passende variablene er.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{figs/png/fig_vars_avg_ml_know} 
+
+}
+
+\caption{Gjennomsnitt av hvor passende det oppfattes å bruke variabelen for ulike nivå av selvrapportert kjennskap til maskinlæring}\label{fig:unnamed-chunk-28}
+\end{figure}
+
+Sett i helhet antyder resultatene at den generelle befolkning er uenig i hvor passende det er å bruke ulike typer informasjon. Samtidig er det tydelig forskjeller mellom variablene, hvor særskilt kjønn og landbakgrunn blir sett på mindre passende av mange. Resultatene viser også at det er viktige systematiske forskjeller mellom ulike grupper for hvordan de gjør denne vurderingen.
+
 \hypertarget{paritet}{%
-\chapter{Statistisk paritet}\label{paritet}}
+\subsection{Statistisk paritet}\label{paritet}}
 
 Det er viktig å studere rettferdighet fra et statsvitenskapelig perspektiv fordi oppfatninger av rettferdighet antas å påvirke institusjonell legitimitet \citep{tyler2003procedural}.
 Dette begrenser seg ikke bare til input-siden av det politiske systemet hvor politikk vedtas, men også output-siden i forvaltningen hvor politikk settes ut i live \citep{krislov2012representative, rosanvallon2011democratic, rothstein2009creating}.
@@ -592,7 +928,14 @@ Hvis det står mellom disse to modellene, hvilken modell synes respondentene vir
 Figuren under viser at et knapt flertall foretrekker en modell som vektlegger statistisk paritet.
 Det vil si at de ønsker å bruke en modell som sikrer likebehandling av kjønn, selv på bekostning av lavere treffsikkerhet totalt sett.
 
-\includegraphics{figs/png/fig_parity_avg.png}
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{figs/png/fig_parity_avg} 
+
+}
+
+\caption{Preferanse for statistisk paritet}\label{fig:unnamed-chunk-29}
+\end{figure}
 
 I teksten over står det at den mest treffsikre modellen favoriserte menn.
 For å undersøke om det har noen innvirkning på svarene hvilket kjønn modellen favoriserer veksler vi på denne beskrivelsen.
@@ -608,80 +951,53 @@ Man ser liknende kjønnseffekter i eksperimenter om politisk representasjon, hvo
 I den litteraturen pekes det på forklaringer om at folk er motivert ut fra et ønske om å kompensere for historisk underrepresentasjon av kvinner i politiske stillinger.
 Hvorvidt det ligger liknende strukturelle motivasjoner for våre resultater, psykologiske faktorer, eller andre forhold er et interessant forskningsspørsmål som vi ikke har data til å besvare, og som derfor bør studeres videre.
 
-\includegraphics{figs/png/fig_parity_treat_avg.png}
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{figs/png/fig_parity_treat_avg} 
+
+}
+
+\caption{Preferanse for statistisk paritet etter hvilken gruppe som får skjeivt utfall (treatment)}\label{fig:unnamed-chunk-30}
+\end{figure}
 
 Det vi imidlertid ser, og til forskjell fra litteraturen om politisk representasjon, er at kvinner responderer noe mer på informasjon om hvilket kjønn som kommer best ut av en modell som prioriterer treffsikkerhet.
 Både menn og kvinner foretrekker paritetsmodellen oftere i de tilfellene kvinnene kommer dårlig ut av treffsikkerhetsmodellen enn i de tilfellene hvor menn kommer dårlig ut av samme modell, men denne effekten er noe sterkere hos kvinner enn menn.
 
 Det er også en generell forskjell blant respondentene i den forstand at kvinner i sterkere grad foretrekker paritetsmodellen enn menn gjør, uavhengig av om det er menn eller kvinner som kommer best ut av det.
 
-\includegraphics{figs/png/fig_parity_treat_avg_by_gender.png}
+\begin{figure}
 
-\hypertarget{input}{%
-\chapter{Hvilken informasjon anses som passende?}\label{input}}
+{\centering \includegraphics[width=0.9\linewidth]{figs/png/fig_parity_treat_avg_by_gender} 
 
-En viktig dimensjon er hvilken informasjon det er rettferdig å bruke.
-(OM DETTE.)
-(Definér/forklar ``variabel'' her.)
+}
 
-(Ekstremt eksempel med rase eller kjønn, for å sette det i perspektiv)
+\caption{Preferanse for statistisk paritet etter hvilken gruppe som får skjeivt utfall (treatment) og respondentens kjønn}\label{fig:unnamed-chunk-31}
+\end{figure}
 
-Et realistisk eksempel hvor maskinlæring kan brukes i forvaltninger er hvilke jobbrette tiltak NAV skal tilby en jobbbsøker. Tilgangen til jobbrettede tiltak er behovsbasert og jobbsøkeren har ikke anledning til fritt å velge hvilke tiltak hun eller han ønsker seg. Godt over halvparten av alle jobbsøkere tilbys ingen eller liten bistand fra NAV. Saksbehandler vil på bakgrunn av en individuell vurdering av søkerens behov bestemme innsatsgruppe, og dermed også hvilke tiltak han/hun skal få tilbud om. Tidligere har denne vurderingen blitt gjort av saksbehandleren alene. I dag prøver NAV ut maskinlæring for å bistå saksbehandleren med forslag i denne vurdering.
+Et oppfølgingseksperiment viser hvordan innbyggerne responderer på signaler om hvordan modellene har blitt til.
+Mens de to modellene i utgangspunktet er tilnærmet like populære blant respondentene, endrer svarene seg markant når vi opplyser om at en ekspertkomité anbefaler den ene modellen framfor den andre.
+Dette viser med tydelighet at innbyggerne bryr seg om ikke bare hvordan modellene virker, men også hvordan prosessen i forkant har vært.
 
-I prinsippet finnes det et enormt utvalg av mulige variabler som kan være relevant for en slik prediksjon -- i den forstand at de kan bidra med å gjøre en prediksjon mer nøyaktig. Disse variablene omhandler et stort og variert utvalg informasjon om den enkelte jobbsøker. Det er derfor et godt eksempel på en situasjon hvor det må gjøres en avveining om hvilke variabler man skal bruke, hvor det er sannsynlig at innbyggere vil oppfatte noen variabler som mer eller mindre passende enn andre. I verste fall kan enkelte variabler bli oppfattet som direkte urettferdig.
+\begin{figure}
 
-For å studere dette spurte vi respondentene hvor passende de synes det er å bruke hver av en liste variabler, med utgangspunkt i at de skal brukes for å foreslå jobbrettede tiltak. I spørsmålet satt vi premisset at hver variabel bidrar med å gjøre forslagene mer nøyaktige. Vi spurte dem både om variabler som det har vært aktuelt for NAV å bruke ved en eventuell slik implementering:
+{\centering \includegraphics[width=0.9\linewidth]{figs/png/fig_parity_komite} 
 
-\begin{itemize}
-\item
-  Helse: Hvorvidt jobbsøkere opplyser at hen har helseutfordringer;
-\item
-  Ufordringer: Hvorvidt jobbsøkere opplyser at hen har andre utfordringer som hindrer dem fra å jobbe;
-\item
-  Utdanning: Hvorvidt jobbsøkeren har fullført utdanning godkjent i Norge;
-\item
-  Arbeidshistorikk: Hvorvidt den arbeidssøkende har hatt sammenhengende jobb i 6 av de siste 12 mnd;
-\item
-  Alder
-\item
-  Kjønn
-\end{itemize}
+}
 
-(HVILKE VAR DET SOM DE FAKTISK HADDE TENKT Å BRUKE?)
-Vi spurte dem også om varabler som det ikke har vært aktuelt å ta bruk, men som representerer andre typer informasjon som i prinsippet kan være informativt:
+\caption{Preferanse for statistisk paritet etter hvilken gruppe som får skjeivt utfall (treatment) og respondentens kjønn}\label{fig:unnamed-chunk-32}
+\end{figure}
 
-\begin{itemize}
-\item
-  Landbakgrunn
-\item
-  Bosted: Hvor i landet bor brukeren?
-\item
-  Rulleblad: Har brukere blitt dømt for kriminelle handlinger?
-\end{itemize}
+Eksperter har autoritet i kraft av sin kompetanse som gir legitimitet til bruken av modellene.
+En ekspertkomité fungerer som et godkjentstempel -- en svanemerking om du vil -- på at modellene oppfyller grunnleggende etiske, administrative og politiske krav.
+At folk responderer på signaler fra eliter er ikke uvanlig i studier av politisk atferd, og spesielt ikke i saker hvor innbyggerne mangler kunnskap eller ikke har sterke oppfatninger på forhånd.
+Eksperter kan være så mangt, og for å følge opp studiet om byråkratisk representasjon (beskrevet i et annet kapittel) undersøker vi om det spiller noen rolle for innbyggerne at ekspertene gjenspeiler befolkningen, altså er deskriptivt representativ.
+Denne ekstra informasjonen om ekspertkomiteen gir ingen statistisk signifikant utslag på oppslutningen om modellene.
+Det betyr enten at innbyggerne ikke er opptatt av representativitet blant eksperter, eventuelt at dette er implisitt antatt slik at eksplisitt informasjon om at ekspertgruppen er representativ ikke tilfører respondentene noen ny informasjon.
 
-Vi ba dem om å vurdere hver variabel på en fem-punkts skala, fra ``Ikke passende i det hele tatt'' (1) til ``Svært passende'' (5).
-
-Resultatene fra spørsmålet vises i figurene under.
-Den første figurene viser snittet på skalaen for hver variabel, hvor variablene er rangert nedover etter hvor passende respondente synes de var i snitt. Den andre figuren viser hele fordelingen for hver variabel. Samlet sett ser vi at ingen av variablene oppfattes som utvilsomt passende eller upassende. De fleste har et gjennomsnitt mellom 3 (``Noe passende'') og 4 (``Passende''). Men noen skiller seg ut. På den ene siden skiller kjønn og landsbakgrunn seg spesielt ut ved å ha et gjennomsnitt under 3, substantielt under de andre; på den andre siden skiller utdanning seg ut ved å ha et gjennomsnitt over 4, substantielt over de andre. Hva variasjonen skyldes vet vi ikke med sikkerhet. At kjønn og landbakgrunn blir sett på som mindre passende er gjerne fordi de er mer direkte knyttet til spørsmål og bekymringer om diskriminering. Samlet sett er det tydelig forskjeller i hvor passende ulike typer informasjon ble oppfattet av respondentene.
-
-\includegraphics{figs/png/fig_vars_avg.png}
-\includegraphics{figs/png/fig_vars_hist.png}
-
-De to figurene under sammenligner gjennomsnittet for ulike undergrupper. I den første er det differensiert mellom respondenter med og uten høyere utdanning. Vi ser her at respondenter med ulik utdanning har noe ulikt syn på ulike variablene, og da særskilt når det kommer til nettopp utdanning. De med høyere utdanning synes det er betydelig mer passende enn de uten høyere utdanning å bruke utdanning som variabel. De underliggende årsaken til disse forskjellene kan være mange, men resultatene peker på at grupper med ulik oppfatning, kunnskap, erfaring, etc, kan forholde seg substansielt forskjellig til samme type informasjon.
-
-\includegraphics{figs/png/fig_vars_avg_utd.png}
-
-I den neste figuren er det differensiert etter hvor mye selverklært kunnskap respondenene har om maskinlæring. Her ser vi også noen viktige forskjeller: De med mye selverklært kunnskap om maskinlæring synes at de fire variablene på toppen (som generelt blir sett på som mest passende) er substansielt mer passende enn de uten kunnskap. Dette kan være relatert til underliggende sosioøkonomiske forskjeller mellom de med høy og lav selverklært kunnskap, slik som utdanningsnivå, men det kan også være kunnskap i seg selv som endrer denne oppfatningen. En viktig alternativ mekanisme er at de med mye kunnskap om maskinlæring verdesetter økt nøyaktighet mer enn de uten slik kunnskap, som da endrer hvordan de balanserer ulike hensyn når de vurderer hvor passende variablene er.
-
-\includegraphics{figs/png/fig_vars_avg_ml_know.png}
-
-Sett i helhet antyder resultatene at den generelle befolkning er uenig i hvor passende det er å bruke ulike typer informasjon. Samtidig er det tydelig forskjeller mellom variablene, hvor særskilt kjønn og landbakgrunn blir sett på mindre passende av mange. Resultatene viser også at det er viktige systematiske forskjeller mellom ulike grupper for hvordan de gjør denne vurderingen.
-
-(LITREV: HVORDAN RELATERER DETTE SEG TIL HVA ANDRE FINNER?)
-Lignende studier gjort med andre eksempelsaker i andre land viser at x.
+\newpage
 
 \hypertarget{representasjon}{%
-\chapter{Representativt byråkrati}\label{representasjon}}
+\section{Representativt byråkrati}\label{representasjon}}
 
 Den dominerende forståelsen av hva det norske politisk-administrative systemet skal være er den weberianske forestillingen om et byråkrati som ikke skal ha noen selvstendig innflytelse på politikken.
 Innbyggernes demokratiske innflytelse skjer under utformingen av politikken, mens forvaltningen utfører den vedtatte politikken på en upartisk måte \citep{rothstein2009creating, rosanvallon2011democratic}.
@@ -726,10 +1042,18 @@ Eksperimentdelen av studien innebærer at vi legger til en ekstra setning til ha
 Som støtte i beslutningsprosessen bruker saksbehandleren kunstig intelligens, basert på maskinlæring, som anbefaler hvem som skal få støtte.
 \end{quote}
 
-\includegraphics{figs/png/fig_exp_repr_each.png}
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{figs/png/fig_exp_repr_each} 
+
+}
+
+\caption{Representajon: Gjennomsnitt av hvor viktig det oppfattes at saksbehandler har samme [egenskap] for å ivareta interesser, delt opp etter hvorvidt saksbehandleren bruker maskinlæring}\label{fig:unnamed-chunk-33}
+\end{figure}
+
 Resultatene fra eksperimentet viser at folk jevnt over blir mer opptatt av representativt byråkrati når forvaltningen benytter seg av maskinlæring og kunstig intelligens som beslutningsstøtte.
 Spesielt arbeidserfaring og utdanningsnivå blir viktigere for respondentene.
-Relevant i denne sammenhengen er et spørsmål vi stilte tilbake i 2018 i Norsk medborgerpanel om man trodde økt grad av automatisering ville gjøre forvaltningen verre eller bedre.
+Relevant i denne sammenhengen er et spørsmål vi stilte tilbake i 2018 om man trodde økt grad av automatisering ville gjøre forvaltningen verre eller bedre.
 Respondente ble bedt om å begrunne svaret i en åpen tekstboks.
 De som mente det ville lede til dårligere forvaltning trakk typisk fram at beslutningsprosessen ville virke fremmedgjørende på innbyggerne, og at mulighetene for å utvise skjønn ble redusert.
 En respondent ordla seg slik:
@@ -744,8 +1068,10 @@ Men totalt sett tror jeg de offentlige tjenestene vil forbedres.som igjen presse
 Videre forskning bør fokusere på å forstå mekanismene som gjør at representativt byråkrati blir viktigere for innbyggerne når maskinlæring og kunstig intelligens taes i bruk i forvaltningen, og i hvilke situasjoner innbyggerne er mest opptatt av dette.
 En hypotese som bør forfølges er da at kunstig intelligens fører til fremmedgjøring av beslutningsprosesser i forvaltningen, som i sin tur øker behovet for saksbehandlere som deler ens bakgrunn og kan sikre at deres rettigheter ivaretaes på en god måte.
 
+\newpage
+
 \hypertarget{diskusjon-og-videre-forskning}{%
-\chapter{Diskusjon og videre forskning}\label{diskusjon-og-videre-forskning}}
+\section{Diskusjon og videre forskning}\label{diskusjon-og-videre-forskning}}
 
 Bruk av maskinlæring og kunstig intelligens i forvaltningen er per i dag ikke høyt på agendaen hos innbyggere i Norge.
 Det er mange som oppgir at de har lite kunnskap om temaet, og innbyggerne er delt med tanke på om de er bekymret for utviklingen og om de ser på det som en forbedring eller forverring av forvaltningen.
@@ -769,7 +1095,7 @@ Den representerer imidlertid bare starten, og må følges opp av videre studier 
 Under presenterer vi to tilnærminger til videre opinionsforskning.
 
 \hypertarget{deliberativ-meningsmuxe5ling}{%
-\section{Deliberativ meningsmåling}\label{deliberativ-meningsmuxe5ling}}
+\subsection{Deliberativ meningsmåling}\label{deliberativ-meningsmuxe5ling}}
 
 Spørreundersøkelser har mange fordeler, ikke minst det at man når et representativt og relativt stort antall innbyggere på kort tid.
 Samtidig er det behov for å gå mer i dybden, hvor innbyggerne får anledning til å sette seg grundigere inn i det som ofte er komplekse spørsmål.
@@ -778,11 +1104,11 @@ Deliberativ meningsmåling viser til en bestemt prosedyre for å invitere innbyg
 I korte trekk går prosessen ut på at man inviterer et representativt utvalg typisk på hundre eller flere innbyggere til å sette av en dag for å diskutere politikk med sine medborgere.
 De tar stilling til forslag, blir presentert for for- og motargumenter, og diskuterer sakene i mindre grupper.
 Etter diskusjonen får de i en plenumssesjon anledning til å stille spørsmål til fageksperter, før de mot slutten av arrangementet svarer de på en spørreundersøkelse om deres holdninger til de politiske temaene som var på agendaen.
-Denne typen opinionsforskning komplementerer standard spørreundersøkelser ved at man får vite hva folk mener etter de har fått tid til å tenke seg om.
+Denne typen forskning komplementerer standard spørreundersøkelser ved at man får vite hva folk mener etter de har fått tid til å tenke seg om.
 Noen av temaene i denne NAV-rapporten vil bli del av den deliberative meningsmålingen.
 
 \hypertarget{saksbehandlernes-rolle}{%
-\section{Saksbehandlernes rolle}\label{saksbehandlernes-rolle}}
+\subsection{Saksbehandlernes rolle}\label{saksbehandlernes-rolle}}
 
 Et viktig funn i denne rapporten er at de med mye (selverklært) kunnskap om maskinlæring tenderer til å ha andre oppfattinger enn de uten mye kunnskap.
 Slike forskjeller i oppfatning fører til at borgere har ulik oppfatning av byråkratiske prosesser, men gjelder dette også for saksbehandlerne i NAV?
@@ -796,6 +1122,8 @@ Dette kalles for kongruens \citep{golder2010ideological}, og mer spesifikt prose
 Hvis det finnes tilfeller av inkongruens på tvers av saksområder, kan det påvirke tilliten til NAV og forvaltning som helhet negativt.
 Eventuelle systematiske forskjeller vil belyse fallgruver hvor implementering eller bruk som oppfattes som legitim av forvaltningen vil oppfattes som illegitim av den generelle befolkningen, og som derfor utilsiktet kan føre til redusert systemtillit og tillit til NAV.
 Framtidig forskning bør derfor søke å identifisere likheter og forskjeller i holdninger til maskinlæring og kunstig intelligens for henholdsvis saksbehandlere og den generelle befolkningen.
+
+\newpage
 
   \bibliography{book.bib,packages.bib}
 

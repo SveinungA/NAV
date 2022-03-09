@@ -1,18 +1,32 @@
 \newpage
 # Data og metode {#metode}
 
-Denne rapporten er basert på spørreundersøkelse på et befolkningsrepresentativt utvalg av innbyggere i Norge. Undersøkelsen var delt i tre hoveddeler. Den første delen tar for seg spørsmål knyttet til relasjonen mellom innbyggerne og NAV. Den andre delen tar for seg mer generelle holdninger og kunnskap til maskinlæring og kunstig intelligens. I den tredje delen av undersøkelsen bruker eksperimentscenarier som er eller kan bli realistiske i NAV-sammenheng, hvor respondent må gjøre spesifikke avveinger rundt om og hvordan maskinlæring brukes eller implementeres. 
+Denne rapporten er basert på spørreundersøkelse på et befolkningsrepresentativt utvalg av innbyggere i Norge. 
+Undersøkelsen var delt i tre hoveddeler. 
+Den første delen tar for seg spørsmål knyttet til relasjonen mellom innbyggerne og NAV. 
+Den andre delen tar for seg mer generelle holdninger og kunnskap til maskinlæring og kunstig intelligens. 
+I den tredje delen av undersøkelsen bruker eksperimentscenarier som er eller kan bli realistiske i NAV-sammenheng, hvor respondent må gjøre spesifikke avveinger rundt om og hvordan maskinlæring brukes eller implementeres. 
 
-Ved flere deler av undersøkelsen benytter vi eksperiment. Eksperiment som metode i samfunnsforskningen defineres av to nøkkelelementer. For det første må det være en datainnsamlingsprosess som samfunnsforskeren setter i gang for å søke svar på et forskningsspørsmål. Eksperimentdata kan ikke være observasjonsdata, altså data som allerede eksisterer i «den virkelige verden» og har skjedd – og ville ha skjedd – uten forskerens innblanding. Et eksperiment må også ha en kontrollgruppe som viser hvordan verdiene på den avhengige variabelen framstår når de ikke er påvirket av den eller de faktorene som undersøkes. Når stimulusgruppene blir introdusert for påvirkning, måler vi nivåene på disse gruppene opp mot kontrollgruppen for å se om det er noen forskjell. Eksperimenter i samfunnsforskningen kan gjennomføres som felteksperimenter, som lab-eksperimenter og som surveyeksperimenter. Sistnevnte har vært mest brukt innenfor studier av demokratiske beslutningsprosesser og er også det vi benytter oss av i denne rapporten. Eksperimenter er velegnet til å isolere enkeltfaktorers påvirkning på avhengig variabel, og bedrer muligheten for å trekke slutninger om årsakssammenhenger. 
-
-Legitimiteten til institusjoner som NAV er noe som ikke nødvendigvis endrer seg veldig fort. Det kan derfor i en spørreundersøkelse være vanskelig å eksperimentere med faktorer som direkte påvirker legitimiteten til NAV som sådan. Empirisk operasjonaliserer man derfor ofte legitimitet ved å spørre respondenter om de mener en beslutning bør følges, eller om de oppfatter den som akseptabel. Det har vært vårt utgangspunkt her.
-
+Ved flere deler av undersøkelsen benytter vi eksperiment. 
+Eksperiment som metode i samfunnsforskningen defineres av to nøkkelelementer. 
+For det første må det være en datainnsamlingsprosess som samfunnsforskeren setter i gang for å søke svar på et forskningsspørsmål. 
+Eksperimentdata kan ikke være observasjonsdata, altså data som allerede eksisterer i «den virkelige verden» og har skjedd – og ville ha skjedd – uten forskerens innblanding. 
+Et eksperiment må også ha en kontrollgruppe som viser hvordan verdiene på den avhengige variabelen framstår når de ikke er påvirket av den eller de faktorene som undersøkes. 
+Når stimulusgruppene blir introdusert for påvirkning, måler vi nivåene på disse gruppene opp mot kontrollgruppen for å se om det er noen forskjell. 
+Eksperimenter i samfunnsforskningen kan gjennomføres som felteksperimenter, som lab-eksperimenter og som surveyeksperimenter. 
+Sistnevnte har vært mest brukt innenfor studier av demokratiske beslutningsprosesser og er også det vi benytter oss av i denne rapporten. 
 
 ## Norsk medborgerpanel
-Datagrunnlaget for denne rapporten er samlet inn i Norsk medborgerpanels runde 22 og 23.
+Data for denne rapporten er samlet inn i Norsk medborgerpanels 22 og 23.
+Samlet antall respondenter som svarte på deler av denne undersøkelsen var 3971. 
+Typisk antall respondenter for hvert spørsmål er om lag 2000. 
+Vi presenterer også noen resultater samlet inn i 2018 (runde 13).
+
 Norsk medborgerpanel er en internettbasert undersøkelse om nordmenns holdninger til viktige samfunnstema.
 Panelet drives av samfunnsforskere ved Universitetet i Bergen og NORCE, og er et non-profit prosjekt utelukkende benyttet til forskningsformål. 
-Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.Panelet blir driftet av [Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE)](www.digsscore.uib.no), som er samarbeidspartner i prosjektet. 
+Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.
+Panelet blir driftet av [Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE)](www.digsscore.uib.no), som er samarbeidspartner i prosjektet. 
 
-Samlet antall respondenter som svarte på deler av denne undersøkelsen var 3971. Typisk antall respondenter for hvert spørsmål er om lag 2000. [Metoderapport og kodefor data kan lastes ned her.](https://www.uib.no/en/digsscore/122162/methodology-and-field-periods). [Kodebøker kan lastes ned her.](https://www.uib.no/medborger/76892/data-og-dokumentasjon)
+[Metoderapport og kodefor data kan lastes ned her.](https://www.uib.no/en/digsscore/122162/methodology-and-field-periods)
+[Kodebøker kan lastes ned her.](https://www.uib.no/medborger/76892/data-og-dokumentasjon)
 Data er åpent tilgjengelig for forskere, og kan lastes ned ved å kontakte [Sikt – Kunnskapssektorens tjenesteleverandør (tidligere kjent som NSD)](https://sikt.no/).

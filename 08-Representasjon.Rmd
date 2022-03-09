@@ -47,7 +47,7 @@ knitr::include_graphics("figs/png/fig_exp_repr_each.png")
 
 Resultatene fra eksperimentet viser at folk jevnt over blir mer opptatt av representativt byråkrati når forvaltningen benytter seg av maskinlæring og kunstig intelligens som beslutningsstøtte.
 Spesielt arbeidserfaring og utdanningsnivå blir viktigere for respondentene.
-Relevant i denne sammenhengen er et spørsmål vi stilte tilbake i 2018 i Norsk medborgerpanel om man trodde økt grad av automatisering ville gjøre forvaltningen verre eller bedre.
+Relevant i denne sammenhengen er et spørsmål vi stilte tilbake i 2018 om man trodde økt grad av automatisering ville gjøre forvaltningen verre eller bedre.
 Respondente ble bedt om å begrunne svaret i en åpen tekstboks.
 De som mente det ville lede til dårligere forvaltning trakk typisk fram at beslutningsprosessen ville virke fremmedgjørende på innbyggerne, og at mulighetene for å utvise skjønn ble redusert.
 En respondent ordla seg slik:
