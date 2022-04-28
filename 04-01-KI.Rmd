@@ -24,7 +24,7 @@ I undersøkelsen så ga vi respondentene en kort forklaring av maskinlæring og 
  >
 > *Den offentlige forvaltningen, inkludert NAV, bruker i enkelte tilfeller maskinlæring for å hjelpe med å ta beslutninger i saker de har ansvar for. Formålet er å redusere kostnader og behandlingstid, og å gjøre beslutninger bedre og mer treffsikre. Et eksempel kan være å lære en datamaskin å forutsi omtrent hvor lenge en person vil være sykmeldt, basert på informasjon om sykdommen og personen. Det kan en saksbehandler da bruke for å velge passende tiltak.*"
 
-Vi spurte derreter om hvor god kjennskap de har til maskinlæring og kunstig intelligens.
+Vi spurte deretter om hvor god kjennskap de har til maskinlæring og kunstig intelligens.
 Figuren under viser hvordan respondentene fordelte seg på spørsmålet.
 Det er kun én av syv innbyggere som oppgir at de har god eller svært god kjennskap, mens nesten to tredjeler sier at de har liten eller ingen kjennskap til det i det hele tatt.
 
@@ -76,6 +76,9 @@ knitr::include_graphics("figs/png/fig_nav_ml_helps_interest_by_knowledge.png")
 
 Vi har studert befolkningens forventinger til automatisering i offentlig sektor ved en tidligere spørreundersøkelse. 
 Resultatene under er basert på spørsmål stilt i 2018 (runde 13) i Norsk Medborgerpanel.
+Dette er ikke direkte relatert til bruk av ML/KI i NAV, siden det ble stilt spørsmål om offentlig sektor generelt -- ikke NAV spesifikt -- og siden det brukes eksempler på ML/KI som ikke nødvendigvis ligner på hvordan eventuell bruk av slike verktøy vil være i NAV.
+Med det i mente, er disse resultatene fortsatt relevante og interessante siden det gir er mer overordnet perspektiv om hvilke forventinger befolkningen har til automatisering i offentlig sektor.
+
 Vi spurte dem først om de tror skiftet fra menneskelige til automatiserte beslutninger generelt vil føre til en forbedring eller forverring av offentlig tjenester. 
 Dette var et eksperiment hvor halvparten også fikk oppgitt en rekke konkrekte eksempler.
 Detteretter ble de spurt om tror økende automatisering i offentlig sektor fører til mer eller mindre av henholdsvis etterprøvbarhet, legitimitet, og upartiskhet.
@@ -99,7 +102,11 @@ Figuren under viser gjennomsnittet delt opp etter hvorvidt de fikk oppgitt konkr
 
 > Ett konkret eksempel fra Norge er Utlendingsdirektoratet (UDI), som i enkelte tilfeller lar roboten Ada bestemme om enkeltpersoner skal få opphold i Norge. Et par eksempler fra USA er algoritmer som produserer anbefalinger vedrørende hvor politiet bør patruljere for å øke sjansen for å ta kriminelle, samt hvilke bekymringsmeldinger barnevernet bør ta på alvor og hvilke de kan la passere.
 
-Respondentene som fikk vist konkrete eksempler forventer i større grad at automatiseringen vil føre til forverring av offentlig tjenester, samt til mindre legitimitet, enn de som ikke fikk vist eksempler. Effekten er svak men statistisk signifikant.
+Respondentene som fikk vist konkrete eksempler forventer i større grad at automatiseringen vil føre til forverring av offentlig tjenester, samt til mindre legitimitet, enn de som ikke fikk vist eksempler. 
+Effekten er svak men statistisk signifikant.
+Det er viktig å påpeke her at resultatene kunne endret seg hvis man hadde brukt andre eksempler, og at disse eksemplene ikke ligner på bruk av ML/KI som NAV har vurdert.
+Det er likevel et viktig og interessant mønster at når man får oppgitt ekte eksempler på bruk av ML/KI i offentlig sektor, så ser befolkningen i snitt mer negativt på automatisering.
+Det antyder at kontroversielle eksempler i fremtiden, uavhengig av om det er i NAV, kan være utslagsgivende for hvordan befolkningen forholder seg til bruk av ML/KI i NAV.
 
 ```{r, out.width = "80%", fig.align = "center", fig.cap= "Effekt av å få vite konkrete eksempler på forventinger til automatisering i offentlig sektor"}
 knitr::include_graphics("figs/png/fig_automat_treat.png")

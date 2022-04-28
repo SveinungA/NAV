@@ -8,14 +8,17 @@ På den andre siden er ivaretakelsen av forvaltningens legitimitet i befolkninge
 
 NAV er ledende i utviklingen av digitale tjenester og verktøy, og utvikler systemer som kan nyttiggjøre seg framskritt som gjøres innenfor databehandling og analyse. 
 Beslutningsprosesser som benytter seg av maskinlæring og kunstig intelligens vil være en del av løsningen for at NAV skal oppnå samfunnsoppdraget sitt om å bidra til at flere kommer i arbeid og færre på stønad, og samtidig sørge for at de som trenger det, får rett ytelse til rett tid gjennom en pålitelig og effektiv forvaltning. 
-Kunstig intelligens kan brukes både i automatiserte beslutningsprosesser, og som beslutningsstøtte for saksbehandlere. 
+For NAV vil det i første omgang dreie seg om bruk av ML/KI som beslutningsstøtte til veiledere og andre saksbehandlere, og ikke for å gjøre helautomatiserte beslutninger.
+<!-- Kunstig intelligens kan brukes både i automatiserte beslutningsprosesser, og som beslutningsstøtte for saksbehandlere.  -->
 Et sentralt kjennetegn ved kunstig intelligens er at slike systemer etterligner, erstatter og utvider menneskelig intelligent handling, og menneskelig beslutningstaking og vurdering.
-Mulige områder hvor maskinlæring og kunstig intelligens kan benyttes i NAV er blant annet for å beregne sannsynlighet for at den arbeidsledige trenger bistand fra NAV; til å bestemme om en person i sykefravær skal kalles inn til oppfølgingsmøte fra NAV; og til å anbefale arbeidsrettede tiltak.
+Mulige områder hvor maskinlæring og kunstig intelligens kan benyttes som beslutningsstøtte i NAV er blant annet for å beregne sannsynlighet for at den arbeidsledige trenger bistand fra NAV; til å predikere varighet på sykefravær i forbindelse med dialogmøte med NAV; og til å anbefale arbeidsrettede tiltak.
 
 På veien mot bedre tjenester er det viktig at man har med seg brukerne – det vil si innbyggerne i Norge – og lager ansvarlige systemer som gir lik og rettferdig behandling uavhengig av sosial status.
 Det er viktig å studere rettferdighet fra et statsvitenskapelig perspektiv fordi oppfatninger av rettferdighet antas å påvirke institusjonell legitimitet. 
 Det overordnede målet med denne rapporten er derfor å belyse ut fra et demokratiperspektiv om, og i så fall hvordan, oppfattelsen av NAV som institusjon blant innbyggere i Norge påvirkes av en overgang til økt bruk av maskinlæring og kunstig intelligens i saksbehandlingen.
 Datagrunnlaget for denne rapporten er samlet inn i Norsk medborgerpanels i 2021, med et representativt utvalg av innbyggerne i Norge på 2000 respondenter.
+Undersøkelsen er utviklet av forfatterne, og relevante fagpersoner i NAV har fått tilgang til og kommentert på undersøkelsen før den gikk i felten.
+<!-- Spørsmålsformuleringene er utviklet av forfatterne i dialog med relevante fagpersoner i NAV. -->
 Vi presenterer også noen resultater fra relevante spørsmål som vi stilte i 2018, i medborgerpanelets runde 13.
 
 For å kartlegge konteksten denne studien gjøres i, inkluderer undersøkelsen noen generelle spørsmål om innbyggernes forhold til NAV.

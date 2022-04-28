@@ -36,17 +36,19 @@ knitr::include_graphics("figs/png/fig_nav_knowledge.png")
 ## Tillit
 Tillit er noe som tar lang til å bygge opp, men som fort kan rives ned.
 Norge er kjent som et land der myndighetene nyter høy tillit i befolkningen.
-Dette bekreftes også i vår undersøkelse for NAV sin del.
+Det gjenspeiles også i våre resultater.
 Fire av ti innbyggere i Norge har høy eller svært høy tillit til NAV, mens bare en av seks har liten eller ingen tillit.
-Det er et godt utgangspunkt at NAV nyter tillit i befolkningen, og ikke desto viktigere at denne relasjonen ivaretaes parallelt med at organisasjonen endrer seg og utvikler morgendagens forvaltning.
-Hvordan NAV ligger i forhold til andre forvaltningsorganer har vi ikke data på.
+Det fremstår derfor som at NAV nyter høy tillit i befolkningen, og ikke desto viktigere at denne relasjonen ivaretaes parallelt med at organisasjonen endrer seg og utvikler morgendagens forvaltning.
+Hvor høyt dette er sammenlignet med andre institusjoner i Norge, eller samme type institusjoner i andre land, har vi ikke data på her.
+Formålet med å måle tillit til NAV i denne undersøkelsen er spesifikt for å kunne sammenligne hvordan de med høy og lav tillit forholder seg til bruk av ML/KI i NAV.
 
 ```{r, out.width = "80%", fig.align = "center", fig.cap= "Tillit til NAV"}
 knitr::include_graphics("figs/png/fig_nav_trust.png")
 ```
 
 Om vi bryter ned tillit etter kjennskap til NAV, ser vi at det ikke er noen tydelig sammenheng mellom selvrapportert kjennskap og tillit, men at de som har hatt personlig kontkat med en saksbehandler i snitt er har noe lavere tillit. Forskjeller er relativt liten men statistisk signifikant.
-
+Det er viktig å påpeke her at dette ikke sier noe om hvorvidt kontakten med NAV er det som fører til lavere tillit, siden bakenforliggende faktorer som gjør at man har høyere sannsynlighet for å ha kontakt med NAV også påvirker tillit.
+Det er imidlertid en viktig deskriptiv forskjell mellom de de som har hatt og de som ikke har hatt kontakt med NAV, siden de med høy og lav tillitt kan ha forskjellige forventinger til bruk av ML/KI i NAV.
 
 ```{r, out.width = "60%", fig.align = "center", fig.cap= "Tillit til NAV for ulike nivåer av selvrapportert kjennskap"}
 knitr::include_graphics("figs/png/fig_nav_trust_by_nav_knowledge.png")
@@ -55,7 +57,6 @@ knitr::include_graphics("figs/png/fig_nav_trust_by_nav_knowledge.png")
 ```{r, out.width = "100%", fig.align = "center", fig.cap= "Tillit til NAV for for de som har eller ikke har hatt personlig kontakt med NAV"}
 knitr::include_graphics("figs/png/fig_nav_trust_by_nav_personal_contact.png")
 ```
-
 
 ## Byråkratisk kompetanse
 
