@@ -1,7 +1,9 @@
 \newpage
 # Innbyggernes oppfatninger om maskinlæring og KI {#ki}
 
-I dette kapitlet ser vi nærmere på hvilke forventinger innbyggerne i Norge har når det gjelder bruk av maskinlæring og kunstig intelligens generelt og i NAV. Respondentene ble først gitt enn introduksjon som kort forklarte maskinlæring og kunstig intelligens og spurte de hvor mye kjennskap de har til temaet. Deretter undersøkte vi deres generelle forventinger rundt dette. Vi finner at
+I dette kapitlet ser vi nærmere på hvilke forventinger innbyggerne i Norge har når det gjelder bruk av maskinlæring og kunstig intelligens generelt og i NAV. 
+Respondentene ble først gitt enn introduksjon som kort forklarte maskinlæring og kunstig intelligens og spurte de hvor mye kjennskap de har til temaet. 
+Deretter undersøkte vi deres generelle forventinger rundt dette. Vi finner at
 
 - Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til maskinlæring og kunstig intelligens
 - Innbyggerne er delt i oppfatningen om bruken av maskinlæring og kunstig intelligens i forvaltningen er noe å bekymre seg over
@@ -13,10 +15,10 @@ Innbyggere som plasserer seg mot midten av det politiske spekteret er mer positi
 
 <!-- Maskinlæring som databehandlingsmetode er relativt fersk. -->
 <!-- Med økt datakraft og økt tilgang på data, har bruk av maskinlæring bredt om seg innenfor datavitenskapelige miljøer. -->
-Kunnskap rundt maskinlæring, kunstig intelligens, algoritmer, etc., utgjør viktig brikke for å forstå hvordan befolkningen forholder seg til bruken av slike verktøy.
+Kunnskap rundt maskinlæring, kunstig intelligens, algoritmer, m.m., utgjør en viktig brikke for å forstå hvordan befolkningen forholder seg til bruken av slike verktøy.
 Maskinlæring og kunstig intelligens er avanserte tema som krever spesialkompetanse for å kunne implementere og bruke på en god måte. 
 For å kunne grundig diskutere rammene for hva som utgjør rettferdig eller legitim bruk av slike verktøy må man ha en viss forståelse for hva de rammene er, noe som da krever en viss grunnkunnskap. 
-I undersøkelsen så ga vi respondentene en kort forklaring av maskinlæring og spurte dem i hvor stor grad de har kjennskap til dette temaet. Vi ga dem følgende introduksjon til temaet:
+I undersøkelsen ga vi respondentene en kort forklaring av maskinlæring og spurte dem i hvor stor grad de har kjennskap til dette temaet. Vi ga dem følgende introduksjon til temaet:
 
 > "*Nå ønsker vi å spørre om dine holdninger rundt bruk av maskinlæring i den offentlige forvaltningen. Maskinlæring blir også ofte omtalt som kunstig intelligens.*
 >
@@ -35,7 +37,9 @@ knitr::include_graphics("figs/png/fig_ml_knowledge.png")
 
 ## Bekymring
 
-Vi spurte deretter om hvor bekyrmet de er for bruken av slike verktøy i den offentlig forvaltningen. Figurene under viser hvordan respondentene fordelte seg på spørsmålet. Den viser at innbyggerne er delt i synet på grad av bekymring knyttet til bruk av maskinlæring og kunstig intelligens i den offentlige forvaltningen, hvorav over halvparten er bekymret eller noe bekymret.
+Vi spurte deretter om hvor bekymret de er for bruken av slike verktøy i den offentlig forvaltningen. 
+Figurene under viser hvordan respondentene fordelte seg på spørsmålet. 
+Den viser at innbyggerne er delt i synet på grad av bekymring knyttet til bruk av maskinlæring og kunstig intelligens i den offentlige forvaltningen, hvorav over halvparten er bekymret eller noe bekymret.
 Samtidig er det kun fem prosent som oppgir at de er veldig bekymret.
 
 ```{r, out.width = "80%", fig.align = "center", fig.cap= "Bekymring for maskinlæring"}
@@ -77,18 +81,16 @@ knitr::include_graphics("figs/png/fig_nav_ml_helps_interest_by_knowledge.png")
 Vi har studert befolkningens forventinger til automatisering i offentlig sektor ved en tidligere spørreundersøkelse. 
 Resultatene under er basert på spørsmål stilt i 2018 (runde 13) i Norsk Medborgerpanel.
 Dette er ikke direkte relatert til bruk av ML/KI i NAV, siden det ble stilt spørsmål om offentlig sektor generelt -- ikke NAV spesifikt -- og siden det brukes eksempler på ML/KI som ikke nødvendigvis ligner på hvordan eventuell bruk av slike verktøy vil være i NAV.
-Med det i mente, er disse resultatene fortsatt relevante og interessante siden det gir er mer overordnet perspektiv om hvilke forventinger befolkningen har til automatisering i offentlig sektor.
+Med det i mente er disse resultatene fortsatt relevante og interessante, siden det gir et mer overordnet perspektiv om hvilke forventinger befolkningen har til automatisering i offentlig sektor.
 
 Vi spurte dem først om de tror skiftet fra menneskelige til automatiserte beslutninger generelt vil føre til en forbedring eller forverring av offentlig tjenester. 
 Dette var et eksperiment hvor halvparten også fikk oppgitt en rekke konkrekte eksempler.
-Detteretter ble de spurt om tror økende automatisering i offentlig sektor fører til mer eller mindre av henholdsvis etterprøvbarhet, legitimitet, og upartiskhet.
+Deretter ble de spurt om de tror økende automatisering i offentlig sektor fører til mer eller mindre av henholdsvis etterprøvbarhet, legitimitet, og upartiskhet.
 De to figurene under viser fordelingene for alle, altså for både de som fikk og ikke fikk oppgitt konkrekte eksempler. 
 Her ser vi at respondentene hadde delvis ulike forventing for de ulike punktene. 
 De er relativt jevnfordelt når det gjelder generelle forventinger om det vil fære til forbedring eller forverring av offentlig tjenester.
 Samtidig tror majoriten av innbyggere at det vil føre til mindre etterprøvbarhet og legitimitet, men mer upartiskhet.
 
-
-Resultat: Folk har forventinger, og gjennomsnittet ligger like under 4.
 
 ```{r, out.width = "45%", fig.align = "center", fig.cap= "Generelle forventinger til automatisering i offentlig sektor"}
 knitr::include_graphics("figs/png/fig_automat_hist.png")

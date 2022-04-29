@@ -14,13 +14,23 @@ Et flertall mener at automatisering gjør saksbehandlingen mer upartisk.
 Det framstår i denne sammenhengen da kanskje som et paradoks at innbyggerne blir mer opptatt av byråkratisk representasjon i tilfeller hvor maskinlæring og kunstig intelligens blir brukt som beslutningsstøtte for utbetaling av økonomisk stønad.
 Kanskje handler dette om en oppfattelse av det blir viktigere at saksbehandlerne har tilstrekkelig kjennskap til den enkeltes situasjon, og slik besitter kompetanse til å evaluere og eventuelt overprøve modellene som benyttes i gitte tilfeller.
 
-Gjennom dialog med sentrale aktører i NAV har vi inntrykk av at det er grundige prosesser på plass for å validering og kvalitetssikring av modeller før de taes i bruk.
-For å ytterligere styrke legitimiteten til denne prosessen mener vi det er viktig å også ta med på råd de som til syvende og sist påvirkes av beslutningene.
-Det kan bety å invitere relevante interessegrupper inn på et tidlig stadium for å hjelpe med å identifisere potensielle konfliktpunkter.
-Det kan også bety å gi befolkningen medvirkning og invitere til en bred diskusjon om etiske og politiske aspekter knyttet til bruk av maskinlæring og kunstig intelligens.
+Problemstillingene kan være komplekse, og av og til kan det være vanskelig for den jevne innbygger å ta stilling til spørsmål som de ikke har tenkt mye over.
+Samtidig er det nyttig å allerede nå merke seg at befolkningen er delte i mange av spørsmålene om maskinlæring og kunstig intelligens i forvaltningen, både når det gjelder bekymring for bruk og hva som er rettferdig framgangsmåte.
+Innbyggerne er mer følsomme for spørsmål om bruk av maskinlæring og kunstig intelligens under omstendigheter hvor bruken knyttes opp mot sosiale bakgrunnsvariabler som ellers i samfunnet er politisk ladete.
+Også internasjonalt ser vi at bruk av maskinlæring og kunstig intelligens når offentlighetens søkelys i de tilfellene hvor marginaliserte grupper opplever at de blir forskjellsbehandlet.
+
+Det er derfor viktig for NAV og andre myndighetsorganer å ta hensyn til de politiske dimensjonene knyttet til bruk av maskinlæring og kunstig intelligens i forvaltningen.
+Opplevd urettferdig behandling er aldri tillitsbyggende, men kanskje ekstra skadelig hvis uretten kan tilskrives "kode-diskriminering".
+Veien er i disse tilfellene kort til å trekke slutninger om systematisk, strukturell urettferdighet mot bestemte sosiale grupper.
+
+Representasjon av interessegrupper og medvirkning i utformingen av modellene er demokratiske verktøy som virker konfliktdempende i andre sammenhenger, og som det er grunn til å anta vil virke også i en overgang til mer automatisert forvaltning.
+I eksperimentet med statistisk paritet så vi at det hadde en positiv effekt å opplyse respondentene om at modellene som ble brukt hadde blitt anbefalt av en komite som på forhånd hadde vurdert modellene.
+Det er behov for mer forskning, men vi ser allerede med det vi har lært fra dette prosjektet at det er fornuftig å skynde seg sakte på dette feltet. 
+Under innfasing av maskinlæring og kunstig intelligens som beslutningsstøtte i saker som berører enkeltpersoner bør det være grundige innspillsprosesser slik at innbyggere og berørte parter blir involvert allerede i designfasen og slik på et tidlig stadium kan medvirke til å identifisere etiske dilemma, interessekonflikter, og andre potensielle konfliktsaker som kan oppstå senere.
+
 Denne rapporten presenterer etter det vi kjenner den første studien i norsk sammenheng som involverer den generelle befolkningen i en slik dialog.
 Den representerer imidlertid bare starten, og må følges opp av videre studier både med tanke på hvilke spørsmål som taes opp og med tanke på innretningen av en slik dialog. 
-Under presenterer vi to tilnærminger til videre opinionsforskning.
+Under presenterer vi to tilnærminger til videre opinionsforskning, hvor den første er metodisk og den andre er tematisk.   
 
 ## Deliberativ meningsmåling
 

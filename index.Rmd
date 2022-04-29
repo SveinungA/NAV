@@ -5,7 +5,7 @@ title: |
   Demokratiske algoritmer  
   \bigskip   
   \large
-  *Legitimitet, rettferdighet, og representasjon: Fremtidsutsikter til automatiserte beslutningsprosesser i offentlig forvaltning i befolkningens øyne*
+  *Fremtidsutsikter til automatiserte beslutningsprosesser i offentlig forvaltning i befolkningens øyne*
 author: "Sveinung Arnesen og Mikael Poul Johannesson"
 date: |
   Sluttrapport skrevet for NAV FOU.   
@@ -90,10 +90,10 @@ Han har blant annet forsket på lokaldemokrati og tilfredshet med offentlige tje
 Forskningsrapporten er finansiert av [NAV Forskning og Utvikling](https://www.nav.no/no/nav-og-samfunn/kunnskap/fou-midler/pagaende-fou-prosjekter2/navs-tiltak-og-virkemidler).
 Finansieringen er bidragsfinansiert.
 
-## Sitering {-}
+<!-- ## Sitering {-} -->
 
-Ved referering til rapporten, vennligst bruk følgende sitering:
-Arnesen, Sveinung, Mikael P. Johannesson (2022): Demokratiske algoritmer. Norce-rapport #..., Bergen, mars 2022. Url: https://bookdown.org/sveinungarnesen78/NAV/.
+<!-- Ved referering til rapporten, vennligst bruk følgende sitering: -->
+<!-- Arnesen, Sveinung, Mikael P. Johannesson (2022): Demokratiske algoritmer. Norce-rapport #..., Bergen, mars 2022. Url: https://bookdown.org/sveinungarnesen78/NAV/. -->
 
 
 ```{r}

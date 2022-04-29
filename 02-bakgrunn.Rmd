@@ -30,9 +30,10 @@ NAV er ledende i utviklingen av digitale tjenester og verktøy[@hansen2018digita
 Beslutningsprosesser som benytter seg av maskinlæring og kunstig intelligens vil være en del av løsningen for at NAV skal oppnå samfunnsoppdraget sitt om å bidra til at flere kommer i arbeid og færre på stønad, og samtidig sørge for at de som trenger det, får rett ytelse til rett tid gjennom en pålitelig og effektiv forvaltning. 
 Maskinlæring og kunstig intelligens kan brukes både i helautomatiserte beslutningsprosesser, og som beslutningsstøtte for saksbehandlere. 
 Et sentralt kjennetegn er at slike verktøy etterligner, erstatter og utvider menneskelig intelligent handling, og menneskelig beslutningstaking og vurdering.
+
 For NAV vil det i første omgang dreie seg om bruk av ML/KI som beslutningsstøtte til veiledere og andre saksbehandlere, og ikke for å gjøre helautomatiserte beslutninger.
 Mulige områder hvor maskinlæring og kunstig intelligens kan benyttes som beslutningsstøtte i NAV er blant annet for å beregne sannsynlighet for at den arbeidsledige trenger bistand fra NAV; til å predikere varighet på sykefravær i forbindelse med dialogmøte med NAV; og til å anbefale arbeidsrettede tiltak.
-På veien mot bedre tjenester er det viktig at man har med seg brukerne –- det vil si innbyggerne i Norge -– og lager ansvarlige systemer som gir lik og rettferdig behandling uavhengig av sosial status.
+På veien mot bedre tjenester er det viktig at man har med seg brukerne –- det vil si innbyggerne i Norge –- og lager ansvarlige systemer som gir lik og rettferdig behandling uavhengig av sosial status.
 
 ## Beslutningsprosesser, rettferdighet og legitimitet
 En massiv litteratur på prosedyrerettferdighet med utspring fra sosialpsykologi [@lind1988social] har hatt stor innvirkning på hvordan vi forstår relasjonene mellom innbyggere og myndighetene, og hvordan myndighetene bør forholde seg i møte med innbyggerne.

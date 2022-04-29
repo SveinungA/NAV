@@ -27,6 +27,6 @@ Panelet drives av samfunnsforskere ved Universitetet i Bergen og NORCE, og er et
 Deltakerne representerer et tverrsnitt av den norske befolkningen, som noen ganger i året inviteres til å si sin mening i viktige spørsmål om norsk samfunn og politikk.
 Panelet blir driftet av [Digital samfunnsvitenskapelig kjernefasilitet (DIGSSCORE)](www.digsscore.uib.no), som er samarbeidspartner i prosjektet. 
 
-[Metoderapport og kodefor data kan lastes ned her.](https://www.uib.no/en/digsscore/122162/methodology-and-field-periods)
+[Metoderapport og kode for data kan lastes ned her.](https://www.uib.no/en/digsscore/122162/methodology-and-field-periods)
 [Kodebøker kan lastes ned her.](https://www.uib.no/medborger/76892/data-og-dokumentasjon)
 Data er åpent tilgjengelig for forskere, og kan lastes ned ved å kontakte [Sikt – Kunnskapssektorens tjenesteleverandør (tidligere kjent som NSD)](https://sikt.no/).

@@ -39,16 +39,17 @@ Norge er kjent som et land der myndighetene nyter høy tillit i befolkningen.
 Det gjenspeiles også i våre resultater.
 Fire av ti innbyggere i Norge har høy eller svært høy tillit til NAV, mens bare en av seks har liten eller ingen tillit.
 Det fremstår derfor som at NAV nyter høy tillit i befolkningen, og ikke desto viktigere at denne relasjonen ivaretaes parallelt med at organisasjonen endrer seg og utvikler morgendagens forvaltning.
-Hvor høyt dette er sammenlignet med andre institusjoner i Norge, eller samme type institusjoner i andre land, har vi ikke data på her.
+Hvor høyt dette er sammenlignet med andre institusjoner i Norge, eller samme type institusjoner i andre land, fokuserer vi ikke på her.
 Formålet med å måle tillit til NAV i denne undersøkelsen er spesifikt for å kunne sammenligne hvordan de med høy og lav tillit forholder seg til bruk av ML/KI i NAV.
 
 ```{r, out.width = "80%", fig.align = "center", fig.cap= "Tillit til NAV"}
 knitr::include_graphics("figs/png/fig_nav_trust.png")
 ```
 
-Om vi bryter ned tillit etter kjennskap til NAV, ser vi at det ikke er noen tydelig sammenheng mellom selvrapportert kjennskap og tillit, men at de som har hatt personlig kontkat med en saksbehandler i snitt er har noe lavere tillit. Forskjeller er relativt liten men statistisk signifikant.
+Om vi bryter ned tillit etter kjennskap til NAV, ser vi at det ikke er noen tydelig sammenheng mellom selvrapportert kjennskap og tillit, men at de som har hatt personlig kontakt med en saksbehandler i snitt har noe lavere tillit. 
+Forskjellen er relativt liten men statistisk signifikant.
 Det er viktig å påpeke her at dette ikke sier noe om hvorvidt kontakten med NAV er det som fører til lavere tillit, siden bakenforliggende faktorer som gjør at man har høyere sannsynlighet for å ha kontakt med NAV også påvirker tillit.
-Det er imidlertid en viktig deskriptiv forskjell mellom de de som har hatt og de som ikke har hatt kontakt med NAV, siden de med høy og lav tillitt kan ha forskjellige forventinger til bruk av ML/KI i NAV.
+Det er imidlertid en viktig deskriptiv forskjell mellom  de som har hatt og de som ikke har hatt kontakt med NAV, siden de med høy og lav tillit kan ha forskjellige forventinger til bruk av ML/KI i NAV.
 
 ```{r, out.width = "60%", fig.align = "center", fig.cap= "Tillit til NAV for ulike nivåer av selvrapportert kjennskap"}
 knitr::include_graphics("figs/png/fig_nav_trust_by_nav_knowledge.png")
@@ -69,6 +70,8 @@ På samme måte som at innbyggerne har ulike evner til å forstå politikk og p�
 I motsetning til i politisk arbeid er det ikke et mål at innbyggerne nødvendigvis skal kunne påvirke en byråkratisk prosess, men det er likefullt en kjennsgjerning at noen personer er flinkere til å følge opp saker på vegne av seg selv eller pårørende, og slik sett er bedre i stand til å ivareta sine interesser i saker som angår dem.
 
 For å avdekke hvordan disse ferdighetene fordeler seg i befolkningen har vi spurt respondentene om det vi benevner deres *byråkratiske kompetanse* - intern og ekstern.
+Kompetanse dreier seg altså her ikke om byråkratiets kompetanse, men om innbyggerens kompetanse overfor byråkratiet.
+
 Intern byråkratisk kompetanse måler vi ved hjelp av to påstander som de skal si seg enig eller uenig i:
 
 1. 	Jeg er i stand til å skaffe alle offentlige ytelser, tjenester, og tillatelser som jeg har rett på.
