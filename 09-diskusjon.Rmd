@@ -30,7 +30,7 @@ Under innfasing av maskinlæring og kunstig intelligens som beslutningsstøtte i
 
 Denne rapporten presenterer etter det vi kjenner den første studien i norsk sammenheng som involverer den generelle befolkningen i en slik dialog.
 Den representerer imidlertid bare starten, og må følges opp av videre studier både med tanke på hvilke spørsmål som taes opp og med tanke på innretningen av en slik dialog. 
-Under presenterer vi to tilnærminger til videre opinionsforskning, hvor den første er metodisk og den andre er tematisk.   
+Under presenterer vi to tilnærminger til videre opinionsforskning, hvor den første er metodisk og den andre er tematisk.
 
 ## Deliberativ meningsmåling
 
@@ -58,3 +58,4 @@ Dette kalles for kongruens [@golder2010ideological], og mer spesifikt prosedyrek
 Hvis det finnes tilfeller av inkongruens på tvers av saksområder, kan det påvirke tilliten til NAV og forvaltning som helhet negativt. 
 Eventuelle systematiske forskjeller vil belyse fallgruver hvor implementering eller bruk som  oppfattes som legitim av forvaltningen vil oppfattes som illegitim av den generelle befolkningen, og som derfor utilsiktet kan føre til redusert systemtillit og tillit til NAV.
 Framtidig forskning bør derfor søke å identifisere likheter og forskjeller i holdninger til maskinlæring og kunstig intelligens for henholdsvis saksbehandlere og den generelle befolkningen.
+

@@ -7,16 +7,16 @@ På den ene siden gir denne utviklingen store effektiviseringsmuligheter og pote
 På den andre siden er ivaretakelsen av forvaltningens legitimitet i befolkningen et risikoaspekt i denne utviklingen.
 
 NAV er ledende i utviklingen av digitale tjenester og verktøy, og utvikler systemer som kan nyttiggjøre seg framskritt som gjøres innenfor databehandling og analyse. 
-Beslutningsprosesser som benytter seg av maskinlæring og kunstig intelligens vil være en del av løsningen for at NAV skal oppnå samfunnsoppdraget sitt om å bidra til at flere kommer i arbeid og færre på stønad, og samtidig sørge for at de som trenger det, får rett ytelse til rett tid gjennom en pålitelig og effektiv forvaltning. 
+Beslutningsprosesser som benytter seg av maskinlæring (ML) og kunstig intelligens (KI) vil være en del av løsningen for at NAV skal oppnå samfunnsoppdraget sitt om å bidra til at flere kommer i arbeid og færre på stønad, og samtidig sørge for at de som trenger det, får rett ytelse til rett tid gjennom en pålitelig og effektiv forvaltning. 
 For NAV vil det i første omgang dreie seg om bruk av ML/KI som beslutningsstøtte til veiledere og andre saksbehandlere, og ikke for å gjøre helautomatiserte beslutninger.
 <!-- Kunstig intelligens kan brukes både i automatiserte beslutningsprosesser, og som beslutningsstøtte for saksbehandlere.  -->
 
 Et sentralt kjennetegn ved kunstig intelligens er at slike systemer etterligner, erstatter og utvider menneskelig intelligent handling, og menneskelig beslutningstaking og vurdering.
-Mulige områder hvor maskinlæring og kunstig intelligens kan benyttes som beslutningsstøtte i NAV er blant annet for å beregne sannsynlighet for at den arbeidsledige trenger bistand fra NAV; til å predikere varighet på sykefravær i forbindelse med dialogmøte med NAV; og til å anbefale arbeidsrettede tiltak.
+Mulige områder hvor ML/KI kan benyttes som beslutningsstøtte i NAV er blant annet for å beregne sannsynlighet for at den arbeidsledige trenger bistand fra NAV; til å predikere varighet på sykefravær i forbindelse med dialogmøte med NAV; og til å anbefale arbeidsrettede tiltak.
 
 På veien mot bedre tjenester er det viktig at man har med seg brukerne – det vil si innbyggerne i Norge – og lager ansvarlige systemer som gir lik og rettferdig behandling uavhengig av sosial status.
 Det er viktig å studere rettferdighet fra et statsvitenskapelig perspektiv fordi oppfatninger av rettferdighet antas å påvirke institusjonell legitimitet. 
-Det overordnede målet med denne rapporten er derfor å belyse ut fra et demokratiperspektiv om, og i så fall hvordan, oppfattelsen av NAV som institusjon blant innbyggere i Norge påvirkes av en overgang til økt bruk av maskinlæring og kunstig intelligens i saksbehandlingen.
+Det overordnede målet med denne rapporten er derfor å belyse ut fra et demokratiperspektiv om, og i så fall hvordan, oppfattelsen av NAV som institusjon blant innbyggere i Norge påvirkes av en overgang til økt bruk av ML/KI i saksbehandlingen.
 Hvordan, om i det hele tatt, endres relasjonen mellom innbyggere og myndigheter når datamaskiner får sterkere innflytelse på beslutninger som gjelder den enkelte borger?
 I denne rapporten løfter vi noen forskningsspørsmål som hver for seg er ulike, men som har til felles at de kan knyttes til dette spørsmålet.
 Vi er forsiktige med å trekke vidtrekkende konklusjoner på dette tidspunktet.
@@ -37,23 +37,23 @@ Motsvarende er tilliten lavere blant de som har et annet syn på forvaltningen.
 Den samme forskjellen observerer vi når spørsmålet dreier seg om hvorvidt saksbehandlerne oppfattes som upartiske i sin myndighetsutøvelse.
 Innbyggerne mener i liten til noen grad  at saksbehandlere i NAV lar seg påvirke av egne holdninger, men denne oppfattelsen varierer sterkt etter hvilken oppfatning de har om forvaltningen og tilliten de har til NAV. 
 
-Et av forskningsspørsmålene rapporten fokuserer på er oppfatninger om såkalt *representativt byråkrati* når forvaltningen tar i bruk maskinlæring og kunstig intelligens.
+Et av forskningsspørsmålene rapporten fokuserer på er oppfatninger om såkalt *representativt byråkrati* når forvaltningen tar i bruk ML/KI.
 Vi finner i våre analyser at oppslutningen om dette øker.
 Begrepet representativt byråkrati springer ut fra tanken om at forvaltningen skal gjenspeile befolkningen og slik hindre at sosiale grupper blir forskjellsbehandlet.
 Eventuelle bias saksbehandlere måtte ha vil i så fall utjevnes ved at deres bakgrunn er variert og representativ for befolkningen samlet sett.
 Innbyggerne blir mer opptatt av at saksbehandlerne deler deres sosiale bakgrunn når slike kunstig intelligens brukes i saksbehandlingen, og dette gjelder spesielt når det kommer til utdanningsnivå og arbeidserfaring.
 
-En hypotese er at bruk av maskinlæring og kunstig intelligens leder til økt fremmedgjøring, og at behovet øker for saksbehandlere som forstår den enkeltes situasjon og kan gripe inn i tilfeller hvor den maskinelle vurderingen ikke tar tilstrekkelig hensyn til kontekst.
-I så fall vil det i framtiden være behov for enda sterkere fokus på å ha et representativt byråkrati i de deler av forvaltningen som utvikler og benytter seg av maskinlæring og kunstig intelligens som beslutningsstøtte, med mindre slik bruk blir mindre fremmed for befolkningen i framtiden enn den er i dag.
-Det er i alle fall klart at maskinlæring og kunstig intelligens er fremmede begreper for et flertall av innbyggerne i samtidens Norge: 
+En hypotese er at bruk av ML/KI leder til økt fremmedgjøring, og at behovet øker for saksbehandlere som forstår den enkeltes situasjon og kan gripe inn i tilfeller hvor den maskinelle vurderingen ikke tar tilstrekkelig hensyn til kontekst.
+I så fall vil det i framtiden være behov for enda sterkere fokus på å ha et representativt byråkrati i de deler av forvaltningen som utvikler og benytter seg av ML/KI som beslutningsstøtte, med mindre slik bruk blir mindre fremmed for befolkningen i framtiden enn den er i dag.
+Det er i alle fall klart at ML/KI er fremmede begreper for et flertall av innbyggerne i samtidens Norge: 
 Mer enn seks av ti innbyggerne i Norge har liten eller ingen kjennskap til temaet.
 
-Et viktig spørsmål knyttet til bruk av maskinlæring og kunstig intelligens er hvordan modellene kan ivareta oppfattelsen av at beslutninger som tas er rettferdige.
+Et viktig spørsmål knyttet til bruk av ML/KI er hvordan modellene kan ivareta oppfattelsen av at beslutninger som tas er rettferdige.
 Det finnes imidlertid ulike definisjoner av hva rettferdighet er, og det er vanskelig -- for ikke å si umulig -- å oppfylle alle definisjonene på samme tid.
 Vi har derfor i undersøkelsen tatt for oss et konkret tilfelle som er relevant for NAVs tjenester, hvor vi måler innbyggernes støtte til det som kalles *statistisk paritet*. 
 
 Denne rettferdighetsdefinisjonen innebærer at man sikrer lik fordeling av et gode blant bestemte undergrupper i samfunnet, ofte valgt ut basert på sosial eller etnisk tilhøriget.
-Den konkrete saken gjelder bruk av maskinlæring og kunstig intelligens for å understøtte en beslutning om hvilke personer blant de sykmeldte som skal få tilbud om dialogmøte med NAV.
+Den konkrete saken gjelder bruk av ML/KI for å understøtte en beslutning om hvilke personer blant de sykmeldte som skal få tilbud om dialogmøte med NAV.
 I vårt tilfelle har vi spurt hvilken modell man foretrekker av en som er mer treffsikker totalt sett, men skeivfordeler på kjønn, eller en som er mindre treffsikker totalt sett, men sikrer at like mange sykmeldte fra hvert kjønn får tilbud om dialogmøte.
 
 Vi finner at befolkningen er delt omtrent på midten, med en liten overvekt av støtte til å bruke statistisk paritet.
@@ -61,31 +61,31 @@ Kvinner støtter statistisk paritet noe mer enn menn i dette konkrete tilfellet.
 Både menn og kvinner støtter statistisk paritet i sterkere grad dersom det er kvinner som blir forfordelt, dog er denne effekten sterkest blant kvinner.
 Befolkningen er med andre ord ikke samstemt om hvilket rettferdighetskriterie som skal gjelde i dette tilfellet, noe som samsvarer med andre studier som viser at hva som er rettferdig er avhengig både av kontekst og av øyet som ser.
 
-Et annet viktig spørsmål knyttet til bruk av maskinlæring og kunstig intelligens er hvilke data det oppfattes som passende å bruke som input i modellene som skal gjøre prediksjoner som er relevante for beslutninger som skal tas om enkeltindivider. 
+Et annet viktig spørsmål knyttet til bruk av ML/KI er hvilke data det oppfattes som passende å bruke som input i modellene som skal gjøre prediksjoner som er relevante for beslutninger som skal tas om enkeltindivider. 
 I mange brukstilfeller vil det finnes et bredt spektrum av informasjon tilgjenglig, men det vil sannsynligvis variere hvor passende innbyggere faktisk mener det er å bruke de ulike typene informasjon -- uavhengig av om de gjør prediksjonen mer treffsikker. 
 Vi har derfor spurt innbyggere hvor passende de synes en rekke variabler er i et konkret eksempel.
 
-Eksempelet vi trekker fram gjelder å bruke maskinlæring og kunstig intelligens for å foreslå hvilke arbeidsrettede tiltak en jobbsøker skal få tilgang til. 
+Eksempelet vi trekker fram gjelder å bruke ML/KI for å foreslå hvilke arbeidsrettede tiltak en jobbsøker skal få tilgang til. 
 Vi finner at ingen variabler blir sett på som utvilsomt passende eller upassende, men samtidig at det er tydelige forskjeller mellom variabler.
 For eksempel blir informasjon om kjønn og landbakgrunn sett på mindre passende enn andre variabler, og utdanning sett på som mer passende enn andre variabler.
 Samtidig finner vi også viktige systematiske forskjeller mellom ulike undergrupper i befolkningen for hvordan de gjør denne vurderingen.
 
-Mye forskning gjenstår for å kunne trekke vidtrekkende konklusjoner om hvordan tillit og legitimitet best kan bevares i overgangen til økt bruk av maskinlæring og kunstig intelligens.
+Mye forskning gjenstår for å kunne trekke vidtrekkende konklusjoner om hvordan tillit og legitimitet best kan bevares i overgangen til økt bruk av ML/KI.
 Vi er fortsatt i en tidlig fase, hvor de fleste innbyggerne har liten kjennskap til tematikken, og hvor bruken fortsatt er på design- og utprøvingsstadiet.
 
 Problemstillingene kan være komplekse, og av og til kan det være vanskelig for den jevne innbygger å ta stilling til spørsmål som de ikke har tenkt mye over.
-Samtidig er det nyttig å allerede nå merke seg at befolkningen er delte i mange av spørsmålene om maskinlæring og kunstig intelligens i forvaltningen, både når det gjelder bekymring for bruk og hva som er rettferdig framgangsmåte.
-Innbyggerne er mer følsomme for spørsmål om bruk av maskinlæring og kunstig intelligens under omstendigheter hvor bruken knyttes opp mot sosiale bakgrunnsvariabler som ellers i samfunnet er politisk ladete.
-Også internasjonalt ser vi at bruk av maskinlæring og kunstig intelligens når offentlighetens søkelys i de tilfellene hvor marginaliserte grupper opplever at de blir forskjellsbehandlet.
+Samtidig er det nyttig å allerede nå merke seg at befolkningen er delte i mange av spørsmålene om ML/KI i forvaltningen, både når det gjelder bekymring for bruk og hva som er rettferdig framgangsmåte.
+Innbyggerne er mer følsomme for spørsmål om bruk av ML/KI under omstendigheter hvor bruken knyttes opp mot sosiale bakgrunnsvariabler som ellers i samfunnet er politisk ladete.
+Også internasjonalt ser vi at bruk av ML/KI når offentlighetens søkelys i de tilfellene hvor marginaliserte grupper opplever at de blir forskjellsbehandlet.
 
-Det er derfor viktig for NAV og andre myndighetsorganer å ta hensyn til de politiske dimensjonene knyttet til bruk av maskinlæring og kunstig intelligens i forvaltningen.
+Det er derfor viktig for NAV og andre myndighetsorganer å ta hensyn til de politiske dimensjonene knyttet til bruk av ML/KI i forvaltningen.
 Opplevd urettferdig behandling er aldri tillitsbyggende, men kanskje ekstra skadelig hvis uretten kan tilskrives "kode-diskriminering".
 Veien er i disse tilfellene kort til å trekke slutninger om systematisk, strukturell urettferdighet mot bestemte sosiale grupper.
 
 Representasjon av interessegrupper og medvirkning i utformingen av modellene er demokratiske verktøy som virker konfliktdempende i andre sammenhenger, og som det er grunn til å anta vil virke også i en overgang til mer automatisert forvaltning.
 I eksperimentet med statistisk paritet så vi at det hadde en positiv effekt å opplyse respondentene om at modellene som ble brukt hadde blitt anbefalt av en komite som på forhånd hadde vurdert modellene.
 Det er behov for mer forskning, men vi ser allerede med det vi har lært fra dette prosjektet at det er fornuftig å skynde seg sakte på dette feltet. 
-Under innfasing av maskinlæring og kunstig intelligens som beslutningsstøtte i saker som berører enkeltpersoner bør det være grundige innspillsprosesser slik at innbyggere og berørte parter blir involvert allerede i designfasen og slik på et tidlig stadium kan medvirke til å identifisere etiske dilemma, interessekonflikter, og andre potensielle konfliktsaker som kan oppstå senere.
+Under innfasing av ML/KI som beslutningsstøtte i saker som berører enkeltpersoner bør det være grundige innspillsprosesser slik at innbyggere og berørte parter blir involvert allerede i designfasen og slik på et tidlig stadium kan medvirke til å identifisere etiske dilemma, interessekonflikter, og andre potensielle konfliktsaker som kan oppstå senere.
 
 
 \doublespacing

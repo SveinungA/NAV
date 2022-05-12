@@ -1,13 +1,6 @@
 \newpage\doublespacing
 # Bakgrunn og motivasjon {#bakgrunn}
 
-## Maskinlæring (ML) og Kunstig Intelligens (KI)
-
-- Hva er ML/KI
-- Begrunne hvorfor ML/KI (vs annen "digitalisering")
-- hel- vs halvautomatisert bruk
-- eksempler?
-
 ## Byråkratisk omveltning
 Den pågående automatiseringen av beslutningsprosesser i offentlig forvaltning representerer en omveltning innenfor byråkratisk myndighetsutøvelse. 
 Tilgang på store mengder relevant digital data og økende muligheter for å behandle informasjonen gjør at oppgaver som tidligere måtte behandles manuelt kan overlates til hel- eller halvautomatiserte prosesser med vesentlig redusert menneskelig inngripen [@zarsky2016trouble]. 
