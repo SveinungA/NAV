@@ -25,7 +25,7 @@ Enten 1) Bruke kunstig intelligens, som fører til mange flere riktige beslutnin
 Fordelingen er vist i tabellen under. 
 Respondentene delte seg på midten i dette spørsmålet, hvor rundt 47 prosent foretrakk å bruke kunstig intelligens, mens 53% foretrakk å ikke bruke kunstig intelligenst. 
 
-Table: (\#tab:relval) Tradeoff mellom generell treffsikkerhet og spesfikke systematiske feil (bruke eller ikke bruke KI)
+Table: Tradeoff mellom generell treffsikkerhet og spesfikke systematiske feil (bruke eller ikke bruke KI)
 
 |Svar                |                                             |   Prosent|
 |:-------------------|:--------------------------------------------|---------:|

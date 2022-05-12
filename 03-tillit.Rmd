@@ -66,11 +66,14 @@ Vi kan gjerne oversette begrepet på norsk til *politisk kompetanse*.
 Politisk kompetanse viser til en persons selvopplevde evne til å forstå politikk (*internal political efficacy*), og personens opplevelse av å kunne påvirke politiske prosesser (*external political efficacy*).
 Vi ser at intern og ekstern politisk kompetanse henger sammen med politisk deltakelse, med tilfredshet med demokratiet, tillit til institusjoner, blant annet.
 
+
 På samme måte som at innbyggerne har ulike evner til å forstå politikk og påvirke politiske prosesser, har de også ulike evner til å forstå forvaltningen.
 I motsetning til i politisk arbeid er det ikke et mål at innbyggerne nødvendigvis skal kunne påvirke en byråkratisk prosess, men det er likefullt en kjennsgjerning at noen personer er flinkere til å følge opp saker på vegne av seg selv eller pårørende, og slik sett er bedre i stand til å ivareta sine interesser i saker som angår dem.
 
-For å avdekke hvordan disse ferdighetene fordeler seg i befolkningen har vi spurt respondentene om det vi benevner deres *byråkratiske kompetanse* - intern og ekstern.
+For å avdekke hvordan disse ferdighetene fordeler seg i befolkningen har vi spurt respondentene om det vi benevner deres *byråkratiske kompetanse*.
 Kompetanse dreier seg altså her ikke om byråkratiets kompetanse, men om innbyggerens kompetanse overfor byråkratiet.
+Det finnes da to types slik kompetanse: intern og ekstern. *Intern* byråkratisk kompetanse omhandler en persons oppfatning av egne evner -- hvorvidt de tror de forstår forvaltningen og hvorvidt de tror de kan skaffe de offentlige ytelser, tjenester, etc, de har rett på. Dette er nært knyttet til det som kalles "bureaurcratic compentence"  [@gordon1975bureaucratic] og "administrative literacy" [@doring2021bureaucracy] i litteraturen.
+*Ekstern* byråkratisk kompetanse omhandler en persons oppfatning av hvordan de tror byråkratiet forholder seg til deres behov.
 
 Intern byråkratisk kompetanse måler vi ved hjelp av to påstander som de skal si seg enig eller uenig i:
 
